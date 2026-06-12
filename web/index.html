@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="2026 지방선거 쌍둥이 득표 확률을 정확 계산하고 시뮬레이션합니다."
+    >
+    <title>쌍둥이 득표 확률 실험실</title>
+    <link rel="stylesheet" href="/web/styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="페이지 메뉴">
+        <a class="brand" href="#top">TWIN COUNT LAB</a>
+        <div class="nav-links">
+          <a href="#model">모형</a>
+          <a href="#simulation">시뮬레이션</a>
+          <a href="#multiple">다중비교</a>
+          <a href="#sources">자료</a>
+        </div>
+      </nav>
+      <div class="hero-grid" id="top">
+        <div>
+          <p class="eyebrow">2026.06.03 지방선거 통계 검증</p>
+          <h1>같은 숫자는<br><span>얼마나 드문가?</span></h1>
+          <p class="hero-copy">
+            송도1동과 송도2동의 3,030표·1,440표 일치를
+            허명회 교수의 이항분포 모형으로 재현합니다.
+          </p>
+        </div>
+        <div class="hero-result">
+          <p>조건부 정확 확률</p>
+          <strong id="heroProbability">0.902896%</strong>
+          <div class="meter" aria-hidden="true">
+            <span id="heroMeter"></span>
+          </div>
+          <small>두 독립 Binomial(4470, 3030/4470)의 결과가 같을 확률</small>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="model">
+        <div class="section-heading">
+          <p class="eyebrow">01 · 조건을 먼저 고정하기</p>
+          <h2>허 교수의 모형</h2>
+          <p>
+            이 계산은 전체 선거의 무조건부 확률이 아닙니다. 같은 시행 수와
+            같은 득표성향을 가진 두 지역이라는 조건에서 출발합니다.
+          </p>
+        </div>
+
+        <div class="preset-row" aria-label="사례 선택">
+          <button class="preset active" data-n="4470" data-p="0.6778523489932886">
+            송도 사례
+          </button>
+          <button class="preset" data-n="1521" data-p="0.9211045364891519">
+            광주·전남 첫째 쌍
+          </button>
+          <button class="preset" data-n="398" data-p="0.8944723618090452">
+            광주·전남 다섯째 쌍
+          </button>
+        </div>
+
+        <div class="control-grid">
+          <label>
+            시행 수 n
+            <input id="nInput" type="number" min="1" max="20000" value="4470">
+          </label>
+          <label>
+            앞면 확률 p
+            <input
+              id="pInput"
+              type="number"
+              min="0.000001"
+              max="0.999999"
+              step="0.000001"
+              value="0.6778523489932886"
+            >
+          </label>
+          <div class="formula-card">
+            <span>계산하는 사건</span>
+            <strong>X = Y</strong>
+            <small>X, Y는 서로 독립인 Binomial(n, p)</small>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric primary">
+            <span>정확한 합</span>
+            <strong id="exactProbability">0.009028958</strong>
+            <small id="exactPercent">0.902896%</small>
+          </article>
+          <article class="metric">
+            <span>국소 CLT 근사</span>
+            <strong id="approxProbability">0.009029138</strong>
+            <small id="approxError">정확값과 +0.0020%</small>
+          </article>
+          <article class="metric">
+            <span>평균 득표수</span>
+            <strong id="meanValue">3,030.0</strong>
+            <small id="sdValue">표준편차 31.25표</small>
+          </article>
+        </div>
+
+        <article class="chart-card">
+          <div class="chart-title">
+            <div>
+              <span>확률질량의 집중</span>
+              <h3>두 분포는 평균 주변에서 겹칩니다</h3>
+            </div>
+            <div class="legend">
+              <span><i class="blue"></i>P(X=k)</span>
+              <span><i class="orange"></i>P(X=k)² 기여도</span>
+            </div>
+          </div>
+          <canvas id="pmfCanvas" aria-label="이항분포와 일치확률 기여도 그래프"></canvas>
+        </article>
+      </section>
+
+      <section class="section dark-section" id="simulation">
+        <div class="section-heading light">
+          <p class="eyebrow">02 · 직접 던져 보기</p>
+          <h2>Monte Carlo 수렴</h2>
+          <p>
+            브라우저는 Web Worker에서 이항분포를 표본추출합니다. 정확값은
+            주황색 기준선이고, 시행이 누적될수록 추정치가 그 선으로 모입니다.
+          </p>
+        </div>
+
+        <div class="simulation-layout">
+          <div class="sim-controls">
+            <label>
+              반복 횟수
+              <input
+                id="trialsInput"
+                type="number"
+                min="1000"
+                max="100000000"
+                step="1000"
+                value="1000000"
+              >
+            </label>
+            <label>
+              난수 시드
+              <input id="seedInput" type="number" value="20260603">
+            </label>
+            <div class="button-row">
+              <button id="startButton" class="action">시뮬레이션 시작</button>
+              <button id="stopButton" class="secondary" disabled>중지</button>
+            </div>
+            <div class="progress-track" aria-label="시뮬레이션 진행률">
+              <span id="progressBar"></span>
+            </div>
+            <p id="simulationStatus" class="status">실행 전</p>
+
+            <div class="live-result">
+              <span>현재 추정치</span>
+              <strong id="liveEstimate">-</strong>
+              <small id="liveDifference">정확값과 비교 대기 중</small>
+            </div>
+
+            <label class="file-label">
+              Python 결과 JSON 불러오기
+              <input id="resultFileInput" type="file" accept=".json,application/json">
+            </label>
+            <button id="loadBillionButton" class="secondary wide-button">
+              저장된 10억 회 결과 다시 보기
+            </button>
+            <p class="hint">
+              10억 회는 <code>simulate.py</code>로 실행한 뒤 JSON을 불러오는
+              편이 빠르고 안정적입니다.
+            </p>
+          </div>
+
+          <article class="chart-card dark-card">
+            <div class="chart-title">
+              <div>
+                <span>로그 축 누적 시행</span>
+                <h3>추정 확률의 이동</h3>
+              </div>
+              <div class="legend">
+                <span><i class="orange"></i>정확값</span>
+                <span><i class="mint"></i>Monte Carlo</span>
+              </div>
+            </div>
+            <canvas
+              id="convergenceCanvas"
+              aria-label="Monte Carlo 추정 확률 수렴 그래프"
+            ></canvas>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">03 · 조건이 바뀌면</p>
+          <h2>n과 p의 민감도</h2>
+          <p>
+            표본이 작고 득표율이 한쪽으로 쏠릴수록 분포 폭이 줄어 같은 정수
+            득표수가 나올 확률이 커집니다.
+          </p>
+        </div>
+        <article class="chart-card">
+          <div class="chart-title">
+            <div>
+              <span>정확한 P(X=Y)</span>
+              <h3>일치 확률 히트맵</h3>
+            </div>
+            <p class="chart-note">색이 밝을수록 일치 확률이 높습니다.</p>
+          </div>
+          <canvas id="heatmapCanvas" aria-label="n과 p에 따른 일치 확률 히트맵"></canvas>
+        </article>
+      </section>
+
+      <section class="section split-section" id="multiple">
+        <div class="section-heading">
+          <p class="eyebrow">04 · 한 쌍에서 전체 도시로</p>
+          <h2>다중비교 계산</h2>
+          <p>
+            허 교수는 137개 동의 모든 쌍 중 1%가 "유사하다"고 가정했습니다.
+            이 1%는 관측 자료에서 추정된 값이 아니라 공개 글의 예시 가정입니다.
+          </p>
+          <div class="caution">
+            <strong>중요한 구분</strong>
+            <p>
+              <code>0.9029%</code>는 유사한 한 쌍의 조건부 일치 확률이고,
+              <code>0.84개</code>는 가정한 모든 비교에서 나올 일치 쌍의
+              기댓값입니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="calculator">
+          <label>
+            행정동 수 k
+            <input id="districtsInput" type="number" min="2" max="10000" value="137">
+          </label>
+          <label>
+            유사한 쌍 비율
+            <div class="input-suffix">
+              <input
+                id="similarRateInput"
+                type="number"
+                min="0"
+                max="100"
+                step="0.1"
+                value="1"
+              >
+              <span>%</span>
+            </div>
+          </label>
+          <dl class="calculation-list">
+            <div>
+              <dt>가능한 전체 쌍</dt>
+              <dd id="allPairs">9,316</dd>
+            </div>
+            <div>
+              <dt>유사하다고 가정한 쌍</dt>
+              <dd id="eligiblePairs">93.16</dd>
+            </div>
+            <div class="highlight">
+              <dt>일치 쌍의 기댓값</dt>
+              <dd id="expectedMatches">0.841</dd>
+            </div>
+            <div>
+              <dt>하나 이상일 포아송 근사</dt>
+              <dd id="atLeastOne">56.9%</dd>
+            </div>
+          </dl>
+          <p class="hint">
+            마지막 값은 쌍 사건들이 대략 독립인 희귀사건이라는 추가 근사를
+            사용합니다. 실제 지역 쌍은 서로 동을 공유하므로 정확값이 아닙니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="sources">
+        <div class="section-heading">
+          <p class="eyebrow">05 · 해석의 경계</p>
+          <h2>이 계산으로 알 수 없는 것</h2>
+        </div>
+        <div class="boundary-grid">
+          <article>
+            <span>알 수 있음</span>
+            <h3>모형 안의 확률</h3>
+            <p>
+              허 교수의 단순 이항모형에서 0.00903이 정확히 재현되며,
+              n·p·비교 횟수가 결과에 미치는 영향을 확인할 수 있습니다.
+            </p>
+          </article>
+          <article>
+            <span>알 수 없음</span>
+            <h3>절차의 적법성</h3>
+            <p>
+              숫자 패턴의 확률은 개표 절차, 장비, 보관, 참관 기록을 검증하지
+              않습니다. 절차 자료는 별도의 증거로 확인해야 합니다.
+            </p>
+          </article>
+          <article>
+            <span>추가 자료 필요</span>
+            <h3>다섯 쌍의 완전한 확률</h3>
+            <p>
+              광주·전남 393개 지역 전체의 n과 p, 그리고 사전에 정한 유사성
+              규칙이 있어야 "다섯 쌍 이상"의 확률을 계산할 수 있습니다.
+            </p>
+          </article>
+        </div>
+
+        <div class="source-list">
+          <a
+            href="https://www.nec.go.kr/site/nec/ex/bbs/View.do?cbIdx=1298&bcIdx=326988"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>중앙선관위 · 2026.06.08</span>
+            송도1·2동 공식 설명자료
+          </a>
+          <a
+            href="https://www.nec.go.kr/site/nec/ex/bbs/View.do?cbIdx=1298&bcIdx=326989"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>중앙선관위 · 2026.06.09</span>
+            전남광주 공식 설명자료
+          </a>
+          <a
+            href="https://www.chogabje.com/board/view.asp?C_IDX=105035&C_CC=AZ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>허명회 교수 글 인용 · 2026.06.10</span>
+            10억 회 시뮬레이션 설명
+          </a>
+          <a
+            href="https://www.newsis.com/view/NISX20260610_0003664380"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>뉴시스 · 2026.06.11</span>
+            통계 전문가 해설
+          </a>
+        </div>
+        <p class="document-link">
+          더 자세한 가정과 한계는 <a href="/docs/analysis.md">분석 문서</a>에
+          정리했습니다.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>확률은 사건과 조건을 먼저 적은 뒤 계산해야 합니다.</p>
+      <a href="#top">맨 위로</a>
+    </footer>
+
+    <script src="/web/app.js"></script>
+  </body>
+</html>

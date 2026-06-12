@@ -1,0 +1,6023 @@
+{
+  "schema_version": 1,
+  "model": {
+    "n": 4470,
+    "p": 0.6778523489932886,
+    "seed": 20260603,
+    "trials": 1000000000,
+    "batch_size": 1000000,
+    "workers": 8
+  },
+  "exact_probability": 0.009028958221390418,
+  "local_clt_approximation": 0.00902913755279954,
+  "matches": 9034607,
+  "estimate": 0.009034607,
+  "standard_error": 2.992153551600511e-06,
+  "confidence_interval_95": [
+    0.009028742379038864,
+    0.009040471620961136
+  ],
+  "elapsed_seconds": 15.569158124999376,
+  "checkpoints": [
+    {
+      "trials": 1000000,
+      "matches": 9172,
+      "estimate": 0.009172,
+      "elapsed_seconds": 0.29930229199817404
+    },
+    {
+      "trials": 2000000,
+      "matches": 18111,
+      "estimate": 0.0090555,
+      "elapsed_seconds": 0.32070933299837634
+    },
+    {
+      "trials": 3000000,
+      "matches": 27074,
+      "estimate": 0.009024666666666667,
+      "elapsed_seconds": 0.320727167010773
+    },
+    {
+      "trials": 4000000,
+      "matches": 35915,
+      "estimate": 0.00897875,
+      "elapsed_seconds": 0.3207347080169711
+    },
+    {
+      "trials": 5000000,
+      "matches": 44923,
+      "estimate": 0.0089846,
+      "elapsed_seconds": 0.3207407500012778
+    },
+    {
+      "trials": 6000000,
+      "matches": 53879,
+      "estimate": 0.008979833333333333,
+      "elapsed_seconds": 0.32074658302008174
+    },
+    {
+      "trials": 7000000,
+      "matches": 63109,
+      "estimate": 0.009015571428571428,
+      "elapsed_seconds": 0.3210389169980772
+    },
+    {
+      "trials": 8000000,
+      "matches": 72183,
+      "estimate": 0.009022875,
+      "elapsed_seconds": 0.32104570799856447
+    },
+    {
+      "trials": 9000000,
+      "matches": 81151,
+      "estimate": 0.009016777777777778,
+      "elapsed_seconds": 0.38731429202016443
+    },
+    {
+      "trials": 10000000,
+      "matches": 90240,
+      "estimate": 0.009024,
+      "elapsed_seconds": 0.40954424999654293
+    },
+    {
+      "trials": 11000000,
+      "matches": 99267,
+      "estimate": 0.009024272727272728,
+      "elapsed_seconds": 0.40966658300021663
+    },
+    {
+      "trials": 12000000,
+      "matches": 108409,
+      "estimate": 0.009034083333333333,
+      "elapsed_seconds": 0.4096707919961773
+    },
+    {
+      "trials": 13000000,
+      "matches": 117446,
+      "estimate": 0.009034307692307692,
+      "elapsed_seconds": 0.40967300001648255
+    },
+    {
+      "trials": 14000000,
+      "matches": 126722,
+      "estimate": 0.009051571428571428,
+      "elapsed_seconds": 0.40967483300482854
+    },
+    {
+      "trials": 15000000,
+      "matches": 135783,
+      "estimate": 0.0090522,
+      "elapsed_seconds": 0.4118614580074791
+    },
+    {
+      "trials": 16000000,
+      "matches": 144698,
+      "estimate": 0.009043625,
+      "elapsed_seconds": 0.4392905000131577
+    },
+    {
+      "trials": 17000000,
+      "matches": 153823,
+      "estimate": 0.009048411764705883,
+      "elapsed_seconds": 0.5305997079994995
+    },
+    {
+      "trials": 18000000,
+      "matches": 162825,
+      "estimate": 0.009045833333333333,
+      "elapsed_seconds": 0.5361718329950236
+    },
+    {
+      "trials": 19000000,
+      "matches": 171958,
+      "estimate": 0.009050421052631579,
+      "elapsed_seconds": 0.5471292500151321
+    },
+    {
+      "trials": 20000000,
+      "matches": 181049,
+      "estimate": 0.00905245,
+      "elapsed_seconds": 0.5471425419964362
+    },
+    {
+      "trials": 21000000,
+      "matches": 190184,
+      "estimate": 0.009056380952380953,
+      "elapsed_seconds": 0.5472252920153551
+    },
+    {
+      "trials": 22000000,
+      "matches": 199321,
+      "estimate": 0.009060045454545454,
+      "elapsed_seconds": 0.5566364170226734
+    },
+    {
+      "trials": 23000000,
+      "matches": 208398,
+      "estimate": 0.009060782608695653,
+      "elapsed_seconds": 0.5606342499959283
+    },
+    {
+      "trials": 24000000,
+      "matches": 217273,
+      "estimate": 0.009053041666666666,
+      "elapsed_seconds": 0.5810937920177821
+    },
+    {
+      "trials": 25000000,
+      "matches": 226172,
+      "estimate": 0.00904688,
+      "elapsed_seconds": 0.6637712920201011
+    },
+    {
+      "trials": 26000000,
+      "matches": 234989,
+      "estimate": 0.009038038461538462,
+      "elapsed_seconds": 0.6637905829993542
+    },
+    {
+      "trials": 27000000,
+      "matches": 244017,
+      "estimate": 0.009037666666666666,
+      "elapsed_seconds": 0.6970311250188388
+    },
+    {
+      "trials": 28000000,
+      "matches": 253102,
+      "estimate": 0.009039357142857142,
+      "elapsed_seconds": 0.697050125017995
+    },
+    {
+      "trials": 29000000,
+      "matches": 262199,
+      "estimate": 0.009041344827586208,
+      "elapsed_seconds": 0.6970561250054743
+    },
+    {
+      "trials": 30000000,
+      "matches": 271380,
+      "estimate": 0.009046,
+      "elapsed_seconds": 0.697061125014443
+    },
+    {
+      "trials": 31000000,
+      "matches": 280292,
+      "estimate": 0.009041677419354839,
+      "elapsed_seconds": 0.7064770830038469
+    },
+    {
+      "trials": 32000000,
+      "matches": 289256,
+      "estimate": 0.00903925,
+      "elapsed_seconds": 0.7217349169950467
+    },
+    {
+      "trials": 33000000,
+      "matches": 298329,
+      "estimate": 0.009040272727272727,
+      "elapsed_seconds": 0.8092881250195205
+    },
+    {
+      "trials": 34000000,
+      "matches": 307319,
+      "estimate": 0.009038794117647058,
+      "elapsed_seconds": 0.8093071250186767
+    },
+    {
+      "trials": 35000000,
+      "matches": 316334,
+      "estimate": 0.009038114285714285,
+      "elapsed_seconds": 0.8166234170203097
+    },
+    {
+      "trials": 36000000,
+      "matches": 325360,
+      "estimate": 0.009037777777777778,
+      "elapsed_seconds": 0.8168400830181781
+    },
+    {
+      "trials": 37000000,
+      "matches": 334258,
+      "estimate": 0.009034,
+      "elapsed_seconds": 0.8390169579943176
+    },
+    {
+      "trials": 38000000,
+      "matches": 343122,
+      "estimate": 0.009029526315789474,
+      "elapsed_seconds": 0.8390285420173313
+    },
+    {
+      "trials": 39000000,
+      "matches": 351888,
+      "estimate": 0.00902276923076923,
+      "elapsed_seconds": 0.8390339580073487
+    },
+    {
+      "trials": 40000000,
+      "matches": 360769,
+      "estimate": 0.009019225,
+      "elapsed_seconds": 0.8768163750064559
+    },
+    {
+      "trials": 41000000,
+      "matches": 369795,
+      "estimate": 0.009019390243902439,
+      "elapsed_seconds": 0.9319255000154953
+    },
+    {
+      "trials": 42000000,
+      "matches": 378889,
+      "estimate": 0.009021166666666667,
+      "elapsed_seconds": 0.9358567500021309
+    },
+    {
+      "trials": 43000000,
+      "matches": 387842,
+      "estimate": 0.009019581395348837,
+      "elapsed_seconds": 0.935871458001202
+    },
+    {
+      "trials": 44000000,
+      "matches": 396855,
+      "estimate": 0.009019431818181819,
+      "elapsed_seconds": 0.9358776250155643
+    },
+    {
+      "trials": 45000000,
+      "matches": 405953,
+      "estimate": 0.009021177777777778,
+      "elapsed_seconds": 0.9361839170160238
+    },
+    {
+      "trials": 46000000,
+      "matches": 414996,
+      "estimate": 0.009021652173913043,
+      "elapsed_seconds": 0.9799320000165608
+    },
+    {
+      "trials": 47000000,
+      "matches": 423806,
+      "estimate": 0.009017148936170213,
+      "elapsed_seconds": 0.979949917003978
+    },
+    {
+      "trials": 48000000,
+      "matches": 432795,
+      "estimate": 0.0090165625,
+      "elapsed_seconds": 0.9831814579956699
+    },
+    {
+      "trials": 49000000,
+      "matches": 441806,
+      "estimate": 0.009016448979591836,
+      "elapsed_seconds": 1.017959457996767
+    },
+    {
+      "trials": 50000000,
+      "matches": 450821,
+      "estimate": 0.00901642,
+      "elapsed_seconds": 1.035005000012461
+    },
+    {
+      "trials": 51000000,
+      "matches": 459789,
+      "estimate": 0.009015470588235295,
+      "elapsed_seconds": 1.0554172919946723
+    },
+    {
+      "trials": 52000000,
+      "matches": 468866,
+      "estimate": 0.009016653846153846,
+      "elapsed_seconds": 1.0554284579993691
+    },
+    {
+      "trials": 53000000,
+      "matches": 477832,
+      "estimate": 0.009015698113207547,
+      "elapsed_seconds": 1.0737893330224324
+    },
+    {
+      "trials": 54000000,
+      "matches": 486785,
+      "estimate": 0.009014537037037036,
+      "elapsed_seconds": 1.0738012079964392
+    },
+    {
+      "trials": 55000000,
+      "matches": 495841,
+      "estimate": 0.009015290909090909,
+      "elapsed_seconds": 1.073806708009215
+    },
+    {
+      "trials": 56000000,
+      "matches": 504894,
+      "estimate": 0.009015964285714285,
+      "elapsed_seconds": 1.0957687080081087
+    },
+    {
+      "trials": 57000000,
+      "matches": 513822,
+      "estimate": 0.00901442105263158,
+      "elapsed_seconds": 1.1653258330188692
+    },
+    {
+      "trials": 58000000,
+      "matches": 522780,
+      "estimate": 0.00901344827586207,
+      "elapsed_seconds": 1.1689855419972446
+    },
+    {
+      "trials": 59000000,
+      "matches": 531955,
+      "estimate": 0.009016186440677965,
+      "elapsed_seconds": 1.194057500018971
+    },
+    {
+      "trials": 60000000,
+      "matches": 540970,
+      "estimate": 0.009016166666666667,
+      "elapsed_seconds": 1.1966222920164
+    },
+    {
+      "trials": 61000000,
+      "matches": 550067,
+      "estimate": 0.009017491803278689,
+      "elapsed_seconds": 1.1966777080087923
+    },
+    {
+      "trials": 62000000,
+      "matches": 559165,
+      "estimate": 0.009018790322580645,
+      "elapsed_seconds": 1.1981517920212355
+    },
+    {
+      "trials": 63000000,
+      "matches": 568355,
+      "estimate": 0.009021507936507937,
+      "elapsed_seconds": 1.2035607500001788
+    },
+    {
+      "trials": 64000000,
+      "matches": 577398,
+      "estimate": 0.00902184375,
+      "elapsed_seconds": 1.2308957079949323
+    },
+    {
+      "trials": 65000000,
+      "matches": 586532,
+      "estimate": 0.00902356923076923,
+      "elapsed_seconds": 1.2873459170223214
+    },
+    {
+      "trials": 66000000,
+      "matches": 595616,
+      "estimate": 0.009024484848484848,
+      "elapsed_seconds": 1.288783791998867
+    },
+    {
+      "trials": 67000000,
+      "matches": 604626,
+      "estimate": 0.009024268656716418,
+      "elapsed_seconds": 1.288791625003796
+    },
+    {
+      "trials": 68000000,
+      "matches": 613606,
+      "estimate": 0.009023617647058824,
+      "elapsed_seconds": 1.2953931670053862
+    },
+    {
+      "trials": 69000000,
+      "matches": 622905,
+      "estimate": 0.009027608695652174,
+      "elapsed_seconds": 1.2996517500141636
+    },
+    {
+      "trials": 70000000,
+      "matches": 631872,
+      "estimate": 0.009026742857142857,
+      "elapsed_seconds": 1.3082874999963678
+    },
+    {
+      "trials": 71000000,
+      "matches": 640908,
+      "estimate": 0.00902687323943662,
+      "elapsed_seconds": 1.3222212500113528
+    },
+    {
+      "trials": 72000000,
+      "matches": 649908,
+      "estimate": 0.0090265,
+      "elapsed_seconds": 1.3473025000130292
+    },
+    {
+      "trials": 73000000,
+      "matches": 659005,
+      "estimate": 0.009027465753424658,
+      "elapsed_seconds": 1.3710503750189673
+    },
+    {
+      "trials": 74000000,
+      "matches": 667994,
+      "estimate": 0.009026945945945946,
+      "elapsed_seconds": 1.4231284580018837
+    },
+    {
+      "trials": 75000000,
+      "matches": 677072,
+      "estimate": 0.009027626666666667,
+      "elapsed_seconds": 1.4286357920209412
+    },
+    {
+      "trials": 76000000,
+      "matches": 685927,
+      "estimate": 0.009025355263157895,
+      "elapsed_seconds": 1.4286570000112988
+    },
+    {
+      "trials": 77000000,
+      "matches": 695011,
+      "estimate": 0.009026116883116882,
+      "elapsed_seconds": 1.4286628749978263
+    },
+    {
+      "trials": 78000000,
+      "matches": 704122,
+      "estimate": 0.009027205128205129,
+      "elapsed_seconds": 1.4380388330027927
+    },
+    {
+      "trials": 79000000,
+      "matches": 713252,
+      "estimate": 0.009028506329113924,
+      "elapsed_seconds": 1.4501272500201594
+    },
+    {
+      "trials": 80000000,
+      "matches": 722297,
+      "estimate": 0.0090287125,
+      "elapsed_seconds": 1.478907208016608
+    },
+    {
+      "trials": 81000000,
+      "matches": 731320,
+      "estimate": 0.009028641975308642,
+      "elapsed_seconds": 1.4828697080083657
+    },
+    {
+      "trials": 82000000,
+      "matches": 740245,
+      "estimate": 0.009027378048780487,
+      "elapsed_seconds": 1.5034466670185793
+    },
+    {
+      "trials": 83000000,
+      "matches": 749174,
+      "estimate": 0.009026192771084338,
+      "elapsed_seconds": 1.5040034170087893
+    },
+    {
+      "trials": 84000000,
+      "matches": 758042,
+      "estimate": 0.009024309523809523,
+      "elapsed_seconds": 1.5138405000034254
+    },
+    {
+      "trials": 85000000,
+      "matches": 767123,
+      "estimate": 0.009024976470588236,
+      "elapsed_seconds": 1.5393204170104582
+    },
+    {
+      "trials": 86000000,
+      "matches": 776093,
+      "estimate": 0.009024337209302326,
+      "elapsed_seconds": 1.567208207998192
+    },
+    {
+      "trials": 87000000,
+      "matches": 785094,
+      "estimate": 0.009024068965517242,
+      "elapsed_seconds": 1.5672200420231093
+    },
+    {
+      "trials": 88000000,
+      "matches": 794203,
+      "estimate": 0.00902503409090909,
+      "elapsed_seconds": 1.5784132920089178
+    },
+    {
+      "trials": 89000000,
+      "matches": 803362,
+      "estimate": 0.009026539325842697,
+      "elapsed_seconds": 1.5909221670008264
+    },
+    {
+      "trials": 90000000,
+      "matches": 812304,
+      "estimate": 0.0090256,
+      "elapsed_seconds": 1.6505910420091823
+    },
+    {
+      "trials": 91000000,
+      "matches": 821283,
+      "estimate": 0.009025087912087911,
+      "elapsed_seconds": 1.6506481670076028
+    },
+    {
+      "trials": 92000000,
+      "matches": 830357,
+      "estimate": 0.00902561956521739,
+      "elapsed_seconds": 1.6506540830014274
+    },
+    {
+      "trials": 93000000,
+      "matches": 839335,
+      "estimate": 0.00902510752688172,
+      "elapsed_seconds": 1.6696672500111163
+    },
+    {
+      "trials": 94000000,
+      "matches": 848487,
+      "estimate": 0.00902645744680851,
+      "elapsed_seconds": 1.6891847920196597
+    },
+    {
+      "trials": 95000000,
+      "matches": 857614,
+      "estimate": 0.009027515789473684,
+      "elapsed_seconds": 1.7015390000015032
+    },
+    {
+      "trials": 96000000,
+      "matches": 866606,
+      "estimate": 0.009027145833333333,
+      "elapsed_seconds": 1.7015601670136675
+    },
+    {
+      "trials": 97000000,
+      "matches": 875617,
+      "estimate": 0.0090269793814433,
+      "elapsed_seconds": 1.72755183299887
+    },
+    {
+      "trials": 98000000,
+      "matches": 884673,
+      "estimate": 0.009027275510204082,
+      "elapsed_seconds": 1.7344962079951074
+    },
+    {
+      "trials": 99000000,
+      "matches": 893646,
+      "estimate": 0.009026727272727273,
+      "elapsed_seconds": 1.7345076670171693
+    },
+    {
+      "trials": 100000000,
+      "matches": 902779,
+      "estimate": 0.00902779,
+      "elapsed_seconds": 1.753044958022656
+    },
+    {
+      "trials": 101000000,
+      "matches": 911976,
+      "estimate": 0.009029465346534654,
+      "elapsed_seconds": 1.773853082995629
+    },
+    {
+      "trials": 102000000,
+      "matches": 920783,
+      "estimate": 0.00902728431372549,
+      "elapsed_seconds": 1.799822833010694
+    },
+    {
+      "trials": 103000000,
+      "matches": 929710,
+      "estimate": 0.009026310679611651,
+      "elapsed_seconds": 1.8194404579990078
+    },
+    {
+      "trials": 104000000,
+      "matches": 938630,
+      "estimate": 0.009025288461538461,
+      "elapsed_seconds": 1.8194550420157611
+    },
+    {
+      "trials": 105000000,
+      "matches": 947700,
+      "estimate": 0.009025714285714286,
+      "elapsed_seconds": 1.822811542020645
+    },
+    {
+      "trials": 106000000,
+      "matches": 956948,
+      "estimate": 0.009027811320754716,
+      "elapsed_seconds": 1.8412160830048379
+    },
+    {
+      "trials": 107000000,
+      "matches": 965974,
+      "estimate": 0.009027794392523365,
+      "elapsed_seconds": 1.8724598750122823
+    },
+    {
+      "trials": 108000000,
+      "matches": 975152,
+      "estimate": 0.009029185185185185,
+      "elapsed_seconds": 1.8923525419959333
+    },
+    {
+      "trials": 109000000,
+      "matches": 984063,
+      "estimate": 0.009028100917431192,
+      "elapsed_seconds": 1.9194624999945518
+    },
+    {
+      "trials": 110000000,
+      "matches": 993002,
+      "estimate": 0.009027290909090909,
+      "elapsed_seconds": 1.9470213330059778
+    },
+    {
+      "trials": 111000000,
+      "matches": 1001923,
+      "estimate": 0.009026333333333334,
+      "elapsed_seconds": 1.947078249999322
+    },
+    {
+      "trials": 112000000,
+      "matches": 1011057,
+      "estimate": 0.009027294642857142,
+      "elapsed_seconds": 1.9508340830216184
+    },
+    {
+      "trials": 113000000,
+      "matches": 1019980,
+      "estimate": 0.009026371681415929,
+      "elapsed_seconds": 1.9638027080218308
+    },
+    {
+      "trials": 114000000,
+      "matches": 1029162,
+      "estimate": 0.009027736842105264,
+      "elapsed_seconds": 1.9832454580173362
+    },
+    {
+      "trials": 115000000,
+      "matches": 1038232,
+      "estimate": 0.009028104347826088,
+      "elapsed_seconds": 1.9983067919965833
+    },
+    {
+      "trials": 116000000,
+      "matches": 1047281,
+      "estimate": 0.00902828448275862,
+      "elapsed_seconds": 1.998321457998827
+    },
+    {
+      "trials": 117000000,
+      "matches": 1056269,
+      "estimate": 0.009027940170940172,
+      "elapsed_seconds": 2.004742167016957
+    },
+    {
+      "trials": 118000000,
+      "matches": 1065167,
+      "estimate": 0.009026838983050848,
+      "elapsed_seconds": 2.040747167018708
+    },
+    {
+      "trials": 119000000,
+      "matches": 1074270,
+      "estimate": 0.009027478991596638,
+      "elapsed_seconds": 2.056571833003545
+    },
+    {
+      "trials": 120000000,
+      "matches": 1083048,
+      "estimate": 0.0090254,
+      "elapsed_seconds": 2.0690940000058617
+    },
+    {
+      "trials": 121000000,
+      "matches": 1092022,
+      "estimate": 0.009024975206611571,
+      "elapsed_seconds": 2.10075137502281
+    },
+    {
+      "trials": 122000000,
+      "matches": 1101068,
+      "estimate": 0.009025147540983606,
+      "elapsed_seconds": 2.123153332999209
+    },
+    {
+      "trials": 123000000,
+      "matches": 1110204,
+      "estimate": 0.009026048780487805,
+      "elapsed_seconds": 2.1231645829975605
+    },
+    {
+      "trials": 124000000,
+      "matches": 1119365,
+      "estimate": 0.009027137096774194,
+      "elapsed_seconds": 2.139241833006963
+    },
+    {
+      "trials": 125000000,
+      "matches": 1128301,
+      "estimate": 0.009026408,
+      "elapsed_seconds": 2.178769916994497
+    },
+    {
+      "trials": 126000000,
+      "matches": 1137439,
+      "estimate": 0.00902729365079365,
+      "elapsed_seconds": 2.1939655000169296
+    },
+    {
+      "trials": 127000000,
+      "matches": 1146412,
+      "estimate": 0.009026866141732284,
+      "elapsed_seconds": 2.1985217080218717
+    },
+    {
+      "trials": 128000000,
+      "matches": 1155345,
+      "estimate": 0.0090261328125,
+      "elapsed_seconds": 2.202924500015797
+    },
+    {
+      "trials": 129000000,
+      "matches": 1164457,
+      "estimate": 0.009026798449612404,
+      "elapsed_seconds": 2.220762292010477
+    },
+    {
+      "trials": 130000000,
+      "matches": 1173512,
+      "estimate": 0.009027015384615384,
+      "elapsed_seconds": 2.256980417005252
+    },
+    {
+      "trials": 131000000,
+      "matches": 1182536,
+      "estimate": 0.009026992366412214,
+      "elapsed_seconds": 2.267402249999577
+    },
+    {
+      "trials": 132000000,
+      "matches": 1191367,
+      "estimate": 0.009025507575757576,
+      "elapsed_seconds": 2.27128200000152
+    },
+    {
+      "trials": 133000000,
+      "matches": 1200292,
+      "estimate": 0.009024751879699248,
+      "elapsed_seconds": 2.271879917010665
+    },
+    {
+      "trials": 134000000,
+      "matches": 1209359,
+      "estimate": 0.009025067164179104,
+      "elapsed_seconds": 2.3003560000215657
+    },
+    {
+      "trials": 135000000,
+      "matches": 1218383,
+      "estimate": 0.00902505925925926,
+      "elapsed_seconds": 2.3069302920193877
+    },
+    {
+      "trials": 136000000,
+      "matches": 1227304,
+      "estimate": 0.00902429411764706,
+      "elapsed_seconds": 2.3194514579954557
+    },
+    {
+      "trials": 137000000,
+      "matches": 1236519,
+      "estimate": 0.009025686131386861,
+      "elapsed_seconds": 2.345274417020846
+    },
+    {
+      "trials": 138000000,
+      "matches": 1245603,
+      "estimate": 0.009026108695652174,
+      "elapsed_seconds": 2.375565916998312
+    },
+    {
+      "trials": 139000000,
+      "matches": 1254540,
+      "estimate": 0.009025467625899281,
+      "elapsed_seconds": 2.385960875020828
+    },
+    {
+      "trials": 140000000,
+      "matches": 1263755,
+      "estimate": 0.00902682142857143,
+      "elapsed_seconds": 2.3971135420142673
+    },
+    {
+      "trials": 141000000,
+      "matches": 1272858,
+      "estimate": 0.00902736170212766,
+      "elapsed_seconds": 2.4010519580042455
+    },
+    {
+      "trials": 142000000,
+      "matches": 1281874,
+      "estimate": 0.009027281690140845,
+      "elapsed_seconds": 2.423950625001453
+    },
+    {
+      "trials": 143000000,
+      "matches": 1290958,
+      "estimate": 0.009027678321678322,
+      "elapsed_seconds": 2.4448991249955725
+    },
+    {
+      "trials": 144000000,
+      "matches": 1300031,
+      "estimate": 0.009027993055555555,
+      "elapsed_seconds": 2.444926875003148
+    },
+    {
+      "trials": 145000000,
+      "matches": 1309292,
+      "estimate": 0.0090296,
+      "elapsed_seconds": 2.462940500001423
+    },
+    {
+      "trials": 146000000,
+      "matches": 1318213,
+      "estimate": 0.009028856164383562,
+      "elapsed_seconds": 2.5066707500081975
+    },
+    {
+      "trials": 147000000,
+      "matches": 1327294,
+      "estimate": 0.009029210884353742,
+      "elapsed_seconds": 2.5066858750069514
+    },
+    {
+      "trials": 148000000,
+      "matches": 1336601,
+      "estimate": 0.009031087837837837,
+      "elapsed_seconds": 2.506691167014651
+    },
+    {
+      "trials": 149000000,
+      "matches": 1345744,
+      "estimate": 0.009031838926174497,
+      "elapsed_seconds": 2.5066965419973712
+    },
+    {
+      "trials": 150000000,
+      "matches": 1354859,
+      "estimate": 0.009032393333333333,
+      "elapsed_seconds": 2.5330868330202065
+    },
+    {
+      "trials": 151000000,
+      "matches": 1363715,
+      "estimate": 0.009031225165562914,
+      "elapsed_seconds": 2.5332235420064535
+    },
+    {
+      "trials": 152000000,
+      "matches": 1372714,
+      "estimate": 0.009031013157894736,
+      "elapsed_seconds": 2.5572946250031237
+    },
+    {
+      "trials": 153000000,
+      "matches": 1381812,
+      "estimate": 0.009031450980392156,
+      "elapsed_seconds": 2.5733833750127815
+    },
+    {
+      "trials": 154000000,
+      "matches": 1390887,
+      "estimate": 0.009031733766233766,
+      "elapsed_seconds": 2.598623583005974
+    },
+    {
+      "trials": 155000000,
+      "matches": 1399790,
+      "estimate": 0.009030903225806452,
+      "elapsed_seconds": 2.6573883749952074
+    },
+    {
+      "trials": 156000000,
+      "matches": 1408794,
+      "estimate": 0.00903073076923077,
+      "elapsed_seconds": 2.657405125006335
+    },
+    {
+      "trials": 157000000,
+      "matches": 1417846,
+      "estimate": 0.009030866242038216,
+      "elapsed_seconds": 2.6638584170141257
+    },
+    {
+      "trials": 158000000,
+      "matches": 1426792,
+      "estimate": 0.009030329113924051,
+      "elapsed_seconds": 2.6732463749940507
+    },
+    {
+      "trials": 159000000,
+      "matches": 1435715,
+      "estimate": 0.009029654088050315,
+      "elapsed_seconds": 2.691949250001926
+    },
+    {
+      "trials": 160000000,
+      "matches": 1444696,
+      "estimate": 0.00902935,
+      "elapsed_seconds": 2.7084673329954967
+    },
+    {
+      "trials": 161000000,
+      "matches": 1453648,
+      "estimate": 0.009028869565217392,
+      "elapsed_seconds": 2.7085176670225337
+    },
+    {
+      "trials": 162000000,
+      "matches": 1462789,
+      "estimate": 0.009029561728395061,
+      "elapsed_seconds": 2.7287510000169277
+    },
+    {
+      "trials": 163000000,
+      "matches": 1471863,
+      "estimate": 0.009029834355828222,
+      "elapsed_seconds": 2.772405791998608
+    },
+    {
+      "trials": 164000000,
+      "matches": 1480903,
+      "estimate": 0.009029896341463414,
+      "elapsed_seconds": 2.796467542008031
+    },
+    {
+      "trials": 165000000,
+      "matches": 1490098,
+      "estimate": 0.00903089696969697,
+      "elapsed_seconds": 2.7964849999989383
+    },
+    {
+      "trials": 166000000,
+      "matches": 1499394,
+      "estimate": 0.009032493975903614,
+      "elapsed_seconds": 2.7964910000155214
+    },
+    {
+      "trials": 167000000,
+      "matches": 1508552,
+      "estimate": 0.009033245508982036,
+      "elapsed_seconds": 2.8438912499987055
+    },
+    {
+      "trials": 168000000,
+      "matches": 1517659,
+      "estimate": 0.009033684523809524,
+      "elapsed_seconds": 2.8439050000160933
+    },
+    {
+      "trials": 169000000,
+      "matches": 1526781,
+      "estimate": 0.009034207100591716,
+      "elapsed_seconds": 2.8588841250166297
+    },
+    {
+      "trials": 170000000,
+      "matches": 1535788,
+      "estimate": 0.00903404705882353,
+      "elapsed_seconds": 2.8588980000058655
+    },
+    {
+      "trials": 171000000,
+      "matches": 1544894,
+      "estimate": 0.009034467836257309,
+      "elapsed_seconds": 2.8942996250116266
+    },
+    {
+      "trials": 172000000,
+      "matches": 1553810,
+      "estimate": 0.009033779069767442,
+      "elapsed_seconds": 2.894312207994517
+    },
+    {
+      "trials": 173000000,
+      "matches": 1562630,
+      "estimate": 0.009032543352601155,
+      "elapsed_seconds": 2.9159724579949398
+    },
+    {
+      "trials": 174000000,
+      "matches": 1571612,
+      "estimate": 0.009032252873563218,
+      "elapsed_seconds": 2.915998375014169
+    },
+    {
+      "trials": 175000000,
+      "matches": 1580652,
+      "estimate": 0.009032297142857143,
+      "elapsed_seconds": 2.9471069170103874
+    },
+    {
+      "trials": 176000000,
+      "matches": 1589666,
+      "estimate": 0.009032193181818181,
+      "elapsed_seconds": 2.9733827080053743
+    },
+    {
+      "trials": 177000000,
+      "matches": 1598727,
+      "estimate": 0.00903235593220339,
+      "elapsed_seconds": 2.9804576669994276
+    },
+    {
+      "trials": 178000000,
+      "matches": 1607774,
+      "estimate": 0.009032438202247191,
+      "elapsed_seconds": 2.98394379200181
+    },
+    {
+      "trials": 179000000,
+      "matches": 1616946,
+      "estimate": 0.009033217877094973,
+      "elapsed_seconds": 3.023116458003642
+    },
+    {
+      "trials": 180000000,
+      "matches": 1625972,
+      "estimate": 0.009033177777777778,
+      "elapsed_seconds": 3.023128792003263
+    },
+    {
+      "trials": 181000000,
+      "matches": 1634887,
+      "estimate": 0.009032524861878452,
+      "elapsed_seconds": 3.038700292003341
+    },
+    {
+      "trials": 182000000,
+      "matches": 1643822,
+      "estimate": 0.00903198901098901,
+      "elapsed_seconds": 3.0387117080099415
+    },
+    {
+      "trials": 183000000,
+      "matches": 1652891,
+      "estimate": 0.0090321912568306,
+      "elapsed_seconds": 3.09980729201925
+    },
+    {
+      "trials": 184000000,
+      "matches": 1662035,
+      "estimate": 0.009032798913043477,
+      "elapsed_seconds": 3.1089622500003316
+    },
+    {
+      "trials": 185000000,
+      "matches": 1670934,
+      "estimate": 0.009032075675675676,
+      "elapsed_seconds": 3.1089749580132775
+    },
+    {
+      "trials": 186000000,
+      "matches": 1679854,
+      "estimate": 0.00903147311827957,
+      "elapsed_seconds": 3.1145180000166874
+    },
+    {
+      "trials": 187000000,
+      "matches": 1688838,
+      "estimate": 0.0090312192513369,
+      "elapsed_seconds": 3.164794875017833
+    },
+    {
+      "trials": 188000000,
+      "matches": 1697710,
+      "estimate": 0.009030372340425532,
+      "elapsed_seconds": 3.164807708002627
+    },
+    {
+      "trials": 189000000,
+      "matches": 1706736,
+      "estimate": 0.009030349206349207,
+      "elapsed_seconds": 3.1768976250023115
+    },
+    {
+      "trials": 190000000,
+      "matches": 1715762,
+      "estimate": 0.009030326315789474,
+      "elapsed_seconds": 3.1769092500035185
+    },
+    {
+      "trials": 191000000,
+      "matches": 1724816,
+      "estimate": 0.009030450261780105,
+      "elapsed_seconds": 3.221579583012499
+    },
+    {
+      "trials": 192000000,
+      "matches": 1733888,
+      "estimate": 0.009030666666666666,
+      "elapsed_seconds": 3.2215915420092642
+    },
+    {
+      "trials": 193000000,
+      "matches": 1742900,
+      "estimate": 0.009030569948186528,
+      "elapsed_seconds": 3.267835542006651
+    },
+    {
+      "trials": 194000000,
+      "matches": 1751800,
+      "estimate": 0.009029896907216495,
+      "elapsed_seconds": 3.267852250020951
+    },
+    {
+      "trials": 195000000,
+      "matches": 1760728,
+      "estimate": 0.009029374358974359,
+      "elapsed_seconds": 3.2719038329960313
+    },
+    {
+      "trials": 196000000,
+      "matches": 1769784,
+      "estimate": 0.009029510204081633,
+      "elapsed_seconds": 3.2719150420161895
+    },
+    {
+      "trials": 197000000,
+      "matches": 1778829,
+      "estimate": 0.00902958883248731,
+      "elapsed_seconds": 3.305784833006328
+    },
+    {
+      "trials": 198000000,
+      "matches": 1787950,
+      "estimate": 0.009030050505050504,
+      "elapsed_seconds": 3.422747792006703
+    },
+    {
+      "trials": 199000000,
+      "matches": 1796978,
+      "estimate": 0.009030040201005025,
+      "elapsed_seconds": 3.4227602500177454
+    },
+    {
+      "trials": 200000000,
+      "matches": 1805980,
+      "estimate": 0.0090299,
+      "elapsed_seconds": 3.4227656250004657
+    },
+    {
+      "trials": 201000000,
+      "matches": 1815067,
+      "estimate": 0.00903018407960199,
+      "elapsed_seconds": 3.4229828329989687
+    },
+    {
+      "trials": 202000000,
+      "matches": 1824120,
+      "estimate": 0.00903029702970297,
+      "elapsed_seconds": 3.4229915420000907
+    },
+    {
+      "trials": 203000000,
+      "matches": 1833201,
+      "estimate": 0.009030546798029556,
+      "elapsed_seconds": 3.4229969170119148
+    },
+    {
+      "trials": 204000000,
+      "matches": 1842424,
+      "estimate": 0.009031490196078431,
+      "elapsed_seconds": 3.4230013329943176
+    },
+    {
+      "trials": 205000000,
+      "matches": 1851349,
+      "estimate": 0.009030970731707317,
+      "elapsed_seconds": 3.4230981250002515
+    },
+    {
+      "trials": 206000000,
+      "matches": 1860219,
+      "estimate": 0.009030189320388349,
+      "elapsed_seconds": 3.427221332996851
+    },
+    {
+      "trials": 207000000,
+      "matches": 1869258,
+      "estimate": 0.00903023188405797,
+      "elapsed_seconds": 3.4582859170041047
+    },
+    {
+      "trials": 208000000,
+      "matches": 1878133,
+      "estimate": 0.009029485576923077,
+      "elapsed_seconds": 3.4582981250132434
+    },
+    {
+      "trials": 209000000,
+      "matches": 1887080,
+      "estimate": 0.009029090909090908,
+      "elapsed_seconds": 3.463340042013442
+    },
+    {
+      "trials": 210000000,
+      "matches": 1896150,
+      "estimate": 0.009029285714285714,
+      "elapsed_seconds": 3.4635747080028523
+    },
+    {
+      "trials": 211000000,
+      "matches": 1905298,
+      "estimate": 0.009029848341232228,
+      "elapsed_seconds": 3.4750351670081727
+    },
+    {
+      "trials": 212000000,
+      "matches": 1914273,
+      "estimate": 0.009029589622641509,
+      "elapsed_seconds": 3.5165930000075605
+    },
+    {
+      "trials": 213000000,
+      "matches": 1923312,
+      "estimate": 0.009029633802816902,
+      "elapsed_seconds": 3.5274057920032647
+    },
+    {
+      "trials": 214000000,
+      "matches": 1932455,
+      "estimate": 0.00903016355140187,
+      "elapsed_seconds": 3.530299792008009
+    },
+    {
+      "trials": 215000000,
+      "matches": 1941582,
+      "estimate": 0.009030613953488371,
+      "elapsed_seconds": 3.6767067500040866
+    },
+    {
+      "trials": 216000000,
+      "matches": 1950679,
+      "estimate": 0.009030921296296296,
+      "elapsed_seconds": 3.676724082994042
+    },
+    {
+      "trials": 217000000,
+      "matches": 1959668,
+      "estimate": 0.009030728110599079,
+      "elapsed_seconds": 3.6767299580096733
+    },
+    {
+      "trials": 218000000,
+      "matches": 1968560,
+      "estimate": 0.009030091743119266,
+      "elapsed_seconds": 3.6875164170050994
+    },
+    {
+      "trials": 219000000,
+      "matches": 1977591,
+      "estimate": 0.009030095890410959,
+      "elapsed_seconds": 3.6875328330206685
+    },
+    {
+      "trials": 220000000,
+      "matches": 1986843,
+      "estimate": 0.009031104545454546,
+      "elapsed_seconds": 3.6875381249992643
+    },
+    {
+      "trials": 221000000,
+      "matches": 1995787,
+      "estimate": 0.009030710407239819,
+      "elapsed_seconds": 3.6875875830010045
+    },
+    {
+      "trials": 222000000,
+      "matches": 2004943,
+      "estimate": 0.009031274774774774,
+      "elapsed_seconds": 3.687592708010925
+    },
+    {
+      "trials": 223000000,
+      "matches": 2014052,
+      "estimate": 0.00903162331838565,
+      "elapsed_seconds": 3.6903512499993667
+    },
+    {
+      "trials": 224000000,
+      "matches": 2022961,
+      "estimate": 0.009031075892857144,
+      "elapsed_seconds": 3.6985241250076797
+    },
+    {
+      "trials": 225000000,
+      "matches": 2031988,
+      "estimate": 0.009031057777777778,
+      "elapsed_seconds": 3.7012204579950776
+    },
+    {
+      "trials": 226000000,
+      "matches": 2040948,
+      "estimate": 0.009030743362831859,
+      "elapsed_seconds": 3.7355407080031
+    },
+    {
+      "trials": 227000000,
+      "matches": 2049897,
+      "estimate": 0.009030383259911894,
+      "elapsed_seconds": 3.7355587920174003
+    },
+    {
+      "trials": 228000000,
+      "matches": 2058786,
+      "estimate": 0.009029763157894737,
+      "elapsed_seconds": 3.736057375004748
+    },
+    {
+      "trials": 229000000,
+      "matches": 2067700,
+      "estimate": 0.009029257641921397,
+      "elapsed_seconds": 3.8221751250093803
+    },
+    {
+      "trials": 230000000,
+      "matches": 2076795,
+      "estimate": 0.00902954347826087,
+      "elapsed_seconds": 3.826859249995323
+    },
+    {
+      "trials": 231000000,
+      "matches": 2085763,
+      "estimate": 0.009029277056277056,
+      "elapsed_seconds": 3.8270038750197273
+    },
+    {
+      "trials": 232000000,
+      "matches": 2094916,
+      "estimate": 0.009029810344827586,
+      "elapsed_seconds": 3.827011000015773
+    },
+    {
+      "trials": 233000000,
+      "matches": 2103962,
+      "estimate": 0.00902987982832618,
+      "elapsed_seconds": 3.8452030830085278
+    },
+    {
+      "trials": 234000000,
+      "matches": 2112907,
+      "estimate": 0.009029517094017094,
+      "elapsed_seconds": 3.8452134170220234
+    },
+    {
+      "trials": 235000000,
+      "matches": 2121945,
+      "estimate": 0.009029553191489362,
+      "elapsed_seconds": 3.8715051250183024
+    },
+    {
+      "trials": 236000000,
+      "matches": 2130974,
+      "estimate": 0.009029550847457627,
+      "elapsed_seconds": 3.876820958015742
+    },
+    {
+      "trials": 237000000,
+      "matches": 2139914,
+      "estimate": 0.00902917299578059,
+      "elapsed_seconds": 3.937823208019836
+    },
+    {
+      "trials": 238000000,
+      "matches": 2148829,
+      "estimate": 0.009028693277310925,
+      "elapsed_seconds": 3.951252917002421
+    },
+    {
+      "trials": 239000000,
+      "matches": 2157825,
+      "estimate": 0.009028556485355648,
+      "elapsed_seconds": 3.9542669579968788
+    },
+    {
+      "trials": 240000000,
+      "matches": 2166837,
+      "estimate": 0.0090284875,
+      "elapsed_seconds": 3.954279375000624
+    },
+    {
+      "trials": 241000000,
+      "matches": 2175999,
+      "estimate": 0.009029041493775933,
+      "elapsed_seconds": 4.121441416995367
+    },
+    {
+      "trials": 242000000,
+      "matches": 2185039,
+      "estimate": 0.009029086776859504,
+      "elapsed_seconds": 4.12145624999539
+    },
+    {
+      "trials": 243000000,
+      "matches": 2194153,
+      "estimate": 0.009029436213991769,
+      "elapsed_seconds": 4.121462458017049
+    },
+    {
+      "trials": 244000000,
+      "matches": 2203129,
+      "estimate": 0.009029217213114754,
+      "elapsed_seconds": 4.121467624994693
+    },
+    {
+      "trials": 245000000,
+      "matches": 2212058,
+      "estimate": 0.009028808163265307,
+      "elapsed_seconds": 4.1214722500008065
+    },
+    {
+      "trials": 246000000,
+      "matches": 2220940,
+      "estimate": 0.009028211382113821,
+      "elapsed_seconds": 4.121476500004064
+    },
+    {
+      "trials": 247000000,
+      "matches": 2230144,
+      "estimate": 0.009028923076923077,
+      "elapsed_seconds": 4.121480958012398
+    },
+    {
+      "trials": 248000000,
+      "matches": 2239147,
+      "estimate": 0.009028818548387097,
+      "elapsed_seconds": 4.12148545801756
+    },
+    {
+      "trials": 249000000,
+      "matches": 2248250,
+      "estimate": 0.009029116465863454,
+      "elapsed_seconds": 4.137476583011448
+    },
+    {
+      "trials": 250000000,
+      "matches": 2257197,
+      "estimate": 0.009028788,
+      "elapsed_seconds": 4.162606208003126
+    },
+    {
+      "trials": 251000000,
+      "matches": 2266111,
+      "estimate": 0.009028330677290837,
+      "elapsed_seconds": 4.162660833011614
+    },
+    {
+      "trials": 252000000,
+      "matches": 2275233,
+      "estimate": 0.00902870238095238,
+      "elapsed_seconds": 4.162666457996238
+    },
+    {
+      "trials": 253000000,
+      "matches": 2284308,
+      "estimate": 0.009028885375494072,
+      "elapsed_seconds": 4.268358708010055
+    },
+    {
+      "trials": 254000000,
+      "matches": 2293393,
+      "estimate": 0.009029106299212598,
+      "elapsed_seconds": 4.268388249998679
+    },
+    {
+      "trials": 255000000,
+      "matches": 2302580,
+      "estimate": 0.009029725490196079,
+      "elapsed_seconds": 4.268393792008283
+    },
+    {
+      "trials": 256000000,
+      "matches": 2311777,
+      "estimate": 0.00903037890625,
+      "elapsed_seconds": 4.268398292013444
+    },
+    {
+      "trials": 257000000,
+      "matches": 2320708,
+      "estimate": 0.009029992217898833,
+      "elapsed_seconds": 4.26840287502273
+    },
+    {
+      "trials": 258000000,
+      "matches": 2329842,
+      "estimate": 0.00903039534883721,
+      "elapsed_seconds": 4.268407583003864
+    },
+    {
+      "trials": 259000000,
+      "matches": 2338874,
+      "estimate": 0.009030401544401545,
+      "elapsed_seconds": 4.2684118330071215
+    },
+    {
+      "trials": 260000000,
+      "matches": 2347887,
+      "estimate": 0.009030334615384616,
+      "elapsed_seconds": 4.268415875005303
+    },
+    {
+      "trials": 261000000,
+      "matches": 2356944,
+      "estimate": 0.009030436781609195,
+      "elapsed_seconds": 4.268455042009009
+    },
+    {
+      "trials": 262000000,
+      "matches": 2366089,
+      "estimate": 0.009030874045801527,
+      "elapsed_seconds": 4.288371750008082
+    },
+    {
+      "trials": 263000000,
+      "matches": 2375097,
+      "estimate": 0.009030787072243345,
+      "elapsed_seconds": 4.337222833011765
+    },
+    {
+      "trials": 264000000,
+      "matches": 2384133,
+      "estimate": 0.009030806818181818,
+      "elapsed_seconds": 4.395953792001819
+    },
+    {
+      "trials": 265000000,
+      "matches": 2393313,
+      "estimate": 0.009031369811320755,
+      "elapsed_seconds": 4.4374672080157325
+    },
+    {
+      "trials": 266000000,
+      "matches": 2402379,
+      "estimate": 0.0090315,
+      "elapsed_seconds": 4.437482250010362
+    },
+    {
+      "trials": 267000000,
+      "matches": 2411383,
+      "estimate": 0.009031397003745318,
+      "elapsed_seconds": 4.437487625022186
+    },
+    {
+      "trials": 268000000,
+      "matches": 2420421,
+      "estimate": 0.009031421641791045,
+      "elapsed_seconds": 4.437492208002368
+    },
+    {
+      "trials": 269000000,
+      "matches": 2429652,
+      "estimate": 0.009032163568773234,
+      "elapsed_seconds": 4.44716999999946
+    },
+    {
+      "trials": 270000000,
+      "matches": 2438701,
+      "estimate": 0.009032225925925926,
+      "elapsed_seconds": 4.447192667023046
+    },
+    {
+      "trials": 271000000,
+      "matches": 2447731,
+      "estimate": 0.009032217712177121,
+      "elapsed_seconds": 4.466702208010247
+    },
+    {
+      "trials": 272000000,
+      "matches": 2456819,
+      "estimate": 0.009032422794117647,
+      "elapsed_seconds": 4.501203082996653
+    },
+    {
+      "trials": 273000000,
+      "matches": 2465906,
+      "estimate": 0.00903262271062271,
+      "elapsed_seconds": 4.504746749997139
+    },
+    {
+      "trials": 274000000,
+      "matches": 2475020,
+      "estimate": 0.009032919708029196,
+      "elapsed_seconds": 4.511806958005764
+    },
+    {
+      "trials": 275000000,
+      "matches": 2484049,
+      "estimate": 0.009032905454545454,
+      "elapsed_seconds": 4.5440161250007804
+    },
+    {
+      "trials": 276000000,
+      "matches": 2493200,
+      "estimate": 0.009033333333333334,
+      "elapsed_seconds": 4.56189241699758
+    },
+    {
+      "trials": 277000000,
+      "matches": 2502442,
+      "estimate": 0.009034086642599278,
+      "elapsed_seconds": 4.561913958023069
+    },
+    {
+      "trials": 278000000,
+      "matches": 2511548,
+      "estimate": 0.009034345323741007,
+      "elapsed_seconds": 4.561920750013087
+    },
+    {
+      "trials": 279000000,
+      "matches": 2520498,
+      "estimate": 0.009034043010752689,
+      "elapsed_seconds": 4.58881054201629
+    },
+    {
+      "trials": 280000000,
+      "matches": 2529500,
+      "estimate": 0.009033928571428571,
+      "elapsed_seconds": 4.624311292020138
+    },
+    {
+      "trials": 281000000,
+      "matches": 2538486,
+      "estimate": 0.009033758007117438,
+      "elapsed_seconds": 4.624480583006516
+    },
+    {
+      "trials": 282000000,
+      "matches": 2547540,
+      "estimate": 0.009033829787234042,
+      "elapsed_seconds": 4.634380041999975
+    },
+    {
+      "trials": 283000000,
+      "matches": 2556524,
+      "estimate": 0.00903365371024735,
+      "elapsed_seconds": 4.655466208001599
+    },
+    {
+      "trials": 284000000,
+      "matches": 2565459,
+      "estimate": 0.00903330633802817,
+      "elapsed_seconds": 4.664868874999229
+    },
+    {
+      "trials": 285000000,
+      "matches": 2574463,
+      "estimate": 0.00903320350877193,
+      "elapsed_seconds": 4.687179458007449
+    },
+    {
+      "trials": 286000000,
+      "matches": 2583592,
+      "estimate": 0.009033538461538461,
+      "elapsed_seconds": 4.687191750010243
+    },
+    {
+      "trials": 287000000,
+      "matches": 2592569,
+      "estimate": 0.009033341463414633,
+      "elapsed_seconds": 4.697191625018604
+    },
+    {
+      "trials": 288000000,
+      "matches": 2601526,
+      "estimate": 0.009033076388888889,
+      "elapsed_seconds": 4.697205000004033
+    },
+    {
+      "trials": 289000000,
+      "matches": 2610468,
+      "estimate": 0.009032761245674741,
+      "elapsed_seconds": 4.730071541998768
+    },
+    {
+      "trials": 290000000,
+      "matches": 2619502,
+      "estimate": 0.00903276551724138,
+      "elapsed_seconds": 4.778015375020914
+    },
+    {
+      "trials": 291000000,
+      "matches": 2628567,
+      "estimate": 0.009032876288659794,
+      "elapsed_seconds": 4.806119542015949
+    },
+    {
+      "trials": 292000000,
+      "matches": 2637418,
+      "estimate": 0.009032253424657534,
+      "elapsed_seconds": 4.809154208021937
+    },
+    {
+      "trials": 293000000,
+      "matches": 2646378,
+      "estimate": 0.009032006825938566,
+      "elapsed_seconds": 4.817159041995183
+    },
+    {
+      "trials": 294000000,
+      "matches": 2655468,
+      "estimate": 0.009032204081632652,
+      "elapsed_seconds": 4.817170624999562
+    },
+    {
+      "trials": 295000000,
+      "matches": 2664451,
+      "estimate": 0.009032037288135593,
+      "elapsed_seconds": 4.8361732920166105
+    },
+    {
+      "trials": 296000000,
+      "matches": 2673735,
+      "estimate": 0.009032888513513514,
+      "elapsed_seconds": 4.845582458015997
+    },
+    {
+      "trials": 297000000,
+      "matches": 2682633,
+      "estimate": 0.009032434343434344,
+      "elapsed_seconds": 4.8668099170026835
+    },
+    {
+      "trials": 298000000,
+      "matches": 2691669,
+      "estimate": 0.009032446308724832,
+      "elapsed_seconds": 4.882650333020138
+    },
+    {
+      "trials": 299000000,
+      "matches": 2700803,
+      "estimate": 0.009032785953177257,
+      "elapsed_seconds": 4.941128000005847
+    },
+    {
+      "trials": 300000000,
+      "matches": 2709924,
+      "estimate": 0.00903308,
+      "elapsed_seconds": 4.941141125018476
+    },
+    {
+      "trials": 301000000,
+      "matches": 2718722,
+      "estimate": 0.00903229900332226,
+      "elapsed_seconds": 4.950347208010498
+    },
+    {
+      "trials": 302000000,
+      "matches": 2727749,
+      "estimate": 0.009032281456953643,
+      "elapsed_seconds": 4.950358958012657
+    },
+    {
+      "trials": 303000000,
+      "matches": 2736865,
+      "estimate": 0.009032557755775578,
+      "elapsed_seconds": 4.950364042015281
+    },
+    {
+      "trials": 304000000,
+      "matches": 2745973,
+      "estimate": 0.009032805921052631,
+      "elapsed_seconds": 4.9633087500114925
+    },
+    {
+      "trials": 305000000,
+      "matches": 2755077,
+      "estimate": 0.009033039344262295,
+      "elapsed_seconds": 5.012520207994385
+    },
+    {
+      "trials": 306000000,
+      "matches": 2764147,
+      "estimate": 0.009033160130718955,
+      "elapsed_seconds": 5.012542542011943
+    },
+    {
+      "trials": 307000000,
+      "matches": 2773225,
+      "estimate": 0.009033306188925082,
+      "elapsed_seconds": 5.075830625020899
+    },
+    {
+      "trials": 308000000,
+      "matches": 2782052,
+      "estimate": 0.009032636363636364,
+      "elapsed_seconds": 5.075846916995943
+    },
+    {
+      "trials": 309000000,
+      "matches": 2791183,
+      "estimate": 0.009032954692556635,
+      "elapsed_seconds": 5.081549624999752
+    },
+    {
+      "trials": 310000000,
+      "matches": 2800202,
+      "estimate": 0.009032909677419355,
+      "elapsed_seconds": 5.083503667003242
+    },
+    {
+      "trials": 311000000,
+      "matches": 2809269,
+      "estimate": 0.009033019292604501,
+      "elapsed_seconds": 5.08355591702275
+    },
+    {
+      "trials": 312000000,
+      "matches": 2818271,
+      "estimate": 0.009032919871794871,
+      "elapsed_seconds": 5.119670625019353
+    },
+    {
+      "trials": 313000000,
+      "matches": 2827344,
+      "estimate": 0.009033047923322683,
+      "elapsed_seconds": 5.123614417010685
+    },
+    {
+      "trials": 314000000,
+      "matches": 2836284,
+      "estimate": 0.009032751592356688,
+      "elapsed_seconds": 5.128829916997347
+    },
+    {
+      "trials": 315000000,
+      "matches": 2845420,
+      "estimate": 0.009033079365079365,
+      "elapsed_seconds": 5.18582025001524
+    },
+    {
+      "trials": 316000000,
+      "matches": 2854466,
+      "estimate": 0.009033120253164557,
+      "elapsed_seconds": 5.185832083021523
+    },
+    {
+      "trials": 317000000,
+      "matches": 2863473,
+      "estimate": 0.00903303785488959,
+      "elapsed_seconds": 5.185837249999167
+    },
+    {
+      "trials": 318000000,
+      "matches": 2872431,
+      "estimate": 0.009032801886792452,
+      "elapsed_seconds": 5.191779333021259
+    },
+    {
+      "trials": 319000000,
+      "matches": 2881467,
+      "estimate": 0.009032811912225705,
+      "elapsed_seconds": 5.1917917499959
+    },
+    {
+      "trials": 320000000,
+      "matches": 2890269,
+      "estimate": 0.009032090625,
+      "elapsed_seconds": 5.216228708013659
+    },
+    {
+      "trials": 321000000,
+      "matches": 2899339,
+      "estimate": 0.009032208722741433,
+      "elapsed_seconds": 5.263354416994844
+    },
+    {
+      "trials": 322000000,
+      "matches": 2908297,
+      "estimate": 0.009031978260869565,
+      "elapsed_seconds": 5.283013875014149
+    },
+    {
+      "trials": 323000000,
+      "matches": 2917165,
+      "estimate": 0.009031470588235294,
+      "elapsed_seconds": 5.322268125019036
+    },
+    {
+      "trials": 324000000,
+      "matches": 2926154,
+      "estimate": 0.009031339506172839,
+      "elapsed_seconds": 5.322279583022464
+    },
+    {
+      "trials": 325000000,
+      "matches": 2935050,
+      "estimate": 0.009030923076923077,
+      "elapsed_seconds": 5.322285583009943
+    },
+    {
+      "trials": 326000000,
+      "matches": 2944136,
+      "estimate": 0.009031092024539878,
+      "elapsed_seconds": 5.32229045801796
+    },
+    {
+      "trials": 327000000,
+      "matches": 2953180,
+      "estimate": 0.009031131498470948,
+      "elapsed_seconds": 5.346033125009853
+    },
+    {
+      "trials": 328000000,
+      "matches": 2962142,
+      "estimate": 0.009030920731707318,
+      "elapsed_seconds": 5.346054042020114
+    },
+    {
+      "trials": 329000000,
+      "matches": 2971261,
+      "estimate": 0.009031188449848024,
+      "elapsed_seconds": 5.3811927500064485
+    },
+    {
+      "trials": 330000000,
+      "matches": 2980253,
+      "estimate": 0.009031069696969696,
+      "elapsed_seconds": 5.414834208000684
+    },
+    {
+      "trials": 331000000,
+      "matches": 2989405,
+      "estimate": 0.009031435045317221,
+      "elapsed_seconds": 5.449703417019919
+    },
+    {
+      "trials": 332000000,
+      "matches": 2998543,
+      "estimate": 0.009031756024096385,
+      "elapsed_seconds": 5.471411667007487
+    },
+    {
+      "trials": 333000000,
+      "matches": 3007598,
+      "estimate": 0.009031825825825826,
+      "elapsed_seconds": 5.471427792013856
+    },
+    {
+      "trials": 334000000,
+      "matches": 3016656,
+      "estimate": 0.009031904191616766,
+      "elapsed_seconds": 5.471433583006728
+    },
+    {
+      "trials": 335000000,
+      "matches": 3025558,
+      "estimate": 0.009031516417910447,
+      "elapsed_seconds": 5.4714385420084
+    },
+    {
+      "trials": 336000000,
+      "matches": 3034745,
+      "estimate": 0.009031979166666667,
+      "elapsed_seconds": 5.471442875015782
+    },
+    {
+      "trials": 337000000,
+      "matches": 3043817,
+      "estimate": 0.009032097922848665,
+      "elapsed_seconds": 5.483779375004815
+    },
+    {
+      "trials": 338000000,
+      "matches": 3052853,
+      "estimate": 0.009032109467455621,
+      "elapsed_seconds": 5.548329417011701
+    },
+    {
+      "trials": 339000000,
+      "matches": 3061670,
+      "estimate": 0.009031474926253688,
+      "elapsed_seconds": 5.562796625017654
+    },
+    {
+      "trials": 340000000,
+      "matches": 3070660,
+      "estimate": 0.009031352941176471,
+      "elapsed_seconds": 5.587491542013595
+    },
+    {
+      "trials": 341000000,
+      "matches": 3079593,
+      "estimate": 0.009031064516129032,
+      "elapsed_seconds": 5.587544500012882
+    },
+    {
+      "trials": 342000000,
+      "matches": 3088565,
+      "estimate": 0.009030891812865496,
+      "elapsed_seconds": 5.587551250006072
+    },
+    {
+      "trials": 343000000,
+      "matches": 3097560,
+      "estimate": 0.009030787172011662,
+      "elapsed_seconds": 5.587556708022021
+    },
+    {
+      "trials": 344000000,
+      "matches": 3106629,
+      "estimate": 0.009030898255813954,
+      "elapsed_seconds": 5.588772000017343
+    },
+    {
+      "trials": 345000000,
+      "matches": 3115639,
+      "estimate": 0.00903083768115942,
+      "elapsed_seconds": 5.58878087499761
+    },
+    {
+      "trials": 346000000,
+      "matches": 3124641,
+      "estimate": 0.009030754335260115,
+      "elapsed_seconds": 5.661083125014557
+    },
+    {
+      "trials": 347000000,
+      "matches": 3133570,
+      "estimate": 0.009030461095100865,
+      "elapsed_seconds": 5.676439083006699
+    },
+    {
+      "trials": 348000000,
+      "matches": 3142568,
+      "estimate": 0.009030367816091954,
+      "elapsed_seconds": 5.686006792006083
+    },
+    {
+      "trials": 349000000,
+      "matches": 3151424,
+      "estimate": 0.009029868194842406,
+      "elapsed_seconds": 5.6974850420083385
+    },
+    {
+      "trials": 350000000,
+      "matches": 3160428,
+      "estimate": 0.009029794285714286,
+      "elapsed_seconds": 5.697498082998209
+    },
+    {
+      "trials": 351000000,
+      "matches": 3169520,
+      "estimate": 0.00902997150997151,
+      "elapsed_seconds": 5.699457167007495
+    },
+    {
+      "trials": 352000000,
+      "matches": 3178501,
+      "estimate": 0.009029832386363637,
+      "elapsed_seconds": 5.71477925000363
+    },
+    {
+      "trials": 353000000,
+      "matches": 3187530,
+      "estimate": 0.009029830028328611,
+      "elapsed_seconds": 5.7147857079980895
+    },
+    {
+      "trials": 354000000,
+      "matches": 3196597,
+      "estimate": 0.009029935028248587,
+      "elapsed_seconds": 5.785857250011759
+    },
+    {
+      "trials": 355000000,
+      "matches": 3205599,
+      "estimate": 0.009029856338028169,
+      "elapsed_seconds": 5.7858691250148695
+    },
+    {
+      "trials": 356000000,
+      "matches": 3214702,
+      "estimate": 0.009030061797752809,
+      "elapsed_seconds": 5.785874749999493
+    },
+    {
+      "trials": 357000000,
+      "matches": 3223762,
+      "estimate": 0.009030145658263305,
+      "elapsed_seconds": 5.789732542005368
+    },
+    {
+      "trials": 358000000,
+      "matches": 3232900,
+      "estimate": 0.009030446927374302,
+      "elapsed_seconds": 5.813963374996092
+    },
+    {
+      "trials": 359000000,
+      "matches": 3241907,
+      "estimate": 0.009030381615598887,
+      "elapsed_seconds": 5.8250340000086
+    },
+    {
+      "trials": 360000000,
+      "matches": 3250875,
+      "estimate": 0.009030208333333333,
+      "elapsed_seconds": 5.830804541998077
+    },
+    {
+      "trials": 361000000,
+      "matches": 3260070,
+      "estimate": 0.009030664819944599,
+      "elapsed_seconds": 5.830873250000877
+    },
+    {
+      "trials": 362000000,
+      "matches": 3269093,
+      "estimate": 0.00903064364640884,
+      "elapsed_seconds": 5.911328333022539
+    },
+    {
+      "trials": 363000000,
+      "matches": 3278237,
+      "estimate": 0.009030955922865014,
+      "elapsed_seconds": 5.9113434580212925
+    },
+    {
+      "trials": 364000000,
+      "matches": 3287246,
+      "estimate": 0.009030895604395604,
+      "elapsed_seconds": 5.911352082999656
+    },
+    {
+      "trials": 365000000,
+      "matches": 3296244,
+      "estimate": 0.009030805479452056,
+      "elapsed_seconds": 5.921535208006389
+    },
+    {
+      "trials": 366000000,
+      "matches": 3305155,
+      "estimate": 0.009030478142076503,
+      "elapsed_seconds": 5.934872208017623
+    },
+    {
+      "trials": 367000000,
+      "matches": 3314248,
+      "estimate": 0.009030648501362398,
+      "elapsed_seconds": 5.934942499996396
+    },
+    {
+      "trials": 368000000,
+      "matches": 3323115,
+      "estimate": 0.009030203804347827,
+      "elapsed_seconds": 5.934948667010758
+    },
+    {
+      "trials": 369000000,
+      "matches": 3332208,
+      "estimate": 0.009030373983739837,
+      "elapsed_seconds": 5.948295458016219
+    },
+    {
+      "trials": 370000000,
+      "matches": 3341202,
+      "estimate": 0.009030275675675676,
+      "elapsed_seconds": 6.0167785420198925
+    },
+    {
+      "trials": 371000000,
+      "matches": 3350229,
+      "estimate": 0.009030266846361186,
+      "elapsed_seconds": 6.016825583006721
+    },
+    {
+      "trials": 372000000,
+      "matches": 3359179,
+      "estimate": 0.009030051075268818,
+      "elapsed_seconds": 6.0452240419981536
+    },
+    {
+      "trials": 373000000,
+      "matches": 3368251,
+      "estimate": 0.009030163538873995,
+      "elapsed_seconds": 6.0452415000181645
+    },
+    {
+      "trials": 374000000,
+      "matches": 3377261,
+      "estimate": 0.009030109625668449,
+      "elapsed_seconds": 6.088125750015024
+    },
+    {
+      "trials": 375000000,
+      "matches": 3386221,
+      "estimate": 0.009029922666666667,
+      "elapsed_seconds": 6.088137875020038
+    },
+    {
+      "trials": 376000000,
+      "matches": 3395243,
+      "estimate": 0.009029901595744681,
+      "elapsed_seconds": 6.088143125001807
+    },
+    {
+      "trials": 377000000,
+      "matches": 3404258,
+      "estimate": 0.009029862068965517,
+      "elapsed_seconds": 6.088147833012044
+    },
+    {
+      "trials": 378000000,
+      "matches": 3413239,
+      "estimate": 0.009029732804232804,
+      "elapsed_seconds": 6.135827833000803
+    },
+    {
+      "trials": 379000000,
+      "matches": 3422296,
+      "estimate": 0.00902980474934037,
+      "elapsed_seconds": 6.135841583018191
+    },
+    {
+      "trials": 380000000,
+      "matches": 3431205,
+      "estimate": 0.009029486842105264,
+      "elapsed_seconds": 6.168236583005637
+    },
+    {
+      "trials": 381000000,
+      "matches": 3440166,
+      "estimate": 0.009029307086614173,
+      "elapsed_seconds": 6.172697208006866
+    },
+    {
+      "trials": 382000000,
+      "matches": 3449144,
+      "estimate": 0.00902917277486911,
+      "elapsed_seconds": 6.180847083014669
+    },
+    {
+      "trials": 383000000,
+      "matches": 3458268,
+      "estimate": 0.009029420365535248,
+      "elapsed_seconds": 6.180859167012386
+    },
+    {
+      "trials": 384000000,
+      "matches": 3467261,
+      "estimate": 0.009029325520833333,
+      "elapsed_seconds": 6.1850668330152985
+    },
+    {
+      "trials": 385000000,
+      "matches": 3476302,
+      "estimate": 0.009029355844155844,
+      "elapsed_seconds": 6.232080582994968
+    },
+    {
+      "trials": 386000000,
+      "matches": 3485235,
+      "estimate": 0.00902910621761658,
+      "elapsed_seconds": 6.259934417001205
+    },
+    {
+      "trials": 387000000,
+      "matches": 3494290,
+      "estimate": 0.009029173126614987,
+      "elapsed_seconds": 6.260316667001462
+    },
+    {
+      "trials": 388000000,
+      "matches": 3503426,
+      "estimate": 0.009029448453608247,
+      "elapsed_seconds": 6.280279833008535
+    },
+    {
+      "trials": 389000000,
+      "matches": 3512373,
+      "estimate": 0.009029236503856041,
+      "elapsed_seconds": 6.280298124998808
+    },
+    {
+      "trials": 390000000,
+      "matches": 3521211,
+      "estimate": 0.009028746153846154,
+      "elapsed_seconds": 6.280303667008411
+    },
+    {
+      "trials": 391000000,
+      "matches": 3530197,
+      "estimate": 0.009028636828644502,
+      "elapsed_seconds": 6.280458458000794
+    },
+    {
+      "trials": 392000000,
+      "matches": 3539060,
+      "estimate": 0.009028214285714285,
+      "elapsed_seconds": 6.301365167018957
+    },
+    {
+      "trials": 393000000,
+      "matches": 3548178,
+      "estimate": 0.009028442748091604,
+      "elapsed_seconds": 6.3435091249994
+    },
+    {
+      "trials": 394000000,
+      "matches": 3557388,
+      "estimate": 0.009028903553299493,
+      "elapsed_seconds": 6.372449832997518
+    },
+    {
+      "trials": 395000000,
+      "matches": 3566522,
+      "estimate": 0.009029169620253165,
+      "elapsed_seconds": 6.372465374995954
+    },
+    {
+      "trials": 396000000,
+      "matches": 3575492,
+      "estimate": 0.009029020202020201,
+      "elapsed_seconds": 6.424236624996411
+    },
+    {
+      "trials": 397000000,
+      "matches": 3584570,
+      "estimate": 0.009029143576826196,
+      "elapsed_seconds": 6.424253750010394
+    },
+    {
+      "trials": 398000000,
+      "matches": 3593642,
+      "estimate": 0.009029251256281408,
+      "elapsed_seconds": 6.424259958002949
+    },
+    {
+      "trials": 399000000,
+      "matches": 3602803,
+      "estimate": 0.009029581453634085,
+      "elapsed_seconds": 6.424264958011918
+    },
+    {
+      "trials": 400000000,
+      "matches": 3611840,
+      "estimate": 0.0090296,
+      "elapsed_seconds": 6.436041000008117
+    },
+    {
+      "trials": 401000000,
+      "matches": 3620918,
+      "estimate": 0.009029720698254364,
+      "elapsed_seconds": 6.480924667004729
+    },
+    {
+      "trials": 402000000,
+      "matches": 3629911,
+      "estimate": 0.00902962935323383,
+      "elapsed_seconds": 6.4895524170133285
+    },
+    {
+      "trials": 403000000,
+      "matches": 3638938,
+      "estimate": 0.009029622828784119,
+      "elapsed_seconds": 6.5353202919941396
+    },
+    {
+      "trials": 404000000,
+      "matches": 3648016,
+      "estimate": 0.009029742574257425,
+      "elapsed_seconds": 6.535326833021827
+    },
+    {
+      "trials": 405000000,
+      "matches": 3657088,
+      "estimate": 0.009029846913580247,
+      "elapsed_seconds": 6.542436707997695
+    },
+    {
+      "trials": 406000000,
+      "matches": 3666036,
+      "estimate": 0.009029645320197044,
+      "elapsed_seconds": 6.58295562499552
+    },
+    {
+      "trials": 407000000,
+      "matches": 3675060,
+      "estimate": 0.00902963144963145,
+      "elapsed_seconds": 6.591704542021034
+    },
+    {
+      "trials": 408000000,
+      "matches": 3683915,
+      "estimate": 0.009029203431372548,
+      "elapsed_seconds": 6.59262562499498
+    },
+    {
+      "trials": 409000000,
+      "matches": 3692971,
+      "estimate": 0.009029268948655257,
+      "elapsed_seconds": 6.593248874996789
+    },
+    {
+      "trials": 410000000,
+      "matches": 3702139,
+      "estimate": 0.00902960731707317,
+      "elapsed_seconds": 6.629988667002181
+    },
+    {
+      "trials": 411000000,
+      "matches": 3711037,
+      "estimate": 0.009029287104622872,
+      "elapsed_seconds": 6.668007000000216
+    },
+    {
+      "trials": 412000000,
+      "matches": 3720130,
+      "estimate": 0.009029441747572815,
+      "elapsed_seconds": 6.6680200830160175
+    },
+    {
+      "trials": 413000000,
+      "matches": 3729296,
+      "estimate": 0.00902977239709443,
+      "elapsed_seconds": 6.68030941701727
+    },
+    {
+      "trials": 414000000,
+      "matches": 3738295,
+      "estimate": 0.00902969806763285,
+      "elapsed_seconds": 6.734863292018417
+    },
+    {
+      "trials": 415000000,
+      "matches": 3747386,
+      "estimate": 0.009029845783132531,
+      "elapsed_seconds": 6.739722917001927
+    },
+    {
+      "trials": 416000000,
+      "matches": 3756289,
+      "estimate": 0.009029540865384615,
+      "elapsed_seconds": 6.739730667002732
+    },
+    {
+      "trials": 417000000,
+      "matches": 3765183,
+      "estimate": 0.009029215827338129,
+      "elapsed_seconds": 6.739891000004718
+    },
+    {
+      "trials": 418000000,
+      "matches": 3774279,
+      "estimate": 0.009029375598086125,
+      "elapsed_seconds": 6.7401232499978505
+    },
+    {
+      "trials": 419000000,
+      "matches": 3783496,
+      "estimate": 0.00902982338902148,
+      "elapsed_seconds": 6.775798000016948
+    },
+    {
+      "trials": 420000000,
+      "matches": 3792437,
+      "estimate": 0.009029611904761904,
+      "elapsed_seconds": 6.803542958019534
+    },
+    {
+      "trials": 421000000,
+      "matches": 3801552,
+      "estimate": 0.009029814726840855,
+      "elapsed_seconds": 6.820148500002688
+    },
+    {
+      "trials": 422000000,
+      "matches": 3810706,
+      "estimate": 0.009030109004739337,
+      "elapsed_seconds": 6.820160542003578
+    },
+    {
+      "trials": 423000000,
+      "matches": 3819809,
+      "estimate": 0.009030281323877069,
+      "elapsed_seconds": 6.839791583013721
+    },
+    {
+      "trials": 424000000,
+      "matches": 3828919,
+      "estimate": 0.009030469339622642,
+      "elapsed_seconds": 6.850925625010859
+    },
+    {
+      "trials": 425000000,
+      "matches": 3837968,
+      "estimate": 0.009030512941176471,
+      "elapsed_seconds": 6.864012375008315
+    },
+    {
+      "trials": 426000000,
+      "matches": 3847119,
+      "estimate": 0.009030795774647887,
+      "elapsed_seconds": 6.900863457995001
+    },
+    {
+      "trials": 427000000,
+      "matches": 3856142,
+      "estimate": 0.009030777517564403,
+      "elapsed_seconds": 6.955849833000684
+    },
+    {
+      "trials": 428000000,
+      "matches": 3865106,
+      "estimate": 0.009030621495327103,
+      "elapsed_seconds": 6.955859125009738
+    },
+    {
+      "trials": 429000000,
+      "matches": 3874328,
+      "estimate": 0.0090310675990676,
+      "elapsed_seconds": 6.962432166998042
+    },
+    {
+      "trials": 430000000,
+      "matches": 3883186,
+      "estimate": 0.00903066511627907,
+      "elapsed_seconds": 6.966756958019687
+    },
+    {
+      "trials": 431000000,
+      "matches": 3892103,
+      "estimate": 0.009030401392111368,
+      "elapsed_seconds": 6.974045958020724
+    },
+    {
+      "trials": 432000000,
+      "matches": 3901304,
+      "estimate": 0.009030796296296295,
+      "elapsed_seconds": 7.013242125016404
+    },
+    {
+      "trials": 433000000,
+      "matches": 3910306,
+      "estimate": 0.009030729792147805,
+      "elapsed_seconds": 7.0132563750084955
+    },
+    {
+      "trials": 434000000,
+      "matches": 3919396,
+      "estimate": 0.009030866359447005,
+      "elapsed_seconds": 7.016327332996298
+    },
+    {
+      "trials": 435000000,
+      "matches": 3928541,
+      "estimate": 0.009031128735632185,
+      "elapsed_seconds": 7.033934542007046
+    },
+    {
+      "trials": 436000000,
+      "matches": 3937591,
+      "estimate": 0.009031172018348623,
+      "elapsed_seconds": 7.096694667008705
+    },
+    {
+      "trials": 437000000,
+      "matches": 3946526,
+      "estimate": 0.009030951945080091,
+      "elapsed_seconds": 7.096714292012621
+    },
+    {
+      "trials": 438000000,
+      "matches": 3955443,
+      "estimate": 0.009030691780821918,
+      "elapsed_seconds": 7.1087247079994995
+    },
+    {
+      "trials": 439000000,
+      "matches": 3964490,
+      "estimate": 0.009030728929384967,
+      "elapsed_seconds": 7.108733500004746
+    },
+    {
+      "trials": 440000000,
+      "matches": 3973257,
+      "estimate": 0.009030129545454546,
+      "elapsed_seconds": 7.116042917012237
+    },
+    {
+      "trials": 441000000,
+      "matches": 3982116,
+      "estimate": 0.00902974149659864,
+      "elapsed_seconds": 7.137247667007614
+    },
+    {
+      "trials": 442000000,
+      "matches": 3991166,
+      "estimate": 0.009029787330316742,
+      "elapsed_seconds": 7.166324417019496
+    },
+    {
+      "trials": 443000000,
+      "matches": 4000045,
+      "estimate": 0.009029446952595936,
+      "elapsed_seconds": 7.1663380000100005
+    },
+    {
+      "trials": 444000000,
+      "matches": 4009047,
+      "estimate": 0.009029385135135135,
+      "elapsed_seconds": 7.198436083010165
+    },
+    {
+      "trials": 445000000,
+      "matches": 4017983,
+      "estimate": 0.009029175280898876,
+      "elapsed_seconds": 7.2546522920019925
+    },
+    {
+      "trials": 446000000,
+      "matches": 4026895,
+      "estimate": 0.009028912556053812,
+      "elapsed_seconds": 7.254678375000367
+    },
+    {
+      "trials": 447000000,
+      "matches": 4035858,
+      "estimate": 0.009028765100671141,
+      "elapsed_seconds": 7.254684625018854
+    },
+    {
+      "trials": 448000000,
+      "matches": 4044880,
+      "estimate": 0.00902875,
+      "elapsed_seconds": 7.272328667022521
+    },
+    {
+      "trials": 449000000,
+      "matches": 4053745,
+      "estimate": 0.009028385300668152,
+      "elapsed_seconds": 7.272889000014402
+    },
+    {
+      "trials": 450000000,
+      "matches": 4062798,
+      "estimate": 0.00902844,
+      "elapsed_seconds": 7.297807916998863
+    },
+    {
+      "trials": 451000000,
+      "matches": 4071781,
+      "estimate": 0.009028339246119734,
+      "elapsed_seconds": 7.312140541995177
+    },
+    {
+      "trials": 452000000,
+      "matches": 4080811,
+      "estimate": 0.009028342920353982,
+      "elapsed_seconds": 7.337874749995535
+    },
+    {
+      "trials": 453000000,
+      "matches": 4090024,
+      "estimate": 0.00902875055187638,
+      "elapsed_seconds": 7.339586208021501
+    },
+    {
+      "trials": 454000000,
+      "matches": 4099150,
+      "estimate": 0.009028964757709252,
+      "elapsed_seconds": 7.339597667014459
+    },
+    {
+      "trials": 455000000,
+      "matches": 4108246,
+      "estimate": 0.009029112087912088,
+      "elapsed_seconds": 7.376698208012385
+    },
+    {
+      "trials": 456000000,
+      "matches": 4117317,
+      "estimate": 0.009029203947368421,
+      "elapsed_seconds": 7.381815250002546
+    },
+    {
+      "trials": 457000000,
+      "matches": 4126426,
+      "estimate": 0.009029378555798688,
+      "elapsed_seconds": 7.385282500006724
+    },
+    {
+      "trials": 458000000,
+      "matches": 4135351,
+      "estimate": 0.009029150655021833,
+      "elapsed_seconds": 7.420645500009414
+    },
+    {
+      "trials": 459000000,
+      "matches": 4144403,
+      "estimate": 0.009029200435729847,
+      "elapsed_seconds": 7.444239167001797
+    },
+    {
+      "trials": 460000000,
+      "matches": 4153358,
+      "estimate": 0.009029039130434782,
+      "elapsed_seconds": 7.4790548750024755
+    },
+    {
+      "trials": 461000000,
+      "matches": 4162413,
+      "estimate": 0.009029095444685466,
+      "elapsed_seconds": 7.479125625017332
+    },
+    {
+      "trials": 462000000,
+      "matches": 4171528,
+      "estimate": 0.009029281385281385,
+      "elapsed_seconds": 7.4791351669991855
+    },
+    {
+      "trials": 463000000,
+      "matches": 4180829,
+      "estimate": 0.009029868250539957,
+      "elapsed_seconds": 7.500523750000866
+    },
+    {
+      "trials": 464000000,
+      "matches": 4189765,
+      "estimate": 0.009029665948275862,
+      "elapsed_seconds": 7.500534916995093
+    },
+    {
+      "trials": 465000000,
+      "matches": 4198905,
+      "estimate": 0.009029903225806452,
+      "elapsed_seconds": 7.515459250018466
+    },
+    {
+      "trials": 466000000,
+      "matches": 4207990,
+      "estimate": 0.009030021459227468,
+      "elapsed_seconds": 7.522440125001594
+    },
+    {
+      "trials": 467000000,
+      "matches": 4216963,
+      "estimate": 0.009029899357601713,
+      "elapsed_seconds": 7.547376542002894
+    },
+    {
+      "trials": 468000000,
+      "matches": 4226069,
+      "estimate": 0.009030061965811966,
+      "elapsed_seconds": 7.547390332998475
+    },
+    {
+      "trials": 469000000,
+      "matches": 4234954,
+      "estimate": 0.009029752665245203,
+      "elapsed_seconds": 7.571457292011473
+    },
+    {
+      "trials": 470000000,
+      "matches": 4244164,
+      "estimate": 0.009030136170212765,
+      "elapsed_seconds": 7.599603125010617
+    },
+    {
+      "trials": 471000000,
+      "matches": 4253313,
+      "estimate": 0.009030388535031847,
+      "elapsed_seconds": 7.632918917021016
+    },
+    {
+      "trials": 472000000,
+      "matches": 4262314,
+      "estimate": 0.009030326271186441,
+      "elapsed_seconds": 7.6329272919974755
+    },
+    {
+      "trials": 473000000,
+      "matches": 4271181,
+      "estimate": 0.009029980972515856,
+      "elapsed_seconds": 7.653885333013022
+    },
+    {
+      "trials": 474000000,
+      "matches": 4280016,
+      "estimate": 0.009029569620253164,
+      "elapsed_seconds": 7.653897958021844
+    },
+    {
+      "trials": 475000000,
+      "matches": 4288902,
+      "estimate": 0.009029267368421053,
+      "elapsed_seconds": 7.653903792001074
+    },
+    {
+      "trials": 476000000,
+      "matches": 4297830,
+      "estimate": 0.009029054621848739,
+      "elapsed_seconds": 7.6668673749954905
+    },
+    {
+      "trials": 477000000,
+      "matches": 4306902,
+      "estimate": 0.00902914465408805,
+      "elapsed_seconds": 7.695768750010757
+    },
+    {
+      "trials": 478000000,
+      "matches": 4316011,
+      "estimate": 0.00902931171548117,
+      "elapsed_seconds": 7.743926333001582
+    },
+    {
+      "trials": 479000000,
+      "matches": 4325247,
+      "estimate": 0.009029743215031315,
+      "elapsed_seconds": 7.7439395830151625
+    },
+    {
+      "trials": 480000000,
+      "matches": 4334395,
+      "estimate": 0.009029989583333333,
+      "elapsed_seconds": 7.749739207996754
+    },
+    {
+      "trials": 481000000,
+      "matches": 4343464,
+      "estimate": 0.009030070686070686,
+      "elapsed_seconds": 7.749884792021476
+    },
+    {
+      "trials": 482000000,
+      "matches": 4352374,
+      "estimate": 0.009029821576763486,
+      "elapsed_seconds": 7.771448500017868
+    },
+    {
+      "trials": 483000000,
+      "matches": 4361237,
+      "estimate": 0.00902947619047619,
+      "elapsed_seconds": 7.771460832998855
+    },
+    {
+      "trials": 484000000,
+      "matches": 4370036,
+      "estimate": 0.009029,
+      "elapsed_seconds": 7.775924333021976
+    },
+    {
+      "trials": 485000000,
+      "matches": 4379057,
+      "estimate": 0.00902898350515464,
+      "elapsed_seconds": 7.805763458018191
+    },
+    {
+      "trials": 486000000,
+      "matches": 4388046,
+      "estimate": 0.0090289012345679,
+      "elapsed_seconds": 7.839981416997034
+    },
+    {
+      "trials": 487000000,
+      "matches": 4396904,
+      "estimate": 0.009028550308008214,
+      "elapsed_seconds": 7.853427333000582
+    },
+    {
+      "trials": 488000000,
+      "matches": 4406040,
+      "estimate": 0.009028770491803279,
+      "elapsed_seconds": 7.860103375016479
+    },
+    {
+      "trials": 489000000,
+      "matches": 4415272,
+      "estimate": 0.00902918609406953,
+      "elapsed_seconds": 7.862420417019166
+    },
+    {
+      "trials": 490000000,
+      "matches": 4424305,
+      "estimate": 0.009029193877551021,
+      "elapsed_seconds": 7.866767917003017
+    },
+    {
+      "trials": 491000000,
+      "matches": 4433256,
+      "estimate": 0.009029034623217923,
+      "elapsed_seconds": 7.892106542014517
+    },
+    {
+      "trials": 492000000,
+      "matches": 4442517,
+      "estimate": 0.009029506097560976,
+      "elapsed_seconds": 7.897165333008161
+    },
+    {
+      "trials": 493000000,
+      "matches": 4451554,
+      "estimate": 0.009029521298174442,
+      "elapsed_seconds": 7.936435750016244
+    },
+    {
+      "trials": 494000000,
+      "matches": 4460689,
+      "estimate": 0.009029734817813766,
+      "elapsed_seconds": 7.9770002080185805
+    },
+    {
+      "trials": 495000000,
+      "matches": 4469664,
+      "estimate": 0.009029624242424242,
+      "elapsed_seconds": 7.977010125003289
+    },
+    {
+      "trials": 496000000,
+      "matches": 4478765,
+      "estimate": 0.00902976814516129,
+      "elapsed_seconds": 7.993482707999647
+    },
+    {
+      "trials": 497000000,
+      "matches": 4487808,
+      "estimate": 0.00902979476861167,
+      "elapsed_seconds": 8.011336208001012
+    },
+    {
+      "trials": 498000000,
+      "matches": 4496717,
+      "estimate": 0.009029552208835341,
+      "elapsed_seconds": 8.011360875010723
+    },
+    {
+      "trials": 499000000,
+      "matches": 4505765,
+      "estimate": 0.009029589178356714,
+      "elapsed_seconds": 8.011366582999472
+    },
+    {
+      "trials": 500000000,
+      "matches": 4514767,
+      "estimate": 0.009029534,
+      "elapsed_seconds": 8.011371333006537
+    },
+    {
+      "trials": 501000000,
+      "matches": 4523959,
+      "estimate": 0.009029858283433135,
+      "elapsed_seconds": 8.033029208017979
+    },
+    {
+      "trials": 502000000,
+      "matches": 4533081,
+      "estimate": 0.009030041832669323,
+      "elapsed_seconds": 8.069317375018727
+    },
+    {
+      "trials": 503000000,
+      "matches": 4542127,
+      "estimate": 0.009030073558648112,
+      "elapsed_seconds": 8.09069887502119
+    },
+    {
+      "trials": 504000000,
+      "matches": 4551308,
+      "estimate": 0.009030373015873016,
+      "elapsed_seconds": 8.10410716701881
+    },
+    {
+      "trials": 505000000,
+      "matches": 4560345,
+      "estimate": 0.009030386138613861,
+      "elapsed_seconds": 8.108785542019177
+    },
+    {
+      "trials": 506000000,
+      "matches": 4569448,
+      "estimate": 0.009030529644268774,
+      "elapsed_seconds": 8.108797583001433
+    },
+    {
+      "trials": 507000000,
+      "matches": 4578594,
+      "estimate": 0.009030757396449703,
+      "elapsed_seconds": 8.108803500013892
+    },
+    {
+      "trials": 508000000,
+      "matches": 4587634,
+      "estimate": 0.00903077559055118,
+      "elapsed_seconds": 8.108807958022226
+    },
+    {
+      "trials": 509000000,
+      "matches": 4596784,
+      "estimate": 0.00903100982318271,
+      "elapsed_seconds": 8.159092000016244
+    },
+    {
+      "trials": 510000000,
+      "matches": 4605931,
+      "estimate": 0.009031237254901962,
+      "elapsed_seconds": 8.284166541998275
+    },
+    {
+      "trials": 511000000,
+      "matches": 4614913,
+      "estimate": 0.009031140900195694,
+      "elapsed_seconds": 8.28421791701112
+    },
+    {
+      "trials": 512000000,
+      "matches": 4623970,
+      "estimate": 0.00903119140625,
+      "elapsed_seconds": 8.284228958014864
+    },
+    {
+      "trials": 513000000,
+      "matches": 4633074,
+      "estimate": 0.009031333333333334,
+      "elapsed_seconds": 8.28423416701844
+    },
+    {
+      "trials": 514000000,
+      "matches": 4642095,
+      "estimate": 0.009031313229571984,
+      "elapsed_seconds": 8.284239125001477
+    },
+    {
+      "trials": 515000000,
+      "matches": 4651108,
+      "estimate": 0.009031277669902913,
+      "elapsed_seconds": 8.28424329200061
+    },
+    {
+      "trials": 516000000,
+      "matches": 4660147,
+      "estimate": 0.009031292635658914,
+      "elapsed_seconds": 8.284247375006089
+    },
+    {
+      "trials": 517000000,
+      "matches": 4669036,
+      "estimate": 0.00903101740812379,
+      "elapsed_seconds": 8.284251208009664
+    },
+    {
+      "trials": 518000000,
+      "matches": 4678006,
+      "estimate": 0.009030899613899614,
+      "elapsed_seconds": 8.295565250009531
+    },
+    {
+      "trials": 519000000,
+      "matches": 4687017,
+      "estimate": 0.0090308612716763,
+      "elapsed_seconds": 8.30001491701114
+    },
+    {
+      "trials": 520000000,
+      "matches": 4696158,
+      "estimate": 0.009031073076923076,
+      "elapsed_seconds": 8.34972770800232
+    },
+    {
+      "trials": 521000000,
+      "matches": 4705381,
+      "estimate": 0.009031441458733205,
+      "elapsed_seconds": 8.349786625010893
+    },
+    {
+      "trials": 522000000,
+      "matches": 4714391,
+      "estimate": 0.009031400383141763,
+      "elapsed_seconds": 8.349795999994967
+    },
+    {
+      "trials": 523000000,
+      "matches": 4723439,
+      "estimate": 0.009031432122370937,
+      "elapsed_seconds": 8.349801375006791
+    },
+    {
+      "trials": 524000000,
+      "matches": 4732484,
+      "estimate": 0.009031458015267176,
+      "elapsed_seconds": 8.34980620801798
+    },
+    {
+      "trials": 525000000,
+      "matches": 4741474,
+      "estimate": 0.009031379047619048,
+      "elapsed_seconds": 8.40997970799799
+    },
+    {
+      "trials": 526000000,
+      "matches": 4750465,
+      "estimate": 0.009031302281368822,
+      "elapsed_seconds": 8.409992417000467
+    },
+    {
+      "trials": 527000000,
+      "matches": 4759528,
+      "estimate": 0.009031362428842504,
+      "elapsed_seconds": 8.40999812501832
+    },
+    {
+      "trials": 528000000,
+      "matches": 4768701,
+      "estimate": 0.009031630681818182,
+      "elapsed_seconds": 8.41923958301777
+    },
+    {
+      "trials": 529000000,
+      "matches": 4777681,
+      "estimate": 0.009031533081285445,
+      "elapsed_seconds": 8.433292125002481
+    },
+    {
+      "trials": 530000000,
+      "matches": 4786766,
+      "estimate": 0.009031633962264151,
+      "elapsed_seconds": 8.44413466702099
+    },
+    {
+      "trials": 531000000,
+      "matches": 4795772,
+      "estimate": 0.009031585687382297,
+      "elapsed_seconds": 8.444302500021877
+    },
+    {
+      "trials": 532000000,
+      "matches": 4804753,
+      "estimate": 0.00903149060150376,
+      "elapsed_seconds": 8.470144958002493
+    },
+    {
+      "trials": 533000000,
+      "matches": 4813842,
+      "estimate": 0.009031598499061913,
+      "elapsed_seconds": 8.492424374999246
+    },
+    {
+      "trials": 534000000,
+      "matches": 4822874,
+      "estimate": 0.00903159925093633,
+      "elapsed_seconds": 8.492436583008384
+    },
+    {
+      "trials": 535000000,
+      "matches": 4831848,
+      "estimate": 0.009031491588785046,
+      "elapsed_seconds": 8.559626166999806
+    },
+    {
+      "trials": 536000000,
+      "matches": 4840888,
+      "estimate": 0.009031507462686567,
+      "elapsed_seconds": 8.559642708016327
+    },
+    {
+      "trials": 537000000,
+      "matches": 4849947,
+      "estimate": 0.009031558659217877,
+      "elapsed_seconds": 8.587755417014705
+    },
+    {
+      "trials": 538000000,
+      "matches": 4859140,
+      "estimate": 0.00903185873605948,
+      "elapsed_seconds": 8.587773417006247
+    },
+    {
+      "trials": 539000000,
+      "matches": 4868041,
+      "estimate": 0.009031615955473098,
+      "elapsed_seconds": 8.587779082998168
+    },
+    {
+      "trials": 540000000,
+      "matches": 4877047,
+      "estimate": 0.009031568518518518,
+      "elapsed_seconds": 8.588815499999328
+    },
+    {
+      "trials": 541000000,
+      "matches": 4885980,
+      "estimate": 0.009031386321626617,
+      "elapsed_seconds": 8.60022745799506
+    },
+    {
+      "trials": 542000000,
+      "matches": 4895018,
+      "estimate": 0.00903139852398524,
+      "elapsed_seconds": 8.628955666994443
+    },
+    {
+      "trials": 543000000,
+      "matches": 4903921,
+      "estimate": 0.009031162062615101,
+      "elapsed_seconds": 8.645406666997587
+    },
+    {
+      "trials": 544000000,
+      "matches": 4912891,
+      "estimate": 0.009031049632352942,
+      "elapsed_seconds": 8.647491708019515
+    },
+    {
+      "trials": 545000000,
+      "matches": 4921951,
+      "estimate": 0.009031102752293577,
+      "elapsed_seconds": 8.709099041996524
+    },
+    {
+      "trials": 546000000,
+      "matches": 4930990,
+      "estimate": 0.009031117216117216,
+      "elapsed_seconds": 8.709117250022246
+    },
+    {
+      "trials": 547000000,
+      "matches": 4939911,
+      "estimate": 0.009030915904936015,
+      "elapsed_seconds": 8.7091231670056
+    },
+    {
+      "trials": 548000000,
+      "matches": 4949031,
+      "estimate": 0.009031078467153284,
+      "elapsed_seconds": 8.739219417009735
+    },
+    {
+      "trials": 549000000,
+      "matches": 4958068,
+      "estimate": 0.009031089253187614,
+      "elapsed_seconds": 8.739229458005866
+    },
+    {
+      "trials": 550000000,
+      "matches": 4967074,
+      "estimate": 0.009031043636363636,
+      "elapsed_seconds": 8.760077125014504
+    },
+    {
+      "trials": 551000000,
+      "matches": 4976284,
+      "estimate": 0.009031368421052632,
+      "elapsed_seconds": 8.76012258301489
+    },
+    {
+      "trials": 552000000,
+      "matches": 4985429,
+      "estimate": 0.009031574275362319,
+      "elapsed_seconds": 8.760129250003956
+    },
+    {
+      "trials": 553000000,
+      "matches": 4994373,
+      "estimate": 0.009031415913200723,
+      "elapsed_seconds": 8.78741925000213
+    },
+    {
+      "trials": 554000000,
+      "matches": 5003401,
+      "estimate": 0.00903140974729242,
+      "elapsed_seconds": 8.787430625001434
+    },
+    {
+      "trials": 555000000,
+      "matches": 5012514,
+      "estimate": 0.009031556756756758,
+      "elapsed_seconds": 8.807689875015058
+    },
+    {
+      "trials": 556000000,
+      "matches": 5021575,
+      "estimate": 0.009031609712230215,
+      "elapsed_seconds": 8.807702292018803
+    },
+    {
+      "trials": 557000000,
+      "matches": 5030604,
+      "estimate": 0.009031605026929982,
+      "elapsed_seconds": 8.841808583005331
+    },
+    {
+      "trials": 558000000,
+      "matches": 5039559,
+      "estimate": 0.009031467741935483,
+      "elapsed_seconds": 8.856003583001439
+    },
+    {
+      "trials": 559000000,
+      "matches": 5048602,
+      "estimate": 0.009031488372093024,
+      "elapsed_seconds": 8.866966708010295
+    },
+    {
+      "trials": 560000000,
+      "matches": 5057597,
+      "estimate": 0.009031423214285714,
+      "elapsed_seconds": 8.868930083001032
+    },
+    {
+      "trials": 561000000,
+      "matches": 5066550,
+      "estimate": 0.009031283422459893,
+      "elapsed_seconds": 8.903942000004463
+    },
+    {
+      "trials": 562000000,
+      "matches": 5075547,
+      "estimate": 0.009031222419928826,
+      "elapsed_seconds": 8.932021583023015
+    },
+    {
+      "trials": 563000000,
+      "matches": 5084704,
+      "estimate": 0.009031445825932504,
+      "elapsed_seconds": 8.932031292002648
+    },
+    {
+      "trials": 564000000,
+      "matches": 5093631,
+      "estimate": 0.009031260638297872,
+      "elapsed_seconds": 8.932033874996705
+    },
+    {
+      "trials": 565000000,
+      "matches": 5102589,
+      "estimate": 0.009031130973451328,
+      "elapsed_seconds": 8.948365083022509
+    },
+    {
+      "trials": 566000000,
+      "matches": 5111552,
+      "estimate": 0.009031010600706714,
+      "elapsed_seconds": 8.994690874998923
+    },
+    {
+      "trials": 567000000,
+      "matches": 5120534,
+      "estimate": 0.009030924162257495,
+      "elapsed_seconds": 9.049572667019675
+    },
+    {
+      "trials": 568000000,
+      "matches": 5129631,
+      "estimate": 0.009031040492957746,
+      "elapsed_seconds": 9.049580542021431
+    },
+    {
+      "trials": 569000000,
+      "matches": 5138723,
+      "estimate": 0.00903114762741652,
+      "elapsed_seconds": 9.049583000014536
+    },
+    {
+      "trials": 570000000,
+      "matches": 5147864,
+      "estimate": 0.009031340350877192,
+      "elapsed_seconds": 9.049584666994633
+    },
+    {
+      "trials": 571000000,
+      "matches": 5156966,
+      "estimate": 0.009031464098073556,
+      "elapsed_seconds": 9.049610375019256
+    },
+    {
+      "trials": 572000000,
+      "matches": 5166149,
+      "estimate": 0.009031729020979021,
+      "elapsed_seconds": 9.05098483301117
+    },
+    {
+      "trials": 573000000,
+      "matches": 5175199,
+      "estimate": 0.009031760907504363,
+      "elapsed_seconds": 9.07043879199773
+    },
+    {
+      "trials": 574000000,
+      "matches": 5184317,
+      "estimate": 0.009031911149825784,
+      "elapsed_seconds": 9.089077542012092
+    },
+    {
+      "trials": 575000000,
+      "matches": 5193424,
+      "estimate": 0.009032041739130435,
+      "elapsed_seconds": 9.096527667017654
+    },
+    {
+      "trials": 576000000,
+      "matches": 5202369,
+      "estimate": 0.009031890625,
+      "elapsed_seconds": 9.121486000018194
+    },
+    {
+      "trials": 577000000,
+      "matches": 5211506,
+      "estimate": 0.009032072790294627,
+      "elapsed_seconds": 9.121695792011451
+    },
+    {
+      "trials": 578000000,
+      "matches": 5220450,
+      "estimate": 0.009031920415224914,
+      "elapsed_seconds": 9.12170333301765
+    },
+    {
+      "trials": 579000000,
+      "matches": 5229482,
+      "estimate": 0.00903192055267703,
+      "elapsed_seconds": 9.138448500016239
+    },
+    {
+      "trials": 580000000,
+      "matches": 5238464,
+      "estimate": 0.00903183448275862,
+      "elapsed_seconds": 9.154404625005554
+    },
+    {
+      "trials": 581000000,
+      "matches": 5247461,
+      "estimate": 0.009031774526678141,
+      "elapsed_seconds": 9.180753874999937
+    },
+    {
+      "trials": 582000000,
+      "matches": 5256470,
+      "estimate": 0.009031735395189004,
+      "elapsed_seconds": 9.188515625020955
+    },
+    {
+      "trials": 583000000,
+      "matches": 5265621,
+      "estimate": 0.009031939965694683,
+      "elapsed_seconds": 9.203776167007163
+    },
+    {
+      "trials": 584000000,
+      "matches": 5274708,
+      "estimate": 0.009032034246575343,
+      "elapsed_seconds": 9.233603208005661
+    },
+    {
+      "trials": 585000000,
+      "matches": 5283823,
+      "estimate": 0.009032176068376068,
+      "elapsed_seconds": 9.235241208021762
+    },
+    {
+      "trials": 586000000,
+      "matches": 5292886,
+      "estimate": 0.00903222866894198,
+      "elapsed_seconds": 9.281519042007858
+    },
+    {
+      "trials": 587000000,
+      "matches": 5301920,
+      "estimate": 0.009032231686541738,
+      "elapsed_seconds": 9.281529625004623
+    },
+    {
+      "trials": 588000000,
+      "matches": 5310920,
+      "estimate": 0.0090321768707483,
+      "elapsed_seconds": 9.292215958004817
+    },
+    {
+      "trials": 589000000,
+      "matches": 5319901,
+      "estimate": 0.009032089983022072,
+      "elapsed_seconds": 9.311797208007192
+    },
+    {
+      "trials": 590000000,
+      "matches": 5328957,
+      "estimate": 0.009032130508474576,
+      "elapsed_seconds": 9.332797708018916
+    },
+    {
+      "trials": 591000000,
+      "matches": 5337944,
+      "estimate": 0.009032054145516074,
+      "elapsed_seconds": 9.33285808301298
+    },
+    {
+      "trials": 592000000,
+      "matches": 5346841,
+      "estimate": 0.009031826013513513,
+      "elapsed_seconds": 9.37064137501875
+    },
+    {
+      "trials": 593000000,
+      "matches": 5355850,
+      "estimate": 0.009031787521079257,
+      "elapsed_seconds": 9.370655458013061
+    },
+    {
+      "trials": 594000000,
+      "matches": 5365023,
+      "estimate": 0.009032025252525253,
+      "elapsed_seconds": 9.388803958019707
+    },
+    {
+      "trials": 595000000,
+      "matches": 5374061,
+      "estimate": 0.009032035294117648,
+      "elapsed_seconds": 9.38881695800228
+    },
+    {
+      "trials": 596000000,
+      "matches": 5383147,
+      "estimate": 0.009032125838926175,
+      "elapsed_seconds": 9.426876833022106
+    },
+    {
+      "trials": 597000000,
+      "matches": 5392157,
+      "estimate": 0.00903208877721943,
+      "elapsed_seconds": 9.426891542010708
+    },
+    {
+      "trials": 598000000,
+      "matches": 5401155,
+      "estimate": 0.009032031772575251,
+      "elapsed_seconds": 9.451819042005809
+    },
+    {
+      "trials": 599000000,
+      "matches": 5410054,
+      "estimate": 0.009031809682804674,
+      "elapsed_seconds": 9.451840749999974
+    },
+    {
+      "trials": 600000000,
+      "matches": 5419123,
+      "estimate": 0.009031871666666667,
+      "elapsed_seconds": 9.465182458021445
+    },
+    {
+      "trials": 601000000,
+      "matches": 5428106,
+      "estimate": 0.009031790349417637,
+      "elapsed_seconds": 9.48935524999979
+    },
+    {
+      "trials": 602000000,
+      "matches": 5436955,
+      "estimate": 0.009031486710963455,
+      "elapsed_seconds": 9.496548208000604
+    },
+    {
+      "trials": 603000000,
+      "matches": 5445892,
+      "estimate": 0.009031330016583747,
+      "elapsed_seconds": 9.496822707995307
+    },
+    {
+      "trials": 604000000,
+      "matches": 5454955,
+      "estimate": 0.009031382450331126,
+      "elapsed_seconds": 9.507576500007417
+    },
+    {
+      "trials": 605000000,
+      "matches": 5463969,
+      "estimate": 0.009031353719008265,
+      "elapsed_seconds": 9.54222212501918
+    },
+    {
+      "trials": 606000000,
+      "matches": 5473009,
+      "estimate": 0.00903136798679868,
+      "elapsed_seconds": 9.550978832994588
+    },
+    {
+      "trials": 607000000,
+      "matches": 5482081,
+      "estimate": 0.009031434925864909,
+      "elapsed_seconds": 9.550990749994526
+    },
+    {
+      "trials": 608000000,
+      "matches": 5491175,
+      "estimate": 0.009031537828947368,
+      "elapsed_seconds": 9.585804542002734
+    },
+    {
+      "trials": 609000000,
+      "matches": 5500197,
+      "estimate": 0.009031522167487685,
+      "elapsed_seconds": 9.585819291998632
+    },
+    {
+      "trials": 610000000,
+      "matches": 5509406,
+      "estimate": 0.009031813114754098,
+      "elapsed_seconds": 9.610832667007344
+    },
+    {
+      "trials": 611000000,
+      "matches": 5518292,
+      "estimate": 0.009031574468085106,
+      "elapsed_seconds": 9.650167417014018
+    },
+    {
+      "trials": 612000000,
+      "matches": 5527335,
+      "estimate": 0.009031593137254901,
+      "elapsed_seconds": 9.650177625007927
+    },
+    {
+      "trials": 613000000,
+      "matches": 5536259,
+      "estimate": 0.009031417618270799,
+      "elapsed_seconds": 9.671015917003388
+    },
+    {
+      "trials": 614000000,
+      "matches": 5545415,
+      "estimate": 0.009031620521172639,
+      "elapsed_seconds": 9.688873750012135
+    },
+    {
+      "trials": 615000000,
+      "matches": 5554533,
+      "estimate": 0.009031760975609756,
+      "elapsed_seconds": 9.73137012499501
+    },
+    {
+      "trials": 616000000,
+      "matches": 5563436,
+      "estimate": 0.009031551948051948,
+      "elapsed_seconds": 9.731381499994313
+    },
+    {
+      "trials": 617000000,
+      "matches": 5572453,
+      "estimate": 0.009031528363047001,
+      "elapsed_seconds": 9.731384375016205
+    },
+    {
+      "trials": 618000000,
+      "matches": 5581559,
+      "estimate": 0.009031648867313917,
+      "elapsed_seconds": 9.73138637500233
+    },
+    {
+      "trials": 619000000,
+      "matches": 5590566,
+      "estimate": 0.009031609046849758,
+      "elapsed_seconds": 9.747406917012995
+    },
+    {
+      "trials": 620000000,
+      "matches": 5599526,
+      "estimate": 0.009031493548387096,
+      "elapsed_seconds": 9.770895374997053
+    },
+    {
+      "trials": 621000000,
+      "matches": 5608573,
+      "estimate": 0.009031518518518519,
+      "elapsed_seconds": 9.771104333020048
+    },
+    {
+      "trials": 622000000,
+      "matches": 5617558,
+      "estimate": 0.009031443729903537,
+      "elapsed_seconds": 9.812758625019342
+    },
+    {
+      "trials": 623000000,
+      "matches": 5626480,
+      "estimate": 0.009031268057784913,
+      "elapsed_seconds": 9.812771750002867
+    },
+    {
+      "trials": 624000000,
+      "matches": 5635490,
+      "estimate": 0.009031233974358975,
+      "elapsed_seconds": 9.820236917003058
+    },
+    {
+      "trials": 625000000,
+      "matches": 5644527,
+      "estimate": 0.0090312432,
+      "elapsed_seconds": 9.820248750009341
+    },
+    {
+      "trials": 626000000,
+      "matches": 5653547,
+      "estimate": 0.009031225239616613,
+      "elapsed_seconds": 9.839227292017313
+    },
+    {
+      "trials": 627000000,
+      "matches": 5662500,
+      "estimate": 0.0090311004784689,
+      "elapsed_seconds": 9.87004504201468
+    },
+    {
+      "trials": 628000000,
+      "matches": 5671510,
+      "estimate": 0.009031066878980892,
+      "elapsed_seconds": 9.87005749999662
+    },
+    {
+      "trials": 629000000,
+      "matches": 5680633,
+      "estimate": 0.009031213036565977,
+      "elapsed_seconds": 9.898385458014673
+    },
+    {
+      "trials": 630000000,
+      "matches": 5689779,
+      "estimate": 0.009031395238095237,
+      "elapsed_seconds": 9.898401625017868
+    },
+    {
+      "trials": 631000000,
+      "matches": 5698897,
+      "estimate": 0.009031532488114105,
+      "elapsed_seconds": 9.916163957997924
+    },
+    {
+      "trials": 632000000,
+      "matches": 5707936,
+      "estimate": 0.009031544303797469,
+      "elapsed_seconds": 9.935038416995667
+    },
+    {
+      "trials": 633000000,
+      "matches": 5717009,
+      "estimate": 0.009031609794628751,
+      "elapsed_seconds": 9.951547583012143
+    },
+    {
+      "trials": 634000000,
+      "matches": 5726157,
+      "estimate": 0.009031793375394321,
+      "elapsed_seconds": 9.970230333012296
+    },
+    {
+      "trials": 635000000,
+      "matches": 5735022,
+      "estimate": 0.009031530708661417,
+      "elapsed_seconds": 10.08192779199453
+    },
+    {
+      "trials": 636000000,
+      "matches": 5744007,
+      "estimate": 0.009031457547169811,
+      "elapsed_seconds": 10.081941083015408
+    },
+    {
+      "trials": 637000000,
+      "matches": 5752999,
+      "estimate": 0.009031395604395604,
+      "elapsed_seconds": 10.081946708000032
+    },
+    {
+      "trials": 638000000,
+      "matches": 5762116,
+      "estimate": 0.009031529780564262,
+      "elapsed_seconds": 10.081951375002973
+    },
+    {
+      "trials": 639000000,
+      "matches": 5771151,
+      "estimate": 0.009031535211267606,
+      "elapsed_seconds": 10.081956208014162
+    },
+    {
+      "trials": 640000000,
+      "matches": 5780311,
+      "estimate": 0.0090317359375,
+      "elapsed_seconds": 10.081960667012027
+    },
+    {
+      "trials": 641000000,
+      "matches": 5789413,
+      "estimate": 0.009031845553822153,
+      "elapsed_seconds": 10.082083832996432
+    },
+    {
+      "trials": 642000000,
+      "matches": 5798478,
+      "estimate": 0.009031897196261683,
+      "elapsed_seconds": 10.082090750016505
+    },
+    {
+      "trials": 643000000,
+      "matches": 5807402,
+      "estimate": 0.009031729393468118,
+      "elapsed_seconds": 10.106955208000727
+    },
+    {
+      "trials": 644000000,
+      "matches": 5816413,
+      "estimate": 0.009031697204968945,
+      "elapsed_seconds": 10.106966916995589
+    },
+    {
+      "trials": 645000000,
+      "matches": 5825464,
+      "estimate": 0.009031727131782945,
+      "elapsed_seconds": 10.123708667000756
+    },
+    {
+      "trials": 646000000,
+      "matches": 5834460,
+      "estimate": 0.009031671826625388,
+      "elapsed_seconds": 10.284428750019288
+    },
+    {
+      "trials": 647000000,
+      "matches": 5843536,
+      "estimate": 0.009031740340030911,
+      "elapsed_seconds": 10.284443708020262
+    },
+    {
+      "trials": 648000000,
+      "matches": 5852622,
+      "estimate": 0.009031824074074074,
+      "elapsed_seconds": 10.284449833008694
+    },
+    {
+      "trials": 649000000,
+      "matches": 5861701,
+      "estimate": 0.009031896764252697,
+      "elapsed_seconds": 10.28445533302147
+    },
+    {
+      "trials": 650000000,
+      "matches": 5870623,
+      "estimate": 0.009031727692307692,
+      "elapsed_seconds": 10.284459750022506
+    },
+    {
+      "trials": 651000000,
+      "matches": 5879668,
+      "estimate": 0.009031748079877113,
+      "elapsed_seconds": 10.284514333005063
+    },
+    {
+      "trials": 652000000,
+      "matches": 5888652,
+      "estimate": 0.009031674846625768,
+      "elapsed_seconds": 10.28451891700388
+    },
+    {
+      "trials": 653000000,
+      "matches": 5897537,
+      "estimate": 0.009031450229709035,
+      "elapsed_seconds": 10.284523458016338
+    },
+    {
+      "trials": 654000000,
+      "matches": 5906497,
+      "estimate": 0.009031340978593273,
+      "elapsed_seconds": 10.284527667012298
+    },
+    {
+      "trials": 655000000,
+      "matches": 5915365,
+      "estimate": 0.009031091603053435,
+      "elapsed_seconds": 10.284531792014604
+    },
+    {
+      "trials": 656000000,
+      "matches": 5924317,
+      "estimate": 0.009030971036585365,
+      "elapsed_seconds": 10.284535542014055
+    },
+    {
+      "trials": 657000000,
+      "matches": 5933350,
+      "estimate": 0.009030974124809741,
+      "elapsed_seconds": 10.284939250006573
+    },
+    {
+      "trials": 658000000,
+      "matches": 5942299,
+      "estimate": 0.009030849544072949,
+      "elapsed_seconds": 10.339043875021162
+    },
+    {
+      "trials": 659000000,
+      "matches": 5951503,
+      "estimate": 0.009031112291350531,
+      "elapsed_seconds": 10.339062500017462
+    },
+    {
+      "trials": 660000000,
+      "matches": 5960462,
+      "estimate": 0.00903100303030303,
+      "elapsed_seconds": 10.372793707996607
+    },
+    {
+      "trials": 661000000,
+      "matches": 5969480,
+      "estimate": 0.009030983358547654,
+      "elapsed_seconds": 10.372856667003362
+    },
+    {
+      "trials": 662000000,
+      "matches": 5978428,
+      "estimate": 0.009030858006042296,
+      "elapsed_seconds": 10.386792167002568
+    },
+    {
+      "trials": 663000000,
+      "matches": 5987470,
+      "estimate": 0.009030874811463047,
+      "elapsed_seconds": 10.390708833001554
+    },
+    {
+      "trials": 664000000,
+      "matches": 5996514,
+      "estimate": 0.009030894578313253,
+      "elapsed_seconds": 10.409718417009572
+    },
+    {
+      "trials": 665000000,
+      "matches": 6005661,
+      "estimate": 0.00903106917293233,
+      "elapsed_seconds": 10.409729333012365
+    },
+    {
+      "trials": 666000000,
+      "matches": 6014747,
+      "estimate": 0.009031151651651652,
+      "elapsed_seconds": 10.424802916997578
+    },
+    {
+      "trials": 667000000,
+      "matches": 6024028,
+      "estimate": 0.00903152623688156,
+      "elapsed_seconds": 10.457904458016856
+    },
+    {
+      "trials": 668000000,
+      "matches": 6033141,
+      "estimate": 0.009031648203592814,
+      "elapsed_seconds": 10.47954045800725
+    },
+    {
+      "trials": 669000000,
+      "matches": 6042066,
+      "estimate": 0.009031488789237669,
+      "elapsed_seconds": 10.480666167015443
+    },
+    {
+      "trials": 670000000,
+      "matches": 6051037,
+      "estimate": 0.009031398507462686,
+      "elapsed_seconds": 10.542262667004252
+    },
+    {
+      "trials": 671000000,
+      "matches": 6060041,
+      "estimate": 0.009031357675111774,
+      "elapsed_seconds": 10.542321125016315
+    },
+    {
+      "trials": 672000000,
+      "matches": 6069057,
+      "estimate": 0.009031334821428571,
+      "elapsed_seconds": 10.55385858300724
+    },
+    {
+      "trials": 673000000,
+      "matches": 6077963,
+      "estimate": 0.009031148588410105,
+      "elapsed_seconds": 10.557392667018576
+    },
+    {
+      "trials": 674000000,
+      "matches": 6086908,
+      "estimate": 0.009031020771513354,
+      "elapsed_seconds": 10.576136957999552
+    },
+    {
+      "trials": 675000000,
+      "matches": 6095992,
+      "estimate": 0.009031099259259259,
+      "elapsed_seconds": 10.616880625020713
+    },
+    {
+      "trials": 676000000,
+      "matches": 6104981,
+      "estimate": 0.009031036982248521,
+      "elapsed_seconds": 10.616897583007812
+    },
+    {
+      "trials": 677000000,
+      "matches": 6114123,
+      "estimate": 0.009031200886262924,
+      "elapsed_seconds": 10.622847082995577
+    },
+    {
+      "trials": 678000000,
+      "matches": 6123166,
+      "estimate": 0.009031218289085546,
+      "elapsed_seconds": 10.637659750005696
+    },
+    {
+      "trials": 679000000,
+      "matches": 6132341,
+      "estimate": 0.009031430044182621,
+      "elapsed_seconds": 10.651801500003785
+    },
+    {
+      "trials": 680000000,
+      "matches": 6141498,
+      "estimate": 0.009031614705882353,
+      "elapsed_seconds": 10.66467975001433
+    },
+    {
+      "trials": 681000000,
+      "matches": 6150543,
+      "estimate": 0.00903163436123348,
+      "elapsed_seconds": 10.685288333013887
+    },
+    {
+      "trials": 682000000,
+      "matches": 6159510,
+      "estimate": 0.009031539589442816,
+      "elapsed_seconds": 10.700974917010171
+    },
+    {
+      "trials": 683000000,
+      "matches": 6168519,
+      "estimate": 0.009031506588579794,
+      "elapsed_seconds": 10.724824500008253
+    },
+    {
+      "trials": 684000000,
+      "matches": 6177775,
+      "estimate": 0.009031834795321637,
+      "elapsed_seconds": 10.725498417014023
+    },
+    {
+      "trials": 685000000,
+      "matches": 6186822,
+      "estimate": 0.00903185693430657,
+      "elapsed_seconds": 10.725506792019587
+    },
+    {
+      "trials": 686000000,
+      "matches": 6195870,
+      "estimate": 0.009031880466472303,
+      "elapsed_seconds": 10.894508458004566
+    },
+    {
+      "trials": 687000000,
+      "matches": 6204996,
+      "estimate": 0.009032017467248908,
+      "elapsed_seconds": 10.894518750021234
+    },
+    {
+      "trials": 688000000,
+      "matches": 6214294,
+      "estimate": 0.009032404069767443,
+      "elapsed_seconds": 10.894521375012118
+    },
+    {
+      "trials": 689000000,
+      "matches": 6223395,
+      "estimate": 0.009032503628447024,
+      "elapsed_seconds": 10.928763250005431
+    },
+    {
+      "trials": 690000000,
+      "matches": 6232652,
+      "estimate": 0.009032828985507247,
+      "elapsed_seconds": 10.928777417022502
+    },
+    {
+      "trials": 691000000,
+      "matches": 6241735,
+      "estimate": 0.009032901591895803,
+      "elapsed_seconds": 10.928829167009098
+    },
+    {
+      "trials": 692000000,
+      "matches": 6250781,
+      "estimate": 0.009032920520231214,
+      "elapsed_seconds": 10.928834000020288
+    },
+    {
+      "trials": 693000000,
+      "matches": 6259967,
+      "estimate": 0.009033141414141414,
+      "elapsed_seconds": 10.92883874999825
+    },
+    {
+      "trials": 694000000,
+      "matches": 6268934,
+      "estimate": 0.009033046109510086,
+      "elapsed_seconds": 10.928843583009439
+    },
+    {
+      "trials": 695000000,
+      "matches": 6277972,
+      "estimate": 0.009033053237410072,
+      "elapsed_seconds": 10.928847917006351
+    },
+    {
+      "trials": 696000000,
+      "matches": 6286936,
+      "estimate": 0.009032954022988506,
+      "elapsed_seconds": 10.94332150000264
+    },
+    {
+      "trials": 697000000,
+      "matches": 6296040,
+      "estimate": 0.009033055954088952,
+      "elapsed_seconds": 10.943334333016537
+    },
+    {
+      "trials": 698000000,
+      "matches": 6304904,
+      "estimate": 0.009032813753581661,
+      "elapsed_seconds": 10.969496708014049
+    },
+    {
+      "trials": 699000000,
+      "matches": 6313775,
+      "estimate": 0.00903258226037196,
+      "elapsed_seconds": 10.983415958005935
+    },
+    {
+      "trials": 700000000,
+      "matches": 6322745,
+      "estimate": 0.009032492857142856,
+      "elapsed_seconds": 11.014982542023063
+    },
+    {
+      "trials": 701000000,
+      "matches": 6331793,
+      "estimate": 0.009032514978601996,
+      "elapsed_seconds": 11.02900866701384
+    },
+    {
+      "trials": 702000000,
+      "matches": 6340821,
+      "estimate": 0.009032508547008548,
+      "elapsed_seconds": 11.051868083013687
+    },
+    {
+      "trials": 703000000,
+      "matches": 6349989,
+      "estimate": 0.009032701280227595,
+      "elapsed_seconds": 11.066219917003764
+    },
+    {
+      "trials": 704000000,
+      "matches": 6359001,
+      "estimate": 0.009032671875,
+      "elapsed_seconds": 11.077250292000826
+    },
+    {
+      "trials": 705000000,
+      "matches": 6368090,
+      "estimate": 0.009032751773049645,
+      "elapsed_seconds": 11.088067500008037
+    },
+    {
+      "trials": 706000000,
+      "matches": 6377205,
+      "estimate": 0.009032868271954674,
+      "elapsed_seconds": 11.089143874996807
+    },
+    {
+      "trials": 707000000,
+      "matches": 6386213,
+      "estimate": 0.009032833097595474,
+      "elapsed_seconds": 11.11337295800331
+    },
+    {
+      "trials": 708000000,
+      "matches": 6395122,
+      "estimate": 0.009032658192090395,
+      "elapsed_seconds": 11.144578375009587
+    },
+    {
+      "trials": 709000000,
+      "matches": 6404117,
+      "estimate": 0.009032605077574049,
+      "elapsed_seconds": 11.153419458016288
+    },
+    {
+      "trials": 710000000,
+      "matches": 6413061,
+      "estimate": 0.00903248028169014,
+      "elapsed_seconds": 11.17220054200152
+    },
+    {
+      "trials": 711000000,
+      "matches": 6422081,
+      "estimate": 0.009032462728551335,
+      "elapsed_seconds": 11.217826583015267
+    },
+    {
+      "trials": 712000000,
+      "matches": 6431045,
+      "estimate": 0.009032366573033707,
+      "elapsed_seconds": 11.22250033300952
+    },
+    {
+      "trials": 713000000,
+      "matches": 6440149,
+      "estimate": 0.009032467040673212,
+      "elapsed_seconds": 11.222516208013985
+    },
+    {
+      "trials": 714000000,
+      "matches": 6449245,
+      "estimate": 0.009032556022408964,
+      "elapsed_seconds": 11.22252212499734
+    },
+    {
+      "trials": 715000000,
+      "matches": 6458192,
+      "estimate": 0.009032436363636364,
+      "elapsed_seconds": 11.245798832998844
+    },
+    {
+      "trials": 716000000,
+      "matches": 6467190,
+      "estimate": 0.009032388268156425,
+      "elapsed_seconds": 11.259781708009541
+    },
+    {
+      "trials": 717000000,
+      "matches": 6476334,
+      "estimate": 0.009032543933054393,
+      "elapsed_seconds": 11.277809624996735
+    },
+    {
+      "trials": 718000000,
+      "matches": 6485366,
+      "estimate": 0.009032543175487465,
+      "elapsed_seconds": 11.314913500013063
+    },
+    {
+      "trials": 719000000,
+      "matches": 6494472,
+      "estimate": 0.009032645340751043,
+      "elapsed_seconds": 11.3521758330171
+    },
+    {
+      "trials": 720000000,
+      "matches": 6503455,
+      "estimate": 0.009032576388888889,
+      "elapsed_seconds": 11.352191875019344
+    },
+    {
+      "trials": 721000000,
+      "matches": 6512599,
+      "estimate": 0.009032730929264909,
+      "elapsed_seconds": 11.352238207997289
+    },
+    {
+      "trials": 722000000,
+      "matches": 6521683,
+      "estimate": 0.009032801939058172,
+      "elapsed_seconds": 11.352244000008795
+    },
+    {
+      "trials": 723000000,
+      "matches": 6530801,
+      "estimate": 0.009032919778699862,
+      "elapsed_seconds": 11.363226167013636
+    },
+    {
+      "trials": 724000000,
+      "matches": 6539714,
+      "estimate": 0.00903275414364641,
+      "elapsed_seconds": 11.375368042004993
+    },
+    {
+      "trials": 725000000,
+      "matches": 6548735,
+      "estimate": 0.009032737931034483,
+      "elapsed_seconds": 11.407156333007151
+    },
+    {
+      "trials": 726000000,
+      "matches": 6557725,
+      "estimate": 0.00903267906336088,
+      "elapsed_seconds": 11.417097458004719
+    },
+    {
+      "trials": 727000000,
+      "matches": 6566835,
+      "estimate": 0.009032785419532325,
+      "elapsed_seconds": 11.450009666994447
+    },
+    {
+      "trials": 728000000,
+      "matches": 6575840,
+      "estimate": 0.009032747252747253,
+      "elapsed_seconds": 11.46340366700315
+    },
+    {
+      "trials": 729000000,
+      "matches": 6584971,
+      "estimate": 0.009032882030178326,
+      "elapsed_seconds": 11.463416333019268
+    },
+    {
+      "trials": 730000000,
+      "matches": 6593861,
+      "estimate": 0.009032686301369863,
+      "elapsed_seconds": 11.468504624994239
+    },
+    {
+      "trials": 731000000,
+      "matches": 6602835,
+      "estimate": 0.009032606019151847,
+      "elapsed_seconds": 11.468658792000497
+    },
+    {
+      "trials": 732000000,
+      "matches": 6611782,
+      "estimate": 0.009032489071038251,
+      "elapsed_seconds": 11.47592291701585
+    },
+    {
+      "trials": 733000000,
+      "matches": 6620845,
+      "estimate": 0.009032530695770804,
+      "elapsed_seconds": 11.49128658301197
+    },
+    {
+      "trials": 734000000,
+      "matches": 6629940,
+      "estimate": 0.009032615803814713,
+      "elapsed_seconds": 11.565319000015734
+    },
+    {
+      "trials": 735000000,
+      "matches": 6638957,
+      "estimate": 0.00903259455782313,
+      "elapsed_seconds": 11.588614708016394
+    },
+    {
+      "trials": 736000000,
+      "matches": 6648025,
+      "estimate": 0.009032642663043478,
+      "elapsed_seconds": 11.633825958007947
+    },
+    {
+      "trials": 737000000,
+      "matches": 6657025,
+      "estimate": 0.009032598371777476,
+      "elapsed_seconds": 11.633837875007885
+    },
+    {
+      "trials": 738000000,
+      "matches": 6666364,
+      "estimate": 0.0090330135501355,
+      "elapsed_seconds": 11.633843792020343
+    },
+    {
+      "trials": 739000000,
+      "matches": 6675476,
+      "estimate": 0.009033120433017591,
+      "elapsed_seconds": 11.633848583005602
+    },
+    {
+      "trials": 740000000,
+      "matches": 6684454,
+      "estimate": 0.009033045945945947,
+      "elapsed_seconds": 11.633853167004418
+    },
+    {
+      "trials": 741000000,
+      "matches": 6693437,
+      "estimate": 0.009032978407557355,
+      "elapsed_seconds": 11.645285542006604
+    },
+    {
+      "trials": 742000000,
+      "matches": 6702554,
+      "estimate": 0.009033091644204851,
+      "elapsed_seconds": 11.686640667001484
+    },
+    {
+      "trials": 743000000,
+      "matches": 6711502,
+      "estimate": 0.009032977119784657,
+      "elapsed_seconds": 11.692751167021925
+    },
+    {
+      "trials": 744000000,
+      "matches": 6720529,
+      "estimate": 0.009032969086021506,
+      "elapsed_seconds": 11.74155812500976
+    },
+    {
+      "trials": 745000000,
+      "matches": 6729530,
+      "estimate": 0.009032926174496645,
+      "elapsed_seconds": 11.741570208017947
+    },
+    {
+      "trials": 746000000,
+      "matches": 6738458,
+      "estimate": 0.009032785522788203,
+      "elapsed_seconds": 11.741576083004475
+    },
+    {
+      "trials": 747000000,
+      "matches": 6747461,
+      "estimate": 0.009032745649263721,
+      "elapsed_seconds": 11.783749458001694
+    },
+    {
+      "trials": 748000000,
+      "matches": 6756653,
+      "estimate": 0.009032958556149733,
+      "elapsed_seconds": 11.796307625016198
+    },
+    {
+      "trials": 749000000,
+      "matches": 6765684,
+      "estimate": 0.009032955941255007,
+      "elapsed_seconds": 11.79632608301472
+    },
+    {
+      "trials": 750000000,
+      "matches": 6774744,
+      "estimate": 0.009032992,
+      "elapsed_seconds": 11.796331917023053
+    },
+    {
+      "trials": 751000000,
+      "matches": 6783620,
+      "estimate": 0.009032782956058588,
+      "elapsed_seconds": 11.843431250017602
+    },
+    {
+      "trials": 752000000,
+      "matches": 6792788,
+      "estimate": 0.009032962765957447,
+      "elapsed_seconds": 11.843444666999858
+    },
+    {
+      "trials": 753000000,
+      "matches": 6801697,
+      "estimate": 0.009032798140770253,
+      "elapsed_seconds": 11.843450083018979
+    },
+    {
+      "trials": 754000000,
+      "matches": 6810804,
+      "estimate": 0.009032896551724137,
+      "elapsed_seconds": 11.866357082995819
+    },
+    {
+      "trials": 755000000,
+      "matches": 6819901,
+      "estimate": 0.009032981456953642,
+      "elapsed_seconds": 11.886990041995887
+    },
+    {
+      "trials": 756000000,
+      "matches": 6828925,
+      "estimate": 0.009032969576719577,
+      "elapsed_seconds": 11.887001249997411
+    },
+    {
+      "trials": 757000000,
+      "matches": 6838066,
+      "estimate": 0.009033112285336856,
+      "elapsed_seconds": 11.887006292003207
+    },
+    {
+      "trials": 758000000,
+      "matches": 6847124,
+      "estimate": 0.009033145118733509,
+      "elapsed_seconds": 11.934959083009744
+    },
+    {
+      "trials": 759000000,
+      "matches": 6856124,
+      "estimate": 0.009033101449275362,
+      "elapsed_seconds": 11.934973541996442
+    },
+    {
+      "trials": 760000000,
+      "matches": 6865162,
+      "estimate": 0.009033107894736842,
+      "elapsed_seconds": 11.950753083016025
+    },
+    {
+      "trials": 761000000,
+      "matches": 6874196,
+      "estimate": 0.009033109067017082,
+      "elapsed_seconds": 11.955388041998958
+    },
+    {
+      "trials": 762000000,
+      "matches": 6883188,
+      "estimate": 0.009033055118110237,
+      "elapsed_seconds": 11.991569917008746
+    },
+    {
+      "trials": 763000000,
+      "matches": 6892120,
+      "estimate": 0.009032922673656619,
+      "elapsed_seconds": 11.991581250011222
+    },
+    {
+      "trials": 764000000,
+      "matches": 6901184,
+      "estimate": 0.00903296335078534,
+      "elapsed_seconds": 12.013376083021285
+    },
+    {
+      "trials": 765000000,
+      "matches": 6910232,
+      "estimate": 0.009032983006535949,
+      "elapsed_seconds": 12.040403457998764
+    },
+    {
+      "trials": 766000000,
+      "matches": 6919289,
+      "estimate": 0.009033014360313316,
+      "elapsed_seconds": 12.040420417004498
+    },
+    {
+      "trials": 767000000,
+      "matches": 6928331,
+      "estimate": 0.009033026075619295,
+      "elapsed_seconds": 12.061786292004399
+    },
+    {
+      "trials": 768000000,
+      "matches": 6937457,
+      "estimate": 0.009033147135416668,
+      "elapsed_seconds": 12.108773042011308
+    },
+    {
+      "trials": 769000000,
+      "matches": 6946367,
+      "estimate": 0.00903298699609883,
+      "elapsed_seconds": 12.108781375020044
+    },
+    {
+      "trials": 770000000,
+      "matches": 6955416,
+      "estimate": 0.009033007792207792,
+      "elapsed_seconds": 12.108783750009025
+    },
+    {
+      "trials": 771000000,
+      "matches": 6964414,
+      "estimate": 0.009032962386511025,
+      "elapsed_seconds": 12.112214499997208
+    },
+    {
+      "trials": 772000000,
+      "matches": 6973461,
+      "estimate": 0.009032980569948187,
+      "elapsed_seconds": 12.13873175001936
+    },
+    {
+      "trials": 773000000,
+      "matches": 6982468,
+      "estimate": 0.009032946959896508,
+      "elapsed_seconds": 12.162989833013853
+    },
+    {
+      "trials": 774000000,
+      "matches": 6991440,
+      "estimate": 0.009032868217054263,
+      "elapsed_seconds": 12.163005083013559
+    },
+    {
+      "trials": 775000000,
+      "matches": 7000475,
+      "estimate": 0.009032870967741935,
+      "elapsed_seconds": 12.178602750005666
+    },
+    {
+      "trials": 776000000,
+      "matches": 7009611,
+      "estimate": 0.009033003865979381,
+      "elapsed_seconds": 12.195087166997837
+    },
+    {
+      "trials": 777000000,
+      "matches": 7018627,
+      "estimate": 0.009032981981981983,
+      "elapsed_seconds": 12.199505083000986
+    },
+    {
+      "trials": 778000000,
+      "matches": 7027563,
+      "estimate": 0.009032857326478148,
+      "elapsed_seconds": 12.228464500018163
+    },
+    {
+      "trials": 779000000,
+      "matches": 7036398,
+      "estimate": 0.009032603337612324,
+      "elapsed_seconds": 12.228487042011693
+    },
+    {
+      "trials": 780000000,
+      "matches": 7045394,
+      "estimate": 0.009032556410256411,
+      "elapsed_seconds": 12.234506000007968
+    },
+    {
+      "trials": 781000000,
+      "matches": 7054410,
+      "estimate": 0.009032535211267605,
+      "elapsed_seconds": 12.294434167008149
+    },
+    {
+      "trials": 782000000,
+      "matches": 7063490,
+      "estimate": 0.009032595907928388,
+      "elapsed_seconds": 12.294446208019508
+    },
+    {
+      "trials": 783000000,
+      "matches": 7072467,
+      "estimate": 0.00903252490421456,
+      "elapsed_seconds": 12.294452208006987
+    },
+    {
+      "trials": 784000000,
+      "matches": 7081416,
+      "estimate": 0.009032418367346938,
+      "elapsed_seconds": 12.313959667022573
+    },
+    {
+      "trials": 785000000,
+      "matches": 7090509,
+      "estimate": 0.009032495541401274,
+      "elapsed_seconds": 12.313971208001021
+    },
+    {
+      "trials": 786000000,
+      "matches": 7099668,
+      "estimate": 0.00903265648854962,
+      "elapsed_seconds": 12.32814937501098
+    },
+    {
+      "trials": 787000000,
+      "matches": 7108611,
+      "estimate": 0.009032542566709021,
+      "elapsed_seconds": 12.32816095801536
+    },
+    {
+      "trials": 788000000,
+      "matches": 7117460,
+      "estimate": 0.00903230964467005,
+      "elapsed_seconds": 12.328165750019252
+    },
+    {
+      "trials": 789000000,
+      "matches": 7126395,
+      "estimate": 0.009032186311787073,
+      "elapsed_seconds": 12.41597220802214
+    },
+    {
+      "trials": 790000000,
+      "matches": 7135580,
+      "estimate": 0.009032379746835443,
+      "elapsed_seconds": 12.416494333010633
+    },
+    {
+      "trials": 791000000,
+      "matches": 7144461,
+      "estimate": 0.00903218836915297,
+      "elapsed_seconds": 12.416519125021296
+    },
+    {
+      "trials": 792000000,
+      "matches": 7153561,
+      "estimate": 0.00903227398989899,
+      "elapsed_seconds": 12.418873125017853
+    },
+    {
+      "trials": 793000000,
+      "matches": 7162730,
+      "estimate": 0.009032446406052963,
+      "elapsed_seconds": 12.592666125012329
+    },
+    {
+      "trials": 794000000,
+      "matches": 7171661,
+      "estimate": 0.00903231863979849,
+      "elapsed_seconds": 12.592681167006958
+    },
+    {
+      "trials": 795000000,
+      "matches": 7180797,
+      "estimate": 0.009032449056603773,
+      "elapsed_seconds": 12.592686874995707
+    },
+    {
+      "trials": 796000000,
+      "matches": 7189698,
+      "estimate": 0.00903228391959799,
+      "elapsed_seconds": 12.59269150000182
+    },
+    {
+      "trials": 797000000,
+      "matches": 7198839,
+      "estimate": 0.009032420326223338,
+      "elapsed_seconds": 12.592696083011106
+    },
+    {
+      "trials": 798000000,
+      "matches": 7207631,
+      "estimate": 0.009032119047619048,
+      "elapsed_seconds": 12.592700042005163
+    },
+    {
+      "trials": 799000000,
+      "matches": 7216787,
+      "estimate": 0.009032274092615769,
+      "elapsed_seconds": 12.592703917005565
+    },
+    {
+      "trials": 800000000,
+      "matches": 7226036,
+      "estimate": 0.009032545,
+      "elapsed_seconds": 12.592708250012947
+    },
+    {
+      "trials": 801000000,
+      "matches": 7234986,
+      "estimate": 0.009032441947565544,
+      "elapsed_seconds": 12.592751167016104
+    },
+    {
+      "trials": 802000000,
+      "matches": 7244055,
+      "estimate": 0.00903248753117207,
+      "elapsed_seconds": 12.59275583300041
+    },
+    {
+      "trials": 803000000,
+      "matches": 7252992,
+      "estimate": 0.009032368617683686,
+      "elapsed_seconds": 12.596042207995197
+    },
+    {
+      "trials": 804000000,
+      "matches": 7262020,
+      "estimate": 0.009032363184079602,
+      "elapsed_seconds": 12.5986217080208
+    },
+    {
+      "trials": 805000000,
+      "matches": 7271039,
+      "estimate": 0.009032346583850931,
+      "elapsed_seconds": 12.605813583009876
+    },
+    {
+      "trials": 806000000,
+      "matches": 7280238,
+      "estimate": 0.00903255334987593,
+      "elapsed_seconds": 12.624073417013278
+    },
+    {
+      "trials": 807000000,
+      "matches": 7289235,
+      "estimate": 0.009032509293680298,
+      "elapsed_seconds": 12.655989250022685
+    },
+    {
+      "trials": 808000000,
+      "matches": 7298278,
+      "estimate": 0.009032522277227723,
+      "elapsed_seconds": 12.669009792007273
+    },
+    {
+      "trials": 809000000,
+      "matches": 7307395,
+      "estimate": 0.009032626699629173,
+      "elapsed_seconds": 12.70284116701805
+    },
+    {
+      "trials": 810000000,
+      "matches": 7316440,
+      "estimate": 0.009032641975308642,
+      "elapsed_seconds": 12.702853875001892
+    },
+    {
+      "trials": 811000000,
+      "matches": 7325358,
+      "estimate": 0.00903250061652281,
+      "elapsed_seconds": 12.702989333018195
+    },
+    {
+      "trials": 812000000,
+      "matches": 7334337,
+      "estimate": 0.009032434729064039,
+      "elapsed_seconds": 12.702996958018048
+    },
+    {
+      "trials": 813000000,
+      "matches": 7343593,
+      "estimate": 0.009032709717097171,
+      "elapsed_seconds": 12.707164332998218
+    },
+    {
+      "trials": 814000000,
+      "matches": 7352688,
+      "estimate": 0.009032786240786241,
+      "elapsed_seconds": 12.778342167002847
+    },
+    {
+      "trials": 815000000,
+      "matches": 7361673,
+      "estimate": 0.009032727607361964,
+      "elapsed_seconds": 12.811861958005466
+    },
+    {
+      "trials": 816000000,
+      "matches": 7370637,
+      "estimate": 0.009032643382352941,
+      "elapsed_seconds": 12.916239208017942
+    },
+    {
+      "trials": 817000000,
+      "matches": 7379572,
+      "estimate": 0.009032523867809058,
+      "elapsed_seconds": 12.916253333009081
+    },
+    {
+      "trials": 818000000,
+      "matches": 7388628,
+      "estimate": 0.009032552567237164,
+      "elapsed_seconds": 12.916259292018367
+    },
+    {
+      "trials": 819000000,
+      "matches": 7397722,
+      "estimate": 0.009032627594627595,
+      "elapsed_seconds": 12.916264041996328
+    },
+    {
+      "trials": 820000000,
+      "matches": 7406825,
+      "estimate": 0.009032713414634146,
+      "elapsed_seconds": 12.916268792003393
+    },
+    {
+      "trials": 821000000,
+      "matches": 7415909,
+      "estimate": 0.009032775883069428,
+      "elapsed_seconds": 12.916312292014481
+    },
+    {
+      "trials": 822000000,
+      "matches": 7425030,
+      "estimate": 0.009032883211678833,
+      "elapsed_seconds": 12.916317666997202
+    },
+    {
+      "trials": 823000000,
+      "matches": 7434157,
+      "estimate": 0.009032997569866343,
+      "elapsed_seconds": 12.916322083008708
+    },
+    {
+      "trials": 824000000,
+      "matches": 7443184,
+      "estimate": 0.009032990291262135,
+      "elapsed_seconds": 12.93021241700626
+    },
+    {
+      "trials": 825000000,
+      "matches": 7452285,
+      "estimate": 0.009033072727272728,
+      "elapsed_seconds": 12.930254333012272
+    },
+    {
+      "trials": 826000000,
+      "matches": 7461552,
+      "estimate": 0.009033355932203389,
+      "elapsed_seconds": 12.941405958001269
+    },
+    {
+      "trials": 827000000,
+      "matches": 7470635,
+      "estimate": 0.009033415961305925,
+      "elapsed_seconds": 12.949883000022965
+    },
+    {
+      "trials": 828000000,
+      "matches": 7479702,
+      "estimate": 0.00903345652173913,
+      "elapsed_seconds": 12.94990062501165
+    },
+    {
+      "trials": 829000000,
+      "matches": 7488739,
+      "estimate": 0.009033460796139928,
+      "elapsed_seconds": 12.998645083018346
+    },
+    {
+      "trials": 830000000,
+      "matches": 7497684,
+      "estimate": 0.00903335421686747,
+      "elapsed_seconds": 12.99892362501123
+    },
+    {
+      "trials": 831000000,
+      "matches": 7506608,
+      "estimate": 0.009033222623345367,
+      "elapsed_seconds": 13.018600667011924
+    },
+    {
+      "trials": 832000000,
+      "matches": 7515636,
+      "estimate": 0.009033216346153845,
+      "elapsed_seconds": 13.033620000001974
+    },
+    {
+      "trials": 833000000,
+      "matches": 7524656,
+      "estimate": 0.009033200480192077,
+      "elapsed_seconds": 13.058513374999166
+    },
+    {
+      "trials": 834000000,
+      "matches": 7533718,
+      "estimate": 0.009033235011990408,
+      "elapsed_seconds": 13.058526000007987
+    },
+    {
+      "trials": 835000000,
+      "matches": 7542736,
+      "estimate": 0.009033216766467065,
+      "elapsed_seconds": 13.058531500020763
+    },
+    {
+      "trials": 836000000,
+      "matches": 7551787,
+      "estimate": 0.009033238038277512,
+      "elapsed_seconds": 13.05853599999682
+    },
+    {
+      "trials": 837000000,
+      "matches": 7560907,
+      "estimate": 0.009033341696535245,
+      "elapsed_seconds": 13.083628000022145
+    },
+    {
+      "trials": 838000000,
+      "matches": 7569928,
+      "estimate": 0.009033326968973746,
+      "elapsed_seconds": 13.102402874996187
+    },
+    {
+      "trials": 839000000,
+      "matches": 7579004,
+      "estimate": 0.009033377830750894,
+      "elapsed_seconds": 13.12133391702082
+    },
+    {
+      "trials": 840000000,
+      "matches": 7588132,
+      "estimate": 0.009033490476190476,
+      "elapsed_seconds": 13.164513499999885
+    },
+    {
+      "trials": 841000000,
+      "matches": 7597081,
+      "estimate": 0.009033390011890607,
+      "elapsed_seconds": 13.175882958021248
+    },
+    {
+      "trials": 842000000,
+      "matches": 7606096,
+      "estimate": 0.009033368171021378,
+      "elapsed_seconds": 13.175902000017231
+    },
+    {
+      "trials": 843000000,
+      "matches": 7615102,
+      "estimate": 0.009033335705812573,
+      "elapsed_seconds": 13.181744041998172
+    },
+    {
+      "trials": 844000000,
+      "matches": 7624052,
+      "estimate": 0.009033236966824645,
+      "elapsed_seconds": 13.195057542005088
+    },
+    {
+      "trials": 845000000,
+      "matches": 7633112,
+      "estimate": 0.009033268639053254,
+      "elapsed_seconds": 13.226075292011956
+    },
+    {
+      "trials": 846000000,
+      "matches": 7642097,
+      "estimate": 0.00903321158392435,
+      "elapsed_seconds": 13.234078917012084
+    },
+    {
+      "trials": 847000000,
+      "matches": 7651033,
+      "estimate": 0.00903309681227863,
+      "elapsed_seconds": 13.238102667004569
+    },
+    {
+      "trials": 848000000,
+      "matches": 7660020,
+      "estimate": 0.009033042452830188,
+      "elapsed_seconds": 13.271765458019217
+    },
+    {
+      "trials": 849000000,
+      "matches": 7669149,
+      "estimate": 0.009033155477031802,
+      "elapsed_seconds": 13.284785708005074
+    },
+    {
+      "trials": 850000000,
+      "matches": 7678220,
+      "estimate": 0.0090332,
+      "elapsed_seconds": 13.284798750013579
+    },
+    {
+      "trials": 851000000,
+      "matches": 7687440,
+      "estimate": 0.009033419506462985,
+      "elapsed_seconds": 13.290634208009578
+    },
+    {
+      "trials": 852000000,
+      "matches": 7696454,
+      "estimate": 0.009033396713615024,
+      "elapsed_seconds": 13.297891292022541
+    },
+    {
+      "trials": 853000000,
+      "matches": 7705491,
+      "estimate": 0.009033400937866354,
+      "elapsed_seconds": 13.322955208015628
+    },
+    {
+      "trials": 854000000,
+      "matches": 7714493,
+      "estimate": 0.009033364168618267,
+      "elapsed_seconds": 13.34685112501029
+    },
+    {
+      "trials": 855000000,
+      "matches": 7723506,
+      "estimate": 0.009033340350877193,
+      "elapsed_seconds": 13.373977583018132
+    },
+    {
+      "trials": 856000000,
+      "matches": 7732520,
+      "estimate": 0.009033317757009347,
+      "elapsed_seconds": 13.374234792019706
+    },
+    {
+      "trials": 857000000,
+      "matches": 7741557,
+      "estimate": 0.009033322053675612,
+      "elapsed_seconds": 13.379852583020693
+    },
+    {
+      "trials": 858000000,
+      "matches": 7750677,
+      "estimate": 0.009033423076923078,
+      "elapsed_seconds": 13.398807999998098
+    },
+    {
+      "trials": 859000000,
+      "matches": 7759717,
+      "estimate": 0.009033430733410943,
+      "elapsed_seconds": 13.399078333022771
+    },
+    {
+      "trials": 860000000,
+      "matches": 7768844,
+      "estimate": 0.00903353953488372,
+      "elapsed_seconds": 13.40129574999446
+    },
+    {
+      "trials": 861000000,
+      "matches": 7777716,
+      "estimate": 0.009033351916376307,
+      "elapsed_seconds": 13.443588916998124
+    },
+    {
+      "trials": 862000000,
+      "matches": 7786821,
+      "estimate": 0.009033435034802785,
+      "elapsed_seconds": 13.449602542008506
+    },
+    {
+      "trials": 863000000,
+      "matches": 7795902,
+      "estimate": 0.009033490150637312,
+      "elapsed_seconds": 13.495477832999313
+    },
+    {
+      "trials": 864000000,
+      "matches": 7804972,
+      "estimate": 0.009033532407407407,
+      "elapsed_seconds": 13.49549175001448
+    },
+    {
+      "trials": 865000000,
+      "matches": 7814036,
+      "estimate": 0.009033567630057804,
+      "elapsed_seconds": 13.511851917020977
+    },
+    {
+      "trials": 866000000,
+      "matches": 7823044,
+      "estimate": 0.009033538106235566,
+      "elapsed_seconds": 13.522947792022023
+    },
+    {
+      "trials": 867000000,
+      "matches": 7832155,
+      "estimate": 0.009033627450980393,
+      "elapsed_seconds": 13.52950845801388
+    },
+    {
+      "trials": 868000000,
+      "matches": 7841426,
+      "estimate": 0.009033900921658986,
+      "elapsed_seconds": 13.550031958002364
+    },
+    {
+      "trials": 869000000,
+      "matches": 7850266,
+      "estimate": 0.009033677790563866,
+      "elapsed_seconds": 13.573030125000514
+    },
+    {
+      "trials": 870000000,
+      "matches": 7859309,
+      "estimate": 0.009033688505747126,
+      "elapsed_seconds": 13.573044874996413
+    },
+    {
+      "trials": 871000000,
+      "matches": 7868280,
+      "estimate": 0.009033616532721011,
+      "elapsed_seconds": 13.609726750000846
+    },
+    {
+      "trials": 872000000,
+      "matches": 7877212,
+      "estimate": 0.0090335,
+      "elapsed_seconds": 13.615210874995682
+    },
+    {
+      "trials": 873000000,
+      "matches": 7886189,
+      "estimate": 0.009033435280641466,
+      "elapsed_seconds": 13.62057158301468
+    },
+    {
+      "trials": 874000000,
+      "matches": 7895292,
+      "estimate": 0.009033514874141876,
+      "elapsed_seconds": 13.621272749995114
+    },
+    {
+      "trials": 875000000,
+      "matches": 7904367,
+      "estimate": 0.009033562285714286,
+      "elapsed_seconds": 13.622929042001488
+    },
+    {
+      "trials": 876000000,
+      "matches": 7913431,
+      "estimate": 0.009033597031963471,
+      "elapsed_seconds": 13.649601875018561
+    },
+    {
+      "trials": 877000000,
+      "matches": 7922264,
+      "estimate": 0.009033368301026226,
+      "elapsed_seconds": 13.6646199170209
+    },
+    {
+      "trials": 878000000,
+      "matches": 7931318,
+      "estimate": 0.009033391799544419,
+      "elapsed_seconds": 13.708754708000924
+    },
+    {
+      "trials": 879000000,
+      "matches": 7940152,
+      "estimate": 0.009033164960182026,
+      "elapsed_seconds": 13.738345292018494
+    },
+    {
+      "trials": 880000000,
+      "matches": 7949011,
+      "estimate": 0.009032967045454546,
+      "elapsed_seconds": 13.738380374998087
+    },
+    {
+      "trials": 881000000,
+      "matches": 7958120,
+      "estimate": 0.00903305334846765,
+      "elapsed_seconds": 13.738806792011019
+    },
+    {
+      "trials": 882000000,
+      "matches": 7967155,
+      "estimate": 0.009033055555555556,
+      "elapsed_seconds": 13.738814417010872
+    },
+    {
+      "trials": 883000000,
+      "matches": 7976051,
+      "estimate": 0.009032900339750849,
+      "elapsed_seconds": 13.738819542020792
+    },
+    {
+      "trials": 884000000,
+      "matches": 7984928,
+      "estimate": 0.009032723981900453,
+      "elapsed_seconds": 13.786732792010298
+    },
+    {
+      "trials": 885000000,
+      "matches": 7994022,
+      "estimate": 0.009032793220338982,
+      "elapsed_seconds": 13.796752583002672
+    },
+    {
+      "trials": 886000000,
+      "matches": 8003252,
+      "estimate": 0.009033015801354401,
+      "elapsed_seconds": 13.82105666701682
+    },
+    {
+      "trials": 887000000,
+      "matches": 8012463,
+      "estimate": 0.009033216459977452,
+      "elapsed_seconds": 13.831230208015768
+    },
+    {
+      "trials": 888000000,
+      "matches": 8021433,
+      "estimate": 0.00903314527027027,
+      "elapsed_seconds": 13.856282583001303
+    },
+    {
+      "trials": 889000000,
+      "matches": 8030404,
+      "estimate": 0.009033075365579303,
+      "elapsed_seconds": 13.856295375007903
+    },
+    {
+      "trials": 890000000,
+      "matches": 8039339,
+      "estimate": 0.009032965168539325,
+      "elapsed_seconds": 13.862269542005379
+    },
+    {
+      "trials": 891000000,
+      "matches": 8048459,
+      "estimate": 0.009033062850729518,
+      "elapsed_seconds": 13.876048250007443
+    },
+    {
+      "trials": 892000000,
+      "matches": 8057369,
+      "estimate": 0.009032924887892377,
+      "elapsed_seconds": 13.889013792009791
+    },
+    {
+      "trials": 893000000,
+      "matches": 8066582,
+      "estimate": 0.00903312653975364,
+      "elapsed_seconds": 13.903274375014007
+    },
+    {
+      "trials": 894000000,
+      "matches": 8075820,
+      "estimate": 0.009033355704697987,
+      "elapsed_seconds": 13.922992583015002
+    },
+    {
+      "trials": 895000000,
+      "matches": 8084908,
+      "estimate": 0.009033416759776536,
+      "elapsed_seconds": 13.92300420801621
+    },
+    {
+      "trials": 896000000,
+      "matches": 8094066,
+      "estimate": 0.009033555803571429,
+      "elapsed_seconds": 13.938445708015934
+    },
+    {
+      "trials": 897000000,
+      "matches": 8102970,
+      "estimate": 0.009033411371237459,
+      "elapsed_seconds": 13.939288958004909
+    },
+    {
+      "trials": 898000000,
+      "matches": 8111933,
+      "estimate": 0.009033332962138084,
+      "elapsed_seconds": 13.9669579170004
+    },
+    {
+      "trials": 899000000,
+      "matches": 8120773,
+      "estimate": 0.009033117908787542,
+      "elapsed_seconds": 13.976531292020809
+    },
+    {
+      "trials": 900000000,
+      "matches": 8129852,
+      "estimate": 0.009033168888888889,
+      "elapsed_seconds": 14.028399917006027
+    },
+    {
+      "trials": 901000000,
+      "matches": 8138834,
+      "estimate": 0.009033112097669256,
+      "elapsed_seconds": 14.071244374994421
+    },
+    {
+      "trials": 902000000,
+      "matches": 8147966,
+      "estimate": 0.009033221729490021,
+      "elapsed_seconds": 14.071259083022596
+    },
+    {
+      "trials": 903000000,
+      "matches": 8157131,
+      "estimate": 0.009033367663344408,
+      "elapsed_seconds": 14.071264583006268
+    },
+    {
+      "trials": 904000000,
+      "matches": 8166235,
+      "estimate": 0.009033445796460177,
+      "elapsed_seconds": 14.071269250009209
+    },
+    {
+      "trials": 905000000,
+      "matches": 8175174,
+      "estimate": 0.009033341436464089,
+      "elapsed_seconds": 14.07127420802135
+    },
+    {
+      "trials": 906000000,
+      "matches": 8184265,
+      "estimate": 0.009033405077262692,
+      "elapsed_seconds": 14.094150667020585
+    },
+    {
+      "trials": 907000000,
+      "matches": 8193281,
+      "estimate": 0.009033385887541346,
+      "elapsed_seconds": 14.094163875008235
+    },
+    {
+      "trials": 908000000,
+      "matches": 8202255,
+      "estimate": 0.009033320484581497,
+      "elapsed_seconds": 14.127429875021335
+    },
+    {
+      "trials": 909000000,
+      "matches": 8211212,
+      "estimate": 0.009033236523652365,
+      "elapsed_seconds": 14.140908833011054
+    },
+    {
+      "trials": 910000000,
+      "matches": 8220151,
+      "estimate": 0.009033132967032967,
+      "elapsed_seconds": 14.140919833007501
+    },
+    {
+      "trials": 911000000,
+      "matches": 8229286,
+      "estimate": 0.009033244785949506,
+      "elapsed_seconds": 14.141057625005487
+    },
+    {
+      "trials": 912000000,
+      "matches": 8238272,
+      "estimate": 0.00903319298245614,
+      "elapsed_seconds": 14.158797292009695
+    },
+    {
+      "trials": 913000000,
+      "matches": 8247409,
+      "estimate": 0.009033306681270536,
+      "elapsed_seconds": 14.172028083004989
+    },
+    {
+      "trials": 914000000,
+      "matches": 8256525,
+      "estimate": 0.00903339715536105,
+      "elapsed_seconds": 14.31237600001623
+    },
+    {
+      "trials": 915000000,
+      "matches": 8265686,
+      "estimate": 0.009033536612021859,
+      "elapsed_seconds": 14.312399417016422
+    },
+    {
+      "trials": 916000000,
+      "matches": 8274637,
+      "estimate": 0.009033446506550219,
+      "elapsed_seconds": 14.312405500008026
+    },
+    {
+      "trials": 917000000,
+      "matches": 8283632,
+      "estimate": 0.009033404580152673,
+      "elapsed_seconds": 14.312411542021437
+    },
+    {
+      "trials": 918000000,
+      "matches": 8292521,
+      "estimate": 0.009033247276688453,
+      "elapsed_seconds": 14.312416625005426
+    },
+    {
+      "trials": 919000000,
+      "matches": 8301584,
+      "estimate": 0.00903327965179543,
+      "elapsed_seconds": 14.312421667011222
+    },
+    {
+      "trials": 920000000,
+      "matches": 8310735,
+      "estimate": 0.009033407608695651,
+      "elapsed_seconds": 14.3124257500167
+    },
+    {
+      "trials": 921000000,
+      "matches": 8319707,
+      "estimate": 0.009033340933767644,
+      "elapsed_seconds": 14.312507249996997
+    },
+    {
+      "trials": 922000000,
+      "matches": 8328780,
+      "estimate": 0.009033383947939263,
+      "elapsed_seconds": 14.376548000000184
+    },
+    {
+      "trials": 923000000,
+      "matches": 8337872,
+      "estimate": 0.009033447453954496,
+      "elapsed_seconds": 14.402013417013222
+    },
+    {
+      "trials": 924000000,
+      "matches": 8346880,
+      "estimate": 0.009033419913419913,
+      "elapsed_seconds": 14.402026625000872
+    },
+    {
+      "trials": 925000000,
+      "matches": 8355952,
+      "estimate": 0.009033461621621622,
+      "elapsed_seconds": 14.44135500001721
+    },
+    {
+      "trials": 926000000,
+      "matches": 8364858,
+      "estimate": 0.009033323974082073,
+      "elapsed_seconds": 14.44136766702286
+    },
+    {
+      "trials": 927000000,
+      "matches": 8373962,
+      "estimate": 0.009033400215749731,
+      "elapsed_seconds": 14.460456500004511
+    },
+    {
+      "trials": 928000000,
+      "matches": 8382846,
+      "estimate": 0.00903323922413793,
+      "elapsed_seconds": 14.46046825000667
+    },
+    {
+      "trials": 929000000,
+      "matches": 8391743,
+      "estimate": 0.009033092572658772,
+      "elapsed_seconds": 14.467873792018509
+    },
+    {
+      "trials": 930000000,
+      "matches": 8400936,
+      "estimate": 0.009033264516129033,
+      "elapsed_seconds": 14.52219770802185
+    },
+    {
+      "trials": 931000000,
+      "matches": 8410038,
+      "estimate": 0.009033338345864662,
+      "elapsed_seconds": 14.522260541998548
+    },
+    {
+      "trials": 932000000,
+      "matches": 8419121,
+      "estimate": 0.009033391630901288,
+      "elapsed_seconds": 14.528484750015195
+    },
+    {
+      "trials": 933000000,
+      "matches": 8428189,
+      "estimate": 0.00903342872454448,
+      "elapsed_seconds": 14.597268833022099
+    },
+    {
+      "trials": 934000000,
+      "matches": 8437223,
+      "estimate": 0.009033429336188437,
+      "elapsed_seconds": 14.597288250020938
+    },
+    {
+      "trials": 935000000,
+      "matches": 8446386,
+      "estimate": 0.009033567914438503,
+      "elapsed_seconds": 14.600059500022326
+    },
+    {
+      "trials": 936000000,
+      "matches": 8455413,
+      "estimate": 0.009033560897435898,
+      "elapsed_seconds": 14.600070375017822
+    },
+    {
+      "trials": 937000000,
+      "matches": 8464482,
+      "estimate": 0.00903359871931697,
+      "elapsed_seconds": 14.600076208007522
+    },
+    {
+      "trials": 938000000,
+      "matches": 8473635,
+      "estimate": 0.009033726012793177,
+      "elapsed_seconds": 14.610092417016858
+    },
+    {
+      "trials": 939000000,
+      "matches": 8482684,
+      "estimate": 0.009033742279020235,
+      "elapsed_seconds": 14.639337625005282
+    },
+    {
+      "trials": 940000000,
+      "matches": 8491718,
+      "estimate": 0.00903374255319149,
+      "elapsed_seconds": 14.639352124999277
+    },
+    {
+      "trials": 941000000,
+      "matches": 8500768,
+      "estimate": 0.009033759829968119,
+      "elapsed_seconds": 14.686845707998145
+    },
+    {
+      "trials": 942000000,
+      "matches": 8509854,
+      "estimate": 0.009033815286624204,
+      "elapsed_seconds": 14.704309082997497
+    },
+    {
+      "trials": 943000000,
+      "matches": 8518787,
+      "estimate": 0.009033708377518558,
+      "elapsed_seconds": 14.722593625017907
+    },
+    {
+      "trials": 944000000,
+      "matches": 8527894,
+      "estimate": 0.009033786016949152,
+      "elapsed_seconds": 14.722608792013489
+    },
+    {
+      "trials": 945000000,
+      "matches": 8536839,
+      "estimate": 0.009033692063492063,
+      "elapsed_seconds": 14.722614875005092
+    },
+    {
+      "trials": 946000000,
+      "matches": 8545863,
+      "estimate": 0.009033681818181817,
+      "elapsed_seconds": 14.722620083019137
+    },
+    {
+      "trials": 947000000,
+      "matches": 8555124,
+      "estimate": 0.009033921858500528,
+      "elapsed_seconds": 14.776594167022267
+    },
+    {
+      "trials": 948000000,
+      "matches": 8564020,
+      "estimate": 0.009033776371308018,
+      "elapsed_seconds": 14.776610375003656
+    },
+    {
+      "trials": 949000000,
+      "matches": 8572924,
+      "estimate": 0.00903363962065332,
+      "elapsed_seconds": 14.854973458015593
+    },
+    {
+      "trials": 950000000,
+      "matches": 8582002,
+      "estimate": 0.009033686315789474,
+      "elapsed_seconds": 14.854987291997531
+    },
+    {
+      "trials": 951000000,
+      "matches": 8591046,
+      "estimate": 0.009033697160883281,
+      "elapsed_seconds": 14.855029375001322
+    },
+    {
+      "trials": 952000000,
+      "matches": 8600095,
+      "estimate": 0.009033713235294118,
+      "elapsed_seconds": 14.855034125008387
+    },
+    {
+      "trials": 953000000,
+      "matches": 8609104,
+      "estimate": 0.009033687303252885,
+      "elapsed_seconds": 14.855038958019577
+    },
+    {
+      "trials": 954000000,
+      "matches": 8618196,
+      "estimate": 0.009033748427672956,
+      "elapsed_seconds": 14.862672457995359
+    },
+    {
+      "trials": 955000000,
+      "matches": 8627251,
+      "estimate": 0.009033770680628272,
+      "elapsed_seconds": 14.872104667010717
+    },
+    {
+      "trials": 956000000,
+      "matches": 8636293,
+      "estimate": 0.009033779288702928,
+      "elapsed_seconds": 14.899671542021679
+    },
+    {
+      "trials": 957000000,
+      "matches": 8645298,
+      "estimate": 0.00903374921630094,
+      "elapsed_seconds": 14.921144542022375
+    },
+    {
+      "trials": 958000000,
+      "matches": 8654489,
+      "estimate": 0.009033913361169103,
+      "elapsed_seconds": 14.949949833011487
+    },
+    {
+      "trials": 959000000,
+      "matches": 8663430,
+      "estimate": 0.009033816475495308,
+      "elapsed_seconds": 14.949966250016587
+    },
+    {
+      "trials": 960000000,
+      "matches": 8672635,
+      "estimate": 0.009033994791666666,
+      "elapsed_seconds": 14.972126167005626
+    },
+    {
+      "trials": 961000000,
+      "matches": 8681703,
+      "estimate": 0.009034030176899063,
+      "elapsed_seconds": 14.97218462501769
+    },
+    {
+      "trials": 962000000,
+      "matches": 8690627,
+      "estimate": 0.0090339158004158,
+      "elapsed_seconds": 14.99945283299894
+    },
+    {
+      "trials": 963000000,
+      "matches": 8699583,
+      "estimate": 0.009033834890965733,
+      "elapsed_seconds": 15.004107875021873
+    },
+    {
+      "trials": 964000000,
+      "matches": 8708638,
+      "estimate": 0.009033856846473029,
+      "elapsed_seconds": 15.01650383300148
+    },
+    {
+      "trials": 965000000,
+      "matches": 8717672,
+      "estimate": 0.009033856994818653,
+      "elapsed_seconds": 15.045870583009673
+    },
+    {
+      "trials": 966000000,
+      "matches": 8726638,
+      "estimate": 0.009033786749482402,
+      "elapsed_seconds": 15.045884791994467
+    },
+    {
+      "trials": 967000000,
+      "matches": 8735649,
+      "estimate": 0.009033763185108583,
+      "elapsed_seconds": 15.053249999997206
+    },
+    {
+      "trials": 968000000,
+      "matches": 8744676,
+      "estimate": 0.009033756198347108,
+      "elapsed_seconds": 15.053262166999048
+    },
+    {
+      "trials": 969000000,
+      "matches": 8753468,
+      "estimate": 0.009033506707946337,
+      "elapsed_seconds": 15.08077550001326
+    },
+    {
+      "trials": 970000000,
+      "matches": 8762564,
+      "estimate": 0.009033571134020618,
+      "elapsed_seconds": 15.119943333003903
+    },
+    {
+      "trials": 971000000,
+      "matches": 8771582,
+      "estimate": 0.00903355509783728,
+      "elapsed_seconds": 15.120093333011027
+    },
+    {
+      "trials": 972000000,
+      "matches": 8780776,
+      "estimate": 0.009033720164609054,
+      "elapsed_seconds": 15.14166954200482
+    },
+    {
+      "trials": 973000000,
+      "matches": 8789697,
+      "estimate": 0.009033604316546763,
+      "elapsed_seconds": 15.178449750004802
+    },
+    {
+      "trials": 974000000,
+      "matches": 8798796,
+      "estimate": 0.009033671457905543,
+      "elapsed_seconds": 15.178474750020541
+    },
+    {
+      "trials": 975000000,
+      "matches": 8807816,
+      "estimate": 0.009033657435897437,
+      "elapsed_seconds": 15.180511750018923
+    },
+    {
+      "trials": 976000000,
+      "matches": 8817038,
+      "estimate": 0.009033850409836066,
+      "elapsed_seconds": 15.182811333012069
+    },
+    {
+      "trials": 977000000,
+      "matches": 8826018,
+      "estimate": 0.009033795291709314,
+      "elapsed_seconds": 15.21308279200457
+    },
+    {
+      "trials": 978000000,
+      "matches": 8835107,
+      "estimate": 0.009033851738241309,
+      "elapsed_seconds": 15.216394625022076
+    },
+    {
+      "trials": 979000000,
+      "matches": 8844150,
+      "estimate": 0.009033861082737488,
+      "elapsed_seconds": 15.25341683300212
+    },
+    {
+      "trials": 980000000,
+      "matches": 8853361,
+      "estimate": 0.009034041836734693,
+      "elapsed_seconds": 15.253664292016765
+    },
+    {
+      "trials": 981000000,
+      "matches": 8862383,
+      "estimate": 0.009034029561671764,
+      "elapsed_seconds": 15.273445291997632
+    },
+    {
+      "trials": 982000000,
+      "matches": 8871409,
+      "estimate": 0.009034021384928717,
+      "elapsed_seconds": 15.273717917007161
+    },
+    {
+      "trials": 983000000,
+      "matches": 8880550,
+      "estimate": 0.00903413021363174,
+      "elapsed_seconds": 15.302930583013222
+    },
+    {
+      "trials": 984000000,
+      "matches": 8889803,
+      "estimate": 0.009034352642276422,
+      "elapsed_seconds": 15.302942875016015
+    },
+    {
+      "trials": 985000000,
+      "matches": 8898886,
+      "estimate": 0.009034402030456853,
+      "elapsed_seconds": 15.339763541996945
+    },
+    {
+      "trials": 986000000,
+      "matches": 8908035,
+      "estimate": 0.009034518255578093,
+      "elapsed_seconds": 15.340812583017396
+    },
+    {
+      "trials": 987000000,
+      "matches": 8917210,
+      "estimate": 0.00903466058763931,
+      "elapsed_seconds": 15.356982249999419
+    },
+    {
+      "trials": 988000000,
+      "matches": 8926139,
+      "estimate": 0.009034553643724696,
+      "elapsed_seconds": 15.418047500017565
+    },
+    {
+      "trials": 989000000,
+      "matches": 8935159,
+      "estimate": 0.009034538928210314,
+      "elapsed_seconds": 15.431367833021795
+    },
+    {
+      "trials": 990000000,
+      "matches": 8944242,
+      "estimate": 0.00903458787878788,
+      "elapsed_seconds": 15.431382000009762
+    },
+    {
+      "trials": 991000000,
+      "matches": 8953280,
+      "estimate": 0.009034591321897073,
+      "elapsed_seconds": 15.43141454202123
+    },
+    {
+      "trials": 992000000,
+      "matches": 8962343,
+      "estimate": 0.00903461995967742,
+      "elapsed_seconds": 15.431416792009259
+    },
+    {
+      "trials": 993000000,
+      "matches": 8971264,
+      "estimate": 0.009034505538771399,
+      "elapsed_seconds": 15.46654325001873
+    },
+    {
+      "trials": 994000000,
+      "matches": 8980382,
+      "estimate": 0.00903458953722334,
+      "elapsed_seconds": 15.466556416999083
+    },
+    {
+      "trials": 995000000,
+      "matches": 8989357,
+      "estimate": 0.009034529648241207,
+      "elapsed_seconds": 15.480534125003032
+    },
+    {
+      "trials": 996000000,
+      "matches": 8998475,
+      "estimate": 0.009034613453815262,
+      "elapsed_seconds": 15.496273791999556
+    },
+    {
+      "trials": 997000000,
+      "matches": 9007465,
+      "estimate": 0.009034568706118355,
+      "elapsed_seconds": 15.499464249995071
+    },
+    {
+      "trials": 998000000,
+      "matches": 9016451,
+      "estimate": 0.00903452004008016,
+      "elapsed_seconds": 15.500045292021241
+    },
+    {
+      "trials": 999000000,
+      "matches": 9025619,
+      "estimate": 0.009034653653653654,
+      "elapsed_seconds": 15.500051667011576
+    },
+    {
+      "trials": 1000000000,
+      "matches": 9034607,
+      "estimate": 0.009034607,
+      "elapsed_seconds": 15.512231041997438
+    }
+  ]
+}
