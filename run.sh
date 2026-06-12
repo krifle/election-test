@@ -110,7 +110,7 @@ case "$COMMAND" in
     fi
 
     echo "웹 서버를 시작합니다. Python 가상환경은 필요하지 않습니다."
-    echo "브라우저 주소: http://localhost:$PORT/web/"
+    echo "브라우저 주소: http://localhost:$PORT/"
     echo "종료하려면 Ctrl+C를 누르세요."
     exec "$SELECTED_NODE" server.js "$HOST" "$PORT"
     ;;
