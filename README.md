@@ -12,7 +12,8 @@
 sh run.sh
 ```
 
-브라우저에서 <http://localhost:8000/web/> 을 엽니다.
+브라우저에서 <http://localhost:8000/> 을 엽니다. 기존
+<http://localhost:8000/web/> 주소도 지원합니다.
 
 다른 포트를 사용하려면:
 
@@ -74,3 +75,27 @@ PYTHON_BIN=/opt/homebrew/bin/python3 sh run.sh test
 ```
 
 자세한 조사 내용과 통계적 해석은 [docs/analysis.md](docs/analysis.md)를 참고하세요.
+
+## GitHub Pages
+
+정적 페이지는 GitHub Actions로 배포됩니다. `main` 브랜치에 변경사항이
+반영되면 `.github/workflows/pages.yml`이 다음 파일을 Pages 루트로 조립합니다.
+
+- `web/`의 HTML, CSS, JavaScript
+- `data/one-billion.json`
+- `docs/analysis.md`
+
+배포용 파일을 로컬에서 직접 조립하려면:
+
+```bash
+sh scripts/build-pages.sh
+```
+
+결과는 `_site/`에 생성됩니다.
+
+배포 주소:
+
+<https://krifle.github.io/election-test/>
+
+저장소의 **Settings → Pages → Build and deployment → Source**가
+`GitHub Actions`로 설정되어 있어야 합니다.

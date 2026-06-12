@@ -393,7 +393,7 @@ function startSimulation() {
 
   const trials = Math.max(1000, Number(elements.trialsInput.value));
   const batchSize = Math.min(100000, Math.max(5000, Math.floor(trials / 100)));
-  state.worker = new Worker("/web/simulation-worker.js");
+  state.worker = new Worker("./simulation-worker.js");
   state.worker.onmessage = (event) => {
     const message = event.data;
     if (message.type === "progress" || message.type === "done") {
@@ -465,7 +465,7 @@ async function loadBundledBillionResult() {
   if (state.isRunning) return;
   elements.loadBillionButton.disabled = true;
   try {
-    const response = await fetch("/data/one-billion.json");
+    const response = await fetch("./data/one-billion.json");
     if (!response.ok) throw new Error("저장된 결과를 읽지 못했습니다.");
     applyResultData(await response.json(), "저장된 10억 회 결과");
   } catch (error) {

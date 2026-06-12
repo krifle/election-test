@@ -28,7 +28,16 @@ function send(response, status, body, contentType = "text/plain; charset=utf-8")
 
 function resolveRequestPath(requestUrl) {
   const pathname = decodeURIComponent(new URL(requestUrl, "http://localhost").pathname);
-  const relativePath = pathname === "/" ? "web/index.html" : pathname.slice(1);
+  const localAliases = {
+    "/": "web/index.html",
+    "/app.js": "web/app.js",
+    "/simulation-worker.js": "web/simulation-worker.js",
+    "/styles.css": "web/styles.css",
+    "/analysis.md": "docs/analysis.md",
+    "/web/analysis.md": "docs/analysis.md",
+    "/web/data/one-billion.json": "data/one-billion.json",
+  };
+  const relativePath = localAliases[pathname] || pathname.slice(1);
   let filePath = path.resolve(root, relativePath);
 
   if (filePath !== root && !filePath.startsWith(root + path.sep)) {
@@ -98,5 +107,5 @@ const server = http.createServer((request, response) => {
 
 server.listen(port, host, () => {
   console.log(`Serving ${root}`);
-  console.log(`http://localhost:${port}/web/`);
+  console.log(`http://localhost:${port}/`);
 });
