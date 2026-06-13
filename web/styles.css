@@ -632,6 +632,11 @@ input:focus {
   background: rgba(255, 107, 53, 0.06);
 }
 
+.history-example.subtle {
+  border-left-color: var(--blue);
+  background: rgba(30, 75, 255, 0.05);
+}
+
 .history-example h3 {
   margin: 0 0 8px;
   font-size: 1.25rem;

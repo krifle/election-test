@@ -1,0 +1,9 @@
+{
+  "dataset_id": "kr-local-2010-election_day",
+  "country": "KR",
+  "election_name": "제5회 전국동시지방선거",
+  "election_type": "local",
+  "year": 2010,
+  "round": "general",
+  "units": []
+}

@@ -1,0 +1,1154 @@
+{
+  "years": {
+    "2014": {
+      "in_person_advance": {
+        "units": {
+          "unit_count": 23130,
+          "comparable_unit_count": 23129,
+          "median_total_valid_votes": 557,
+          "mean_total_valid_votes": 724.69
+        },
+        "top2_pairs": {
+          "all_pairs": 1656599,
+          "matching_pairs": 44,
+          "matching_pair_rate": 2.656044099990402e-05
+        },
+        "top2_pairs_by_n_bin": {
+          "0-499": {
+            "unit_count": 10729,
+            "matching_pairs": 39,
+            "all_pairs": 450022,
+            "matching_pair_rate": 8.666242983676353e-05
+          },
+          "1000-1999": {
+            "unit_count": 5529,
+            "matching_pairs": 3,
+            "all_pairs": 175319,
+            "matching_pair_rate": 1.711166502204553e-05
+          },
+          "2000-3999": {
+            "unit_count": 738,
+            "matching_pairs": 0,
+            "all_pairs": 3176,
+            "matching_pair_rate": 0.0
+          },
+          "4000-999999": {
+            "unit_count": 2,
+            "matching_pairs": 0,
+            "all_pairs": 0,
+            "matching_pair_rate": 0.0
+          },
+          "500-999": {
+            "unit_count": 6131,
+            "matching_pairs": 2,
+            "all_pairs": 113185,
+            "matching_pair_rate": 1.7670185978707425e-05
+          }
+        },
+        "top2_examples": [
+          {
+            "contest_id": "광역의원비례대표:경기도",
+            "signature": [
+              604,
+              592
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경기도 안양시동안구 비산1동",
+              "경기도 고양시일산서구 송산동"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상남도",
+            "signature": [
+              121,
+              30
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상남도 함안군 함안면",
+              "경상남도 산청군 차황면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상북도",
+            "signature": [
+              120,
+              22
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 의성군 가음면",
+              "경상북도 봉화군 상운면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상북도",
+            "signature": [
+              204,
+              43
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 김천시 농소면",
+              "경상북도 김천시 개령면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라남도",
+            "signature": [
+              87,
+              11
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라남도 무안군 망운면",
+              "전라남도 함평군 신광면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라남도",
+            "signature": [
+              124,
+              25
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라남도 장흥군 유치면",
+              "전라남도 진도군 군내면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라남도",
+            "signature": [
+              140,
+              27
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라남도 여수시 남면",
+              "전라남도 완도군 금당면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라남도",
+            "signature": [
+              227,
+              36
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라남도 여수시 서강동",
+              "전라남도 해남군 계곡면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라북도",
+            "signature": [
+              149,
+              29
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 순창군 유등면",
+              "전라북도 순창군 풍산면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:충청남도",
+            "signature": [
+              139,
+              85
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "충청남도 공주시 우성면",
+              "충청남도 논산시 성동면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:충청북도",
+            "signature": [
+              114,
+              70
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "충청북도 영동군 양산면",
+              "충청북도 괴산군 문광면"
+            ]
+          },
+          {
+            "contest_id": "교육감:강원도",
+            "signature": [
+              83,
+              59
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "강원도 양양군 현북면",
+              "강원도 양구군 동면"
+            ]
+          }
+        ]
+      },
+      "election_day": {
+        "units": {
+          "unit_count": 23130,
+          "comparable_unit_count": 23130,
+          "median_total_valid_votes": 3802.0,
+          "mean_total_valid_votes": 5091.01
+        },
+        "top2_pairs": {
+          "all_pairs": 1657148,
+          "matching_pairs": 0,
+          "matching_pair_rate": 0.0
+        },
+        "top2_pairs_by_n_bin": {
+          "0-499": {
+            "unit_count": 282,
+            "matching_pairs": 0,
+            "all_pairs": 465,
+            "matching_pair_rate": 0.0
+          },
+          "1000-1999": {
+            "unit_count": 4812,
+            "matching_pairs": 0,
+            "all_pairs": 100425,
+            "matching_pair_rate": 0.0
+          },
+          "2000-3999": {
+            "unit_count": 4693,
+            "matching_pairs": 0,
+            "all_pairs": 83332,
+            "matching_pair_rate": 0.0
+          },
+          "4000-999999": {
+            "unit_count": 11190,
+            "matching_pairs": 0,
+            "all_pairs": 549139,
+            "matching_pair_rate": 0.0
+          },
+          "500-999": {
+            "unit_count": 2153,
+            "matching_pairs": 0,
+            "all_pairs": 26197,
+            "matching_pair_rate": 0.0
+          }
+        },
+        "top2_examples": []
+      }
+    },
+    "2018": {
+      "in_person_advance": {
+        "units": {
+          "unit_count": 23886,
+          "comparable_unit_count": 23886,
+          "median_total_valid_votes": 1299.0,
+          "mean_total_valid_votes": 1602.92
+        },
+        "top2_pairs": {
+          "all_pairs": 1678464,
+          "matching_pairs": 14,
+          "matching_pair_rate": 8.340959353313505e-06
+        },
+        "top2_pairs_by_n_bin": {
+          "0-499": {
+            "unit_count": 4462,
+            "matching_pairs": 5,
+            "all_pairs": 77537,
+            "matching_pair_rate": 6.448534248165392e-05
+          },
+          "1000-1999": {
+            "unit_count": 6422,
+            "matching_pairs": 3,
+            "all_pairs": 124288,
+            "matching_pair_rate": 2.413748712667353e-05
+          },
+          "2000-3999": {
+            "unit_count": 6652,
+            "matching_pairs": 1,
+            "all_pairs": 233653,
+            "matching_pair_rate": 4.279850889994992e-06
+          },
+          "4000-999999": {
+            "unit_count": 1081,
+            "matching_pairs": 0,
+            "all_pairs": 5978,
+            "matching_pair_rate": 0.0
+          },
+          "500-999": {
+            "unit_count": 5269,
+            "matching_pairs": 3,
+            "all_pairs": 91431,
+            "matching_pair_rate": 3.281162844111953e-05
+          }
+        },
+        "top2_examples": [
+          {
+            "contest_id": "광역의원비례대표:강원도",
+            "signature": [
+              128,
+              117
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "강원도 원주시 지정면",
+              "강원도 원주시 부론면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경기도",
+            "signature": [
+              1254,
+              434
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경기도 광명시 광명7동",
+              "경기도 안산시상록구 본오3동"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상남도",
+            "signature": [
+              236,
+              200
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상남도 함안군 함안면",
+              "경상남도 남해군 서면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상남도",
+            "signature": [
+              449,
+              447
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상남도 사천시 남양동",
+              "경상남도 산청군 신안면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상북도",
+            "signature": [
+              151,
+              72
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 상주시 내서면",
+              "경상북도 청송군 파천면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상북도",
+            "signature": [
+              932,
+              516
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 구미시 임오동",
+              "경상북도 영덕군 영해면"
+            ]
+          },
+          {
+            "contest_id": "교육감:강원도",
+            "signature": [
+              288,
+              270
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "강원도 태백시 삼수동",
+              "강원도 홍천군 북방면"
+            ]
+          },
+          {
+            "contest_id": "교육감:경상북도",
+            "signature": [
+              87,
+              80
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 영천시 화북면",
+              "경상북도 고령군 성산면"
+            ]
+          },
+          {
+            "contest_id": "교육감:경상북도",
+            "signature": [
+              186,
+              116
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 구미시 공단2동",
+              "경상북도 예천군 보문면"
+            ]
+          },
+          {
+            "contest_id": "교육감:인천광역시",
+            "signature": [
+              158,
+              115
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "인천광역시 강화군 내가면",
+              "인천광역시 강화군 삼산면"
+            ]
+          },
+          {
+            "contest_id": "교육감:전라남도",
+            "signature": [
+              121,
+              102
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라남도 광양시 골약동",
+              "전라남도 영암군 덕진면"
+            ]
+          },
+          {
+            "contest_id": "교육감:전라북도",
+            "signature": [
+              249,
+              129
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 익산시 용안면",
+              "전라북도 익산시 삼기면"
+            ]
+          }
+        ]
+      },
+      "election_day": {
+        "units": {
+          "unit_count": 23886,
+          "comparable_unit_count": 23886,
+          "median_total_valid_votes": 3502.0,
+          "mean_total_valid_votes": 4784.55
+        },
+        "top2_pairs": {
+          "all_pairs": 1678464,
+          "matching_pairs": 7,
+          "matching_pair_rate": 4.170479676656753e-06
+        },
+        "top2_pairs_by_n_bin": {
+          "0-499": {
+            "unit_count": 751,
+            "matching_pairs": 1,
+            "all_pairs": 3915,
+            "matching_pair_rate": 0.0002554278416347382
+          },
+          "1000-1999": {
+            "unit_count": 4326,
+            "matching_pairs": 1,
+            "all_pairs": 63337,
+            "matching_pair_rate": 1.5788559609706805e-05
+          },
+          "2000-3999": {
+            "unit_count": 4303,
+            "matching_pairs": 0,
+            "all_pairs": 52035,
+            "matching_pair_rate": 0.0
+          },
+          "4000-999999": {
+            "unit_count": 10998,
+            "matching_pairs": 0,
+            "all_pairs": 572941,
+            "matching_pair_rate": 0.0
+          },
+          "500-999": {
+            "unit_count": 3508,
+            "matching_pairs": 5,
+            "all_pairs": 60033,
+            "matching_pair_rate": 8.328752519447637e-05
+          }
+        },
+        "top2_examples": [
+          {
+            "contest_id": "광역의원비례대표:강원도",
+            "signature": [
+              395,
+              347
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "강원도 춘천시 신동면",
+              "강원도 횡성군 서원면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:경상북도",
+            "signature": [
+              294,
+              90
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 예천군 효자면",
+              "경상북도 울진군 금강송면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라북도",
+            "signature": [
+              375,
+              70
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 남원시 주생면",
+              "전라북도 장수군 계북면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라북도",
+            "signature": [
+              595,
+              102
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 군산시 개정동",
+              "전라북도 남원시 죽항동"
+            ]
+          },
+          {
+            "contest_id": "교육감:경상남도",
+            "signature": [
+              375,
+              226
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상남도 의령군 지정면",
+              "경상남도 합천군 야로면"
+            ]
+          },
+          {
+            "contest_id": "구·시·군의장:밀양시",
+            "signature": [
+              872,
+              358
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상남도 밀양시 상동면",
+              "경상남도 밀양시 초동면"
+            ]
+          },
+          {
+            "contest_id": "시·도지사:전라북도",
+            "signature": [
+              623,
+              108
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 정읍시 이평면",
+              "전라북도 남원시 금지면"
+            ]
+          }
+        ]
+      }
+    },
+    "2022": {
+      "in_person_advance": {
+        "units": {
+          "unit_count": 15563,
+          "comparable_unit_count": 15563,
+          "median_total_valid_votes": 1532,
+          "mean_total_valid_votes": 1809.11
+        },
+        "top2_pairs": {
+          "all_pairs": 616554,
+          "matching_pairs": 2,
+          "matching_pair_rate": 3.243835900829449e-06
+        },
+        "top2_pairs_by_n_bin": {
+          "0-499": {
+            "unit_count": 1946,
+            "matching_pairs": 1,
+            "all_pairs": 11708,
+            "matching_pair_rate": 8.541168431841476e-05
+          },
+          "1000-1999": {
+            "unit_count": 4063,
+            "matching_pairs": 0,
+            "all_pairs": 42018,
+            "matching_pair_rate": 0.0
+          },
+          "2000-3999": {
+            "unit_count": 5074,
+            "matching_pairs": 0,
+            "all_pairs": 111371,
+            "matching_pair_rate": 0.0
+          },
+          "4000-999999": {
+            "unit_count": 892,
+            "matching_pairs": 0,
+            "all_pairs": 5987,
+            "matching_pair_rate": 0.0
+          },
+          "500-999": {
+            "unit_count": 3588,
+            "matching_pairs": 1,
+            "all_pairs": 41494,
+            "matching_pair_rate": 2.4099869860702753e-05
+          }
+        },
+        "top2_examples": [
+          {
+            "contest_id": "광역의원비례대표:경상북도",
+            "signature": [
+              418,
+              69
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "경상북도 경산시 남천면",
+              "경상북도 영양군 청기면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라북도",
+            "signature": [
+              334,
+              61
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 남원시 사매면",
+              "전라북도 김제시 성덕면"
+            ]
+          }
+        ]
+      },
+      "election_day": {
+        "units": {
+          "unit_count": 15563,
+          "comparable_unit_count": 15563,
+          "median_total_valid_votes": 2618,
+          "mean_total_valid_votes": 3725.2
+        },
+        "top2_pairs": {
+          "all_pairs": 616554,
+          "matching_pairs": 2,
+          "matching_pair_rate": 3.243835900829449e-06
+        },
+        "top2_pairs_by_n_bin": {
+          "0-499": {
+            "unit_count": 1447,
+            "matching_pairs": 2,
+            "all_pairs": 10107,
+            "matching_pair_rate": 0.00019788265558523795
+          },
+          "1000-1999": {
+            "unit_count": 2564,
+            "matching_pairs": 0,
+            "all_pairs": 17543,
+            "matching_pair_rate": 0.0
+          },
+          "2000-3999": {
+            "unit_count": 3110,
+            "matching_pairs": 0,
+            "all_pairs": 26153,
+            "matching_pair_rate": 0.0
+          },
+          "4000-999999": {
+            "unit_count": 5831,
+            "matching_pairs": 0,
+            "all_pairs": 160541,
+            "matching_pair_rate": 0.0
+          },
+          "500-999": {
+            "unit_count": 2611,
+            "matching_pairs": 0,
+            "all_pairs": 27554,
+            "matching_pair_rate": 0.0
+          }
+        },
+        "top2_examples": [
+          {
+            "contest_id": "광역의원비례대표:전라남도",
+            "signature": [
+              339,
+              57
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라남도 담양군 월산면",
+              "전라남도 장성군 북이면"
+            ]
+          },
+          {
+            "contest_id": "광역의원비례대표:전라북도",
+            "signature": [
+              242,
+              47
+            ],
+            "pair_count": 1,
+            "unit_count": 2,
+            "units": [
+              "전라북도 김제시 부량면",
+              "전라북도 순창군 풍산면"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "aggregate": {
+    "in_person_advance": {
+      "units": {
+        "unit_count": 62579,
+        "comparable_unit_count": 62578,
+        "median_total_valid_votes": 964.0,
+        "mean_total_valid_votes": 1329.6
+      },
+      "top2_pairs": {
+        "all_pairs": 9786539,
+        "matching_pairs": 82,
+        "matching_pair_rate": 8.378855895838151e-06
+      },
+      "top2_pairs_by_n_bin": {
+        "0-499": {
+          "unit_count": 17137,
+          "matching_pairs": 61,
+          "all_pairs": 998213,
+          "matching_pair_rate": 6.110920214423175e-05
+        },
+        "1000-1999": {
+          "unit_count": 16014,
+          "matching_pairs": 6,
+          "all_pairs": 728021,
+          "matching_pair_rate": 8.241520505589811e-06
+        },
+        "2000-3999": {
+          "unit_count": 12464,
+          "matching_pairs": 1,
+          "all_pairs": 619925,
+          "matching_pair_rate": 1.6130983586724201e-06
+        },
+        "4000-999999": {
+          "unit_count": 1975,
+          "matching_pairs": 0,
+          "all_pairs": 19615,
+          "matching_pair_rate": 0.0
+        },
+        "500-999": {
+          "unit_count": 14988,
+          "matching_pairs": 11,
+          "all_pairs": 542636,
+          "matching_pair_rate": 2.0271415829395764e-05
+        }
+      },
+      "top2_examples": [
+        {
+          "contest_id": "광역의원비례대표:강원도",
+          "signature": [
+            128,
+            117
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "강원도 원주시 지정면",
+            "강원도 원주시 부론면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:강원도",
+          "signature": [
+            395,
+            287
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "강원도 화천군 화천읍",
+            "강원도 원주시 봉산동"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경기도",
+          "signature": [
+            604,
+            592
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경기도 안양시동안구 비산1동",
+            "경기도 고양시일산서구 송산동"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경기도",
+          "signature": [
+            1254,
+            434
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경기도 광명시 광명7동",
+            "경기도 안산시상록구 본오3동"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상남도",
+          "signature": [
+            121,
+            30
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상남도 함안군 함안면",
+            "경상남도 산청군 차황면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상남도",
+          "signature": [
+            236,
+            200
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상남도 함안군 함안면",
+            "경상남도 남해군 서면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상남도",
+          "signature": [
+            359,
+            107
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상남도 밀양시 무안면",
+            "경상남도 의령군 가례면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상남도",
+          "signature": [
+            449,
+            447
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상남도 사천시 남양동",
+            "경상남도 산청군 신안면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상북도",
+          "signature": [
+            120,
+            22
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상북도 의성군 가음면",
+            "경상북도 봉화군 상운면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상북도",
+          "signature": [
+            151,
+            72
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상북도 상주시 내서면",
+            "경상북도 청송군 파천면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상북도",
+          "signature": [
+            204,
+            43
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상북도 김천시 농소면",
+            "경상북도 김천시 개령면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상북도",
+          "signature": [
+            418,
+            69
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상북도 경산시 남천면",
+            "경상북도 영양군 청기면"
+          ]
+        }
+      ]
+    },
+    "election_day": {
+      "units": {
+        "unit_count": 62579,
+        "comparable_unit_count": 62579,
+        "median_total_valid_votes": 3357,
+        "mean_total_valid_votes": 4634.37
+      },
+      "top2_pairs": {
+        "all_pairs": 9787649,
+        "matching_pairs": 13,
+        "matching_pair_rate": 1.3282045565794197e-06
+      },
+      "top2_pairs_by_n_bin": {
+        "0-499": {
+          "unit_count": 2480,
+          "matching_pairs": 3,
+          "all_pairs": 26655,
+          "matching_pair_rate": 0.00011254924029262802
+        },
+        "1000-1999": {
+          "unit_count": 11702,
+          "matching_pairs": 2,
+          "all_pairs": 425451,
+          "matching_pair_rate": 4.700893874970326e-06
+        },
+        "2000-3999": {
+          "unit_count": 12106,
+          "matching_pairs": 0,
+          "all_pairs": 381933,
+          "matching_pair_rate": 0.0
+        },
+        "4000-999999": {
+          "unit_count": 28019,
+          "matching_pairs": 0,
+          "all_pairs": 3141812,
+          "matching_pair_rate": 0.0
+        },
+        "500-999": {
+          "unit_count": 8272,
+          "matching_pairs": 5,
+          "all_pairs": 270561,
+          "matching_pair_rate": 1.8480120933911393e-05
+        }
+      },
+      "top2_examples": [
+        {
+          "contest_id": "광역의원비례대표:강원도",
+          "signature": [
+            395,
+            347
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "강원도 춘천시 신동면",
+            "강원도 횡성군 서원면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:경상북도",
+          "signature": [
+            294,
+            90
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상북도 예천군 효자면",
+            "경상북도 울진군 금강송면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:전라남도",
+          "signature": [
+            301,
+            84
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라남도 화순군 청풍면",
+            "전라남도 구례군 문척면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:전라남도",
+          "signature": [
+            339,
+            57
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라남도 담양군 월산면",
+            "전라남도 장성군 북이면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:전라남도",
+          "signature": [
+            733,
+            109
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라남도 신안군 자은면",
+            "전라남도 진도군 군내면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:전라북도",
+          "signature": [
+            242,
+            47
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라북도 김제시 부량면",
+            "전라북도 순창군 풍산면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:전라북도",
+          "signature": [
+            375,
+            70
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라북도 남원시 주생면",
+            "전라북도 장수군 계북면"
+          ]
+        },
+        {
+          "contest_id": "광역의원비례대표:전라북도",
+          "signature": [
+            595,
+            102
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라북도 군산시 개정동",
+            "전라북도 남원시 죽항동"
+          ]
+        },
+        {
+          "contest_id": "교육감:경상남도",
+          "signature": [
+            375,
+            226
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상남도 의령군 지정면",
+            "경상남도 합천군 야로면"
+          ]
+        },
+        {
+          "contest_id": "구·시·군의장:밀양시",
+          "signature": [
+            872,
+            358
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "경상남도 밀양시 상동면",
+            "경상남도 밀양시 초동면"
+          ]
+        },
+        {
+          "contest_id": "시·도지사:전라북도",
+          "signature": [
+            623,
+            108
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "전라북도 정읍시 이평면",
+            "전라북도 남원시 금지면"
+          ]
+        },
+        {
+          "contest_id": "시·도지사:충청남도",
+          "signature": [
+            504,
+            433
+          ],
+          "pair_count": 1,
+          "unit_count": 2,
+          "units": [
+            "충청남도 금산군 남이면",
+            "충청남도 논산시 벌곡면"
+          ]
+        }
+      ]
+    }
+  }
+}

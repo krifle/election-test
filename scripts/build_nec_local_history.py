@@ -155,6 +155,8 @@ def classify_channel(unit_name: str, division_value: str) -> str | None:
         return "total"
     if division_value == "관내사전투표":
         return "in_person_advance"
+    if division_value == "선거일투표":
+        return "election_day"
     if not division_value and unit_name and unit_name not in TOTAL_SPECIAL_NAMES:
         return "total"
     return None
@@ -300,7 +302,7 @@ def main() -> None:
         source_path = args.input_dir / f"{year}-local.xlsx"
         if not source_path.exists():
             continue
-        for vote_channel in ("total", "in_person_advance"):
+        for vote_channel in ("total", "in_person_advance", "election_day"):
             dataset = build_dataset(year, source_path, vote_channel)
             output_path = args.output_dir / f"kr-local-{year}-{vote_channel}.json"
             output_path.write_text(

@@ -144,6 +144,15 @@
 
 즉, 프로젝트의 기본 주장인 `같은 득표 패턴은 실제 선거 자료에서도 자연스럽게 반복될 수 있다`는 점은 적어도 `2010~2022 공식 읍면동 자료`와 모순되지 않는다.
 
+추가로 `관내사전투표가 왜 더 자주 보이느냐`를 따로 비교한 결과, 가장 큰 설명은 `표본 크기`였다.
+
+- 관내사전투표 중앙값 유효표수: `964표`
+- 선거일투표 중앙값 유효표수: `3,357표`
+- 상위 2명 완전 일치율은 관내사전투표가 더 높았지만,
+- `500~999표` 같은 같은 `n` 구간으로 맞추면 두 채널의 차이가 크게 줄었다.
+
+자세한 비교는 [docs/advance-vs-election-day.md](/Users/janghokim/Documents/election-test/docs/advance-vs-election-day.md:1)에 따로 정리했다.
+
 ## 7. 결과 파일
 
 원시 집계:
@@ -158,3 +167,4 @@
 잡음 제거 후 요약:
 
 - [results/historical/filtered-summary.json](/Users/janghokim/Documents/election-test/results/historical/filtered-summary.json:1)
+- [results/historical/advance-vs-election-day.json](/Users/janghokim/Documents/election-test/results/historical/advance-vs-election-day.json:1)
