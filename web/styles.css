@@ -383,6 +383,32 @@ a {
   color: rgba(255, 255, 255, 0.66);
 }
 
+.event-note {
+  margin-top: 16px;
+  padding: 22px 26px;
+  border: 1px solid rgba(30, 75, 255, 0.16);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(30, 75, 255, 0.06), rgba(97, 229, 189, 0.04)),
+    var(--panel);
+}
+
+.event-note strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 1rem;
+}
+
+.event-note p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.event-note p + p {
+  margin-top: 10px;
+}
+
 .preset-row {
   display: flex;
   flex-wrap: wrap;
@@ -1080,6 +1106,10 @@ footer a {
   }
 
   .event-caution {
+    padding: 22px;
+  }
+
+  .event-note {
     padding: 22px;
   }
 
