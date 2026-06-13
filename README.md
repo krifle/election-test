@@ -76,6 +76,13 @@ PYTHON_BIN=/opt/homebrew/bin/python3 sh run.sh test
 
 자세한 조사 내용과 통계적 해석은 [docs/analysis.md](docs/analysis.md)를 참고하세요.
 
+역대 지방선거 같은 실제 원자료를 JSON으로 정규화해 `쌍둥이 득표`를 집계하려면
+[docs/historical-data.md](docs/historical-data.md)와
+`scripts/analyze_historical_twins.py`를 참고하세요.
+
+실제로 확보한 2010~2022 공식 지방선거 자료와 집계 결과는
+[docs/historical-findings.md](docs/historical-findings.md)에 정리했습니다.
+
 ## GitHub Pages
 
 정적 페이지는 GitHub Actions로 배포됩니다. `main` 브랜치에 변경사항이

@@ -1,0 +1,62 @@
+{
+  "dataset_id": "kr-local-2022-sample",
+  "country": "KR",
+  "election_name": "제8회 전국동시지방선거",
+  "election_type": "local",
+  "year": 2022,
+  "round": "general",
+  "units": [
+    {
+      "contest_id": "mayor-seoul-sample",
+      "contest_name": "샘플 시장선거",
+      "unit_id": "A",
+      "unit_name": "가동",
+      "level": "dong",
+      "total_valid_votes": 160,
+      "candidates": [
+        {"candidate_id": "a", "name": "Alpha", "party": "P1", "votes": 100},
+        {"candidate_id": "b", "name": "Beta", "party": "P2", "votes": 50},
+        {"candidate_id": "c", "name": "Gamma", "party": "P3", "votes": 10}
+      ]
+    },
+    {
+      "contest_id": "mayor-seoul-sample",
+      "contest_name": "샘플 시장선거",
+      "unit_id": "B",
+      "unit_name": "나동",
+      "level": "dong",
+      "total_valid_votes": 160,
+      "candidates": [
+        {"candidate_id": "a", "name": "Alpha", "party": "P1", "votes": 100},
+        {"candidate_id": "b", "name": "Beta", "party": "P2", "votes": 50},
+        {"candidate_id": "c", "name": "Gamma", "party": "P3", "votes": 10}
+      ]
+    },
+    {
+      "contest_id": "mayor-seoul-sample",
+      "contest_name": "샘플 시장선거",
+      "unit_id": "C",
+      "unit_name": "다동",
+      "level": "dong",
+      "total_valid_votes": 160,
+      "candidates": [
+        {"candidate_id": "a", "name": "Alpha", "party": "P1", "votes": 100},
+        {"candidate_id": "b", "name": "Beta", "party": "P2", "votes": 50},
+        {"candidate_id": "c", "name": "Gamma", "party": "P3", "votes": 11}
+      ]
+    },
+    {
+      "contest_id": "mayor-seoul-sample",
+      "contest_name": "샘플 시장선거",
+      "unit_id": "D",
+      "unit_name": "라동",
+      "level": "dong",
+      "total_valid_votes": 160,
+      "candidates": [
+        {"candidate_id": "a", "name": "Alpha", "party": "P1", "votes": 99},
+        {"candidate_id": "b", "name": "Beta", "party": "P2", "votes": 50},
+        {"candidate_id": "c", "name": "Gamma", "party": "P3", "votes": 11}
+      ]
+    }
+  ]
+}

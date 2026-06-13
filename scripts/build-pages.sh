@@ -18,6 +18,8 @@ mkdir -p "$OUTPUT_DIR/data"
 cp -R "$PROJECT_DIR/web/." "$OUTPUT_DIR/"
 cp "$PROJECT_DIR/data/one-billion.json" "$OUTPUT_DIR/data/one-billion.json"
 cp "$PROJECT_DIR/docs/analysis.md" "$OUTPUT_DIR/analysis.md"
+cp "$PROJECT_DIR/docs/historical-data.md" "$OUTPUT_DIR/historical-data.md"
+cp "$PROJECT_DIR/docs/historical-findings.md" "$OUTPUT_DIR/historical-findings.md"
 touch "$OUTPUT_DIR/.nojekyll"
 
 echo "GitHub Pages 정적 파일 생성 완료: $OUTPUT_DIR"
