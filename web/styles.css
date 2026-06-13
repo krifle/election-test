@@ -409,6 +409,16 @@ a {
   margin-top: 10px;
 }
 
+.event-analogy {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(20, 34, 31, 0.08);
+}
+
+.event-analogy p {
+  font-size: 0.95rem;
+}
+
 .preset-row {
   display: flex;
   flex-wrap: wrap;
