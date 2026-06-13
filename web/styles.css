@@ -548,6 +548,33 @@ input:focus {
   gap: 16px;
 }
 
+.history-key-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.history-key {
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(20, 34, 31, 0.03);
+}
+
+.history-key strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--blue);
+  font-size: 0.94rem;
+}
+
+.history-key p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .history-card {
   padding: 26px;
   border: 1px solid var(--line);
@@ -616,6 +643,18 @@ input:focus {
   margin: 0;
   font-size: 1.1rem;
   font-weight: 900;
+}
+
+.history-card dd small {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.history-card.accent dd small {
+  color: rgba(255, 255, 255, 0.72);
 }
 
 .history-card p {
@@ -986,6 +1025,7 @@ footer a {
   .control-grid,
   .metric-grid,
   .event-grid,
+  .history-key-grid,
   .history-grid,
   .boundary-grid {
     grid-template-columns: 1fr;
@@ -1044,6 +1084,7 @@ footer a {
   }
 
   .history-callout,
+  .history-key,
   .history-card,
   .history-example {
     padding-inline: 22px;
